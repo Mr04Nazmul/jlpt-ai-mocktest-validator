@@ -1,5 +1,5 @@
 {
-  "question_hash": "f5ce04a5ff7f7e61af56af2f7e295a5ca3122c1bab714aee1006f002e2f6d05e",
+  "question_hash": "55dad13e419872f05ee53700ffeec2e80c9698920012c425a409e609ac5aced5",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,16 +17,9 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The question asks what to put in the blank: 「（　）に 何を 入れますか。へやが あついです。外の すずしい 空気を 入れたいので、まどを（　）も いいですか。」 The context is that the room is hot, and the person wants to let in cool outside air. Therefore, the correct verb should mean 'to open' or 'to let in'. The verb 「あけて」means 'to open', which fits the context of letting in cool air. 「しめて」means 'to close', which would prevent air from coming in, so it is incorrect. 「けして」is a form of 'to close' or 'to shut', and 「つけて」means 'to put on' or 'to attach', which are not relevant to opening a window. Thus, the correct answer is 1.",
+    "explanation": "The sentence describes a hot room where the speaker wants to let in cool outside air by opening the window. The verb 'あけて' (open) directly matches this context. Option 2 'しめて' (close) contradicts the goal of letting in air. Option 3 'けして' (close) is a distractor with similar meaning to しめて. Option 4 'つけて' (attach) is unrelated to window operations. The natural Japanese choice for opening windows is 'あけて', making it the only defensible answer.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T17:45:34.581024+00:00",
-  "review_policy_version": "2",
-  "semantic_reviews": [
-    {
-      "duplicate_ids": [],
-      "uncertain": false
-    }
-  ],
-  "semantic_comparison_hash": "059d88995648f5baf3926027edd44f3c4b2d949eb803ce2c205c5aa15f071506"
+  "reviewed_at": "2026-11-10T20:53:57.722201+00:00",
+  "review_policy_version": "2"
 }

@@ -1,5 +1,5 @@
 {
-  "question_hash": "1ddcab1c2eb3135c5bf8c972e57d24d832f4a46d0025d3a7c15e12f0714d6e3c",
+  "question_hash": "116bb6d8820a71d0af2711b0c669f61e5179c616b5c79d4979d694c95ff6d746",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,10 +17,10 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は文脈に基づいて適切な語を選びます。文の意味は「雨が降っていますから、（　）をさして行きます。」です。この文では「雨が降っている」という状況が述べられており、その対応として「傘（かさ）」をさして行くことが自然です。他の選択肢について考えると：\n\n1. くつ（靴）：雨が降っているから靴をさすことはありません。\n2. ぼうし（帽子）：雨が降っているから帽子をさすことはありません。\n4. とけい（時計）：雨が降っているから時計をさすことはありません。\n\nしたがって、最も自然で文脈に合った選択肢は「かさ（3）」です。",
+    "explanation": "The sentence indicates using an item to go out in the rain. かさ (umbrella) is the most logical choice as it directly protects from rain. くつ (shoes) and ぼうし (hat) offer minimal rain protection, while とけい (watch) is unrelated. The verb さして (to use) aligns with かさ's function. Other choices lack contextual relevance.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:53:01.161321+00:00",
+  "reviewed_at": "2026-11-10T20:51:51.125243+00:00",
   "review_policy_version": "2",
   "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 }
