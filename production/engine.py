@@ -108,7 +108,7 @@ def near_duplicate(q,bank):
 
 class Factory:
  def __init__(self,root=ROOT):
-  self.root=Path(root);self.config=read(self.root/'config.json');self.models=Models(self.config)
+  self.root=Path(root);self.config=read(self.root/'config.json');self.folders=read(self.root/'drive_folders.json');self.models=Models(self.config)
   self.state=self.root/'state'; self.manifest=read(self.state/'manifest.json');self.bank=[]
   for exam_id,entry in self.manifest['exams'].items():
    if entry['state']=='STORED':
@@ -123,6 +123,11 @@ class Factory:
   write(self.state/'duplicate_index.json',{fingerprint(q):{'id':q['id'],'exam':q.get('assigned_exam_id')} for q in self.bank})
   for id,e in self.manifest['exams'].items():self.db.execute('INSERT OR REPLACE INTO exams VALUES(?,?,?,?,?,?)',(id,e['level'],e['state'],e.get('attempts',0),e.get('error'),now()))
   # JSON is canonical and committed after every run; SQLite is a rebuildable query index.
+  for draft in (self.state/'drafts').glob('*/*.json'):
+   exam_id=draft.parent.name
+   if exam_id not in self.manifest['exams'] or self.manifest['exams'][exam_id]['state']=='STORED':continue
+   for q in read(draft).get('questions',[]):
+    self.db.execute('INSERT OR REPLACE INTO questions VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(q['id'],q['level'],q['category'],q['question'],q['passage'],json.dumps(q['choices'],ensure_ascii=False),q['answer'],q['explanation'],json.dumps(q['tags']),json.dumps(q['provenance']),'UNREVIEWED',fingerprint(q),exam_id,json.dumps(q,ensure_ascii=False)))
   for q in self.bank:
    exam_id='-'.join(q['id'].split('-')[:2])
    self.db.execute('INSERT OR REPLACE INTO questions VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(q['id'],q['level'],q['category'],q['question'],q['passage'],json.dumps(q['choices'],ensure_ascii=False),q['answer'],q['explanation'],json.dumps(q['tags']),json.dumps(q['provenance']),'AI_REVIEWED_NOT_HUMAN_VERIFIED',fingerprint(q),exam_id,json.dumps(q,ensure_ascii=False)))
@@ -218,7 +223,8 @@ class Factory:
     write(out/'validation.json',report);self.transition(id,'VERIFIED')
     receipts=[]
     for kind in ['questions.pdf','answer_key.pdf','questions.json','validation.json']:
-     receipts.append(drive.put_verified(out/kind,self.config['drive_level_ids'][e['level']],id+'_'+kind))
+     folder={'questions.pdf':'Question_PDFs','answer_key.pdf':'Answer_Keys','questions.json':'Question_Source_Data','validation.json':'Validation_Reports'}[kind]
+     receipts.append(drive.put_verified(out/kind,self.folders[e['level']][folder],id+'_'+kind))
     write(out/'storage_receipts.json',receipts)
     for receipt in receipts:
      self.db.execute('INSERT OR REPLACE INTO artifacts VALUES(?,?,?,?,?)',(id,receipt['name'],receipt['sha256'],receipt['drive_file_id'],now()))

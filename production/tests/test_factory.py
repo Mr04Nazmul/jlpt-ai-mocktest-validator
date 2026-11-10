@@ -48,3 +48,19 @@ class CompletionGuards(unittest.TestCase):
   self.assertRaises(ReviewNeeded,f.transition,'N5-001','GENERATING')
  def test_review_hash_changes(self):
   q={'question':'昨日、行きました。','choices':['a','b','c','d']};before=content_hash(q);q['choices'][0]='変更';self.assertNotEqual(before,content_hash(q))
+
+class Recovery(unittest.TestCase):
+ def test_resume_cached_original_draft(self):
+  import shutil
+  from unittest.mock import patch
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td)
+   for name in ['config.json','drive_folders.json']:
+    shutil.copy(ROOT/name,root/name)
+   shutil.copytree(ROOT/'state',root/'state',ignore=shutil.ignore_patterns('*.sqlite3*'))
+   f=Factory(root)
+   with patch.object(f.models,'ask',side_effect=AssertionError('cache must avoid regeneration')):
+    q,identities=f.generate('N5-001',read(ROOT/'blueprints/N5.json'))
+   self.assertEqual(43,len(q));self.assertEqual(43,len(identities))
+   self.assertEqual(43,f.db.execute('SELECT count(*) FROM questions WHERE validation_status=?',('UNREVIEWED',)).fetchone()[0])
+   f.db.close()

@@ -1,0 +1,27 @@
+{
+  "planned": 150,
+  "generated_original_drafts": 1,
+  "generated_questions": 43,
+  "independently_validated_exams": 0,
+  "completed_question_pdfs": 0,
+  "completed_answer_key_pdfs": 0,
+  "complete": 0,
+  "remaining": 150,
+  "draft_question_pdfs": 1,
+  "draft_answer_key_pdfs": 1,
+  "software_tests_passed": 15,
+  "github_actions_observed": {
+    "run_id": 42816728123,
+    "software_checks": "passed",
+    "generation": "blocked at preflight",
+    "checkpoint_push": "passed"
+  },
+  "blockers": [
+    "Production disabled until provider and Drive setup is verified",
+    "No authorized configured independent generator model",
+    "No persistent Drive credential configured; connector credentials cannot be reused by Actions"
+  ],
+  "old_drive_tests": "EXCLUDED_BY_USER",
+  "human_verified": false,
+  "drafts_count_towards_completion": false
+}
