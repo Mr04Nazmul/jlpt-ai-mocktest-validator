@@ -54,7 +54,7 @@ class Models:
    self.calls+=1
    try:
     if p.get('kind')=='ollama':
-     result=request_json(p['base_url'].rstrip('/')+'/api/chat',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'format':schema or 'json','stream':False,'think':False,'keep_alive':0,'options':{'num_ctx':16384,'num_predict':8192,'temperature':0.2}},timeout=900)
+     result=request_json(p['base_url'].rstrip('/')+'/api/chat',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'format':schema or 'json','stream':False,'think':role=='reviewer','keep_alive':0,'options':{'num_ctx':16384,'num_predict':8192,'temperature':0.2}},timeout=900)
      text=result['message']['content']
     else:
      result=request_json(p['base_url'].rstrip('/')+'/chat/completions',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'response_format':{'type':'json_object'},'temperature':0.5},headers={'Authorization':'Bearer '+os.environ[p['key_env']]})

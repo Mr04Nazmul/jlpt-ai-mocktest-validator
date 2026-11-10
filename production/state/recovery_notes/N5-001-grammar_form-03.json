@@ -1,0 +1,7 @@
+{
+  "question_id": "N5-001-grammar_form-03",
+  "finding": "Original key 1 (で) is correct for aggregate quantity-price expression 三つで三百円. Reviewer claimed に incorrectly. No question or answer edited to match incorrect review.",
+  "action": "Enable reasoning for independent reviewer and rerun; no approval bypass.",
+  "human_verified": false,
+  "date": "2026-11-11"
+}
