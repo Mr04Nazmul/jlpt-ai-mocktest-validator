@@ -64,7 +64,16 @@ def ai_review(q):
     if not re.fullmatch(r"qwen2\.5:(0\.5b|1\.5b|3b)",model): raise ValueError("Unsupported model")
     prompt=Path("prompts/validator.txt").read_text()
     response=requests.post("http://127.0.0.1:11434/api/chat",json={
-        "model":model,"stream":False,"format":"json","keep_alive":"2m",
+        "model":model,"stream":False,"format":{
+            "type":"object","required":["suggested_level","checks","issues","proposed_text","proposed_answer","confidence","uncertain"],
+            "properties":{
+                "suggested_level":{"type":"string","enum":LEVELS},
+                "checks":{"type":"object","required":["vocabulary","grammar","reading","kanji","hiragana","furigana","answer_key"],
+                    "properties":{k:{"type":"string"} for k in ["vocabulary","grammar","reading","kanji","hiragana","furigana","answer_key"]}},
+                "issues":{"type":"array","items":{"type":"string"}},
+                "proposed_text":{"type":"string"},"proposed_answer":{"type":["integer","null"],"enum":[1,2,3,4,None]},
+                "confidence":{"type":"number","minimum":0,"maximum":1},"uncertain":{"type":"boolean"}
+            }},"keep_alive":"2m",
         "messages":[{"role":"system","content":prompt},{"role":"user","content":json.dumps(q,ensure_ascii=False)}],
         "options":{"temperature":0,"num_ctx":4096,"num_predict":1200,"num_gpu":0}},timeout=240)
     response.raise_for_status()
