@@ -1,0 +1,32 @@
+{
+  "question_hash": "f38ada840b6d40cba297b94a4717e9b8b68c4c61b8a7c6fa5b9710e674c47612",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 4,
+    "defensible_choices": [
+      4
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "The question asks, 【　】の ことばは どう 書きますか。【みず】を 一ぱい ください。 This translates to 'How do you write the word for 【みず】? Please give me a full cup.' The word 【みず】 is the reading for the kanji 水, which means 'water.' The question is testing orthography, specifically the correct kanji for the on'yomi reading 'みず.' Among the choices, only 水 (choice 4) matches this reading. The other choices—火 (fire), 木 (tree), and 金 (metal)—have different readings and meanings, making them incorrect. The question is appropriate for N5 level as it focuses on basic kanji readings and writing.",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:48:52.663388+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "98ffa11b2d13399674473566872e696abf4003f1df6463896cfdc7c6261b77fd"
+}

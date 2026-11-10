@@ -1,0 +1,26 @@
+{
+  "question_hash": "ed5a4e56bb8b583cdaefbd98ca4244f61c15e7beacdf70c440aca5692ff12c40",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "The question asks how to write the word for '【やま】' in kanji. The sentence given is 【やま】の しゃしんを とりました, which translates to 'I took a photo of the 【やま】.' The word 【やま】 means 'mountain' in Japanese. The correct kanji for 'mountain' is 山 (read as やま). Among the choices, 2 is 山, which matches the meaning and reading of 【やま】. The other choices are: 1 (川 - 'river', read as かわ), 3 (田 - 'field', read as た), and 4 (天 - 'sky/heaven', read as てん). These do not match the reading or meaning of 【やま】, making them incorrect choices.",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:48:11.304301+00:00",
+  "review_policy_version": "2",
+  "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

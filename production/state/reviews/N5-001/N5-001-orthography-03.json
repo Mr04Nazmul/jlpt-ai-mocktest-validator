@@ -1,0 +1,32 @@
+{
+  "question_hash": "dd6fb6b004d5aa4874a25c007f437618b45e381517c83b87e02590d91a2b3eef",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 3,
+    "defensible_choices": [
+      3
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "問題文は「【みぎ】に 小さい こうえんが あります。」と述べています。この文では「みぎ（右）」という言葉が使われており、その語を正しく書くことが問われています。「みぎ」は「右」の読み方です。選択肢の中では「3：右」が正しい書き方です。他の選択肢は「左（ひだり）」「石（いし）」「口（くち）」であり、これらは文脈に合致しません。したがって、正解は「3：右」です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:49:44.896549+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "fc6f1603a61ea41eb3c8c96d41e9d2821753e546df3ecc56ea403928311b1e3d"
+}

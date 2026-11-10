@@ -1,0 +1,32 @@
+{
+  "question_hash": "32c880ca20541ecfc2a3acc22b862a00ddccd0037953055ba0378284f5e58263",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "The question asks how to write the word in the blank. The sentence is: 'おとうとは 【はち】さいです.' This translates to 'The father is 【eight】 years old.' The word 'はち' is the reading for the kanji '八,' which means 'eight.' The other choices are: 2 (入 - 'enter'), 3 (人 - 'person'), and 4 (六 - 'six'). None of these choices match the reading 'はち.' Therefore, the correct answer is 1 (八).",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:50:36.970164+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "f98ee40360a6a2ca871bc3e03769e2e853de269025214fae580b5e915c2f470f"
+}
