@@ -1,0 +1,14 @@
+{
+  "question_id": "N5-001-context-04",
+  "candidate_ids": [
+    "N5-001-context-01",
+    "N5-001-context-02",
+    "N5-001-context-03"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All items have distinct contextual scenarios (weather, temperature, transportation, physical exertion) and unique choice options. While they share the same question format (select the best option from four choices), their content, context, and answer explanations differ. The empty passage_id indicates they are independent items without shared passage content."
+  },
+  "recorded_at": "2026-11-10T22:00:54.894068+00:00"
+}

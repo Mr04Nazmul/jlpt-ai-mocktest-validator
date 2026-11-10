@@ -1,0 +1,12 @@
+{
+  "question_id": "N5-001-context-02",
+  "candidate_ids": [
+    "N5-001-context-01"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item and prior item share a similar question structure (choosing the best option with a scenario and verb selection), but the content differs significantly. The prior question involves rain and an umbrella ('あめがふっていますから、（　）をさして行きます'), while the new question involves a hot room and window opening ('へやがあついです。外のすずしい空気を入れたいので、まどを（　）もいいですか'). The scenarios, verbs, and contexts are distinct, so no semantic duplication or reused template exists."
+  },
+  "recorded_at": "2026-11-10T21:53:04.337191+00:00"
+}

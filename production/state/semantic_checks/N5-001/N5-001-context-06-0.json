@@ -1,0 +1,16 @@
+{
+  "question_id": "N5-001-context-06",
+  "candidate_ids": [
+    "N5-001-context-01",
+    "N5-001-context-02",
+    "N5-001-context-03",
+    "N5-001-context-04",
+    "N5-001-context-05"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item N5-001-context-06 has a distinct context (birthday gift) and unique verb choices (あげました) compared to prior items which focus on umbrella (かしました), window (あけました), bus (乗りました), tiredness (つかいました), and meeting (はじめました). While all follow the same question format, their content, context, and verb usage are sufficiently different to qualify as distinct questions on separate passage_ids."
+  },
+  "recorded_at": "2026-11-10T22:09:12.917201+00:00"
+}

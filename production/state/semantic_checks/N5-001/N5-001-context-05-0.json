@@ -1,0 +1,15 @@
+{
+  "question_id": "N5-001-context-05",
+  "candidate_ids": [
+    "N5-001-context-01",
+    "N5-001-context-02",
+    "N5-001-context-03",
+    "N5-001-context-04"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item N5-001-context-05 has a unique context about a meeting time and verb choice ('はじまります') that differs from all prior items. Prior questions involve rain (01), heat (02), bus (03), and tiredness (04) with distinct verb choices. The structure is similar but the content, context, and required answers are all distinct."
+  },
+  "recorded_at": "2026-11-10T22:04:58.130433+00:00"
+}

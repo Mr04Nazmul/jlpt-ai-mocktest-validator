@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-context-03",
+  "candidate_ids": [
+    "N5-001-context-01",
+    "N5-001-context-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The questions share a similar structure (choosing the best option with a contextual sentence and verb choices), but their content and contexts are distinct. Each item presents a unique scenario: rain/shelter (01), hot room/window (02), and bus boarding (03). The verbs required (get off/get on/open window) and contexts differ sufficiently to avoid semantic duplication. All items are distinct questions with different passage contexts."
+  },
+  "recorded_at": "2026-11-10T21:57:27.480993+00:00"
+}

@@ -1,5 +1,5 @@
 {
-  "question_hash": "c2e5e12d31aba32881002ac774e1fc75deff4fd0033ce7e671f981ba661cac90",
+  "question_hash": "7e6c66ffe4cb386d242b78a7156bcfb8d39227117d3db4b88685456ffa7ad190",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,16 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題では、前文「きょうは たくさん 歩きました。」（今日はたくさん歩きました）から、後文「とても（　）。」（とても～）に適切な語句を選ぶ必要があります。前文は「たくさん歩いた」という動作を述べており、その結果として「疲れました」（つかれました）が自然に続きます。これは「たくさん歩いた」→「疲れました」の因果関係を表しており、文脈的に最も適切です。\n\n選択肢1「あらいました」（ありました）は、存在を表す語で、文脈に合いません。\n選択肢3「わすれました」（忘れました）は、忘れることを表す語で、歩いたこととは無関係です。\n選択肢4「おぼえました」（覚えました）も、歩いたこととは無関係です。\nしたがって、選択肢2「つかれました」が最も自然で文脈に合います。",
+    "explanation": "The sentence describes walking a lot, leading to physical exhaustion. つかれました (option 2) directly conveys 'got tired,' which is the logical consequence. あらいました (1) means 'appeared' (unrelated), わすれました (3) means 'forgot' (unrelated), and おぼえました (4) means 'remembered' (unrelated). The natural Japanese connection between walking extensively and fatigue makes 2 the only defensible choice.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T17:50:06.158303+00:00",
+  "reviewed_at": "2026-11-10T21:58:51.877306+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "All items have distinct contextual scenarios (weather, temperature, transportation, physical exertion) and unique choice options. While they share the same question format (select the best option from four choices), their content, context, and answer explanations differ. The empty passage_id indicates they are independent items without shared passage content."
     }
   ],
-  "semantic_comparison_hash": "f54851270c0117668e0dcc65379b4a2fefd6eb3c5c177aaf68ef2581677e2e71"
+  "semantic_comparison_hash": "b2729a534e33aaa9aaa5842b841238c216648abffb59a0326ae7245c5050437f"
 }

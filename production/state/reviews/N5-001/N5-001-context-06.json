@@ -1,5 +1,5 @@
 {
-  "question_hash": "db855faceba6210696deecc1538ab12425b779e7d49b1c2ec6115e7edd71f274",
+  "question_hash": "194117d69bee5863bda6325425b1cf045081203c30fb8bf71abb722a8189c91f",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,16 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題では、文脈に合った動詞の形を選ぶ必要があります。文の意味は「母の誕生日に花を（　）」と、花を何かするという動作を表しています。動詞の語尾は「た」で過去形を表しており、文の主語は「私」または「誰か」であると考えられます。\n\n選択肢1「かしました」は「かす」の過去形で、意味は「かす（薄れる）」であり、文脈に合いません。\n選択肢2「ならいました」は「ならす」の過去形で、意味は「ならす（調和させる）」であり、文脈に合いません。\n選択肢3「かぶりました」は「かぶる」の過去形で、意味は「かぶる（かぶる、重なる）」であり、文脈に合いません。\n選択肢4「あげました」は「あげる」の過去形で、意味は「あげる（与える）」であり、文脈に合います。母の誕生日に花を「あげる」ことが自然です。\nしたがって、正解は選択肢4「あげました」です。",
+    "explanation": "The sentence describes giving flowers on a mother's birthday. あげました (gave) directly matches the context of presenting flowers as a gift. かしました (bought) implies purchasing but not the act of giving. ならいました (became) and かぶりました (wore) are semantically unrelated to flower-giving. The N5 level requires basic verbs, and あげました is foundational.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T17:55:02.763935+00:00",
+  "reviewed_at": "2026-11-10T22:06:59.228273+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "The new item N5-001-context-06 has a distinct context (birthday gift) and unique verb choices (あげました) compared to prior items which focus on umbrella (かしました), window (あけました), bus (乗りました), tiredness (つかいました), and meeting (はじめました). While all follow the same question format, their content, context, and verb usage are sufficiently different to qualify as distinct questions on separate passage_ids."
     }
   ],
-  "semantic_comparison_hash": "7647916e61a6f0cd0a001f7d625e65e6c9b143a73435befc692002b98f1af13e"
+  "semantic_comparison_hash": "69c41715383d1acd3de19350ef4583228876daa5496178e20214ccec58ba3c8e"
 }

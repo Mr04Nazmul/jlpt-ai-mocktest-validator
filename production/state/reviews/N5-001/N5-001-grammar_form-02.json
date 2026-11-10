@@ -1,5 +1,5 @@
 {
-  "question_hash": "80e73b1762e5e51d1d4da089b733300bdfb898049cec87dd1cfdcdf66e46a129",
+  "question_hash": "eccf3aa2838d0b4ce0ca3f3e987c3a144008b11190d74278aa20772dd627ae3e",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,16 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題では、「ともだち（　）テニスをしました」の括弧内に適切な助詞を選びます。文の意味は「きのう、友達とテニスをしました（ yesterday, I played tennis with a friend）」です。この文では、「ともだち」と「テニスをしました」の間には「と」が適切です。これは「～と～する」の文型で、相手を示す助詞です。「を」は動作の対象を示すので、ここでは不適切です。「へ」は方向を示すので、文脈に合いません。「の」は所有や所属を示すので、文脈に合いません。したがって、正解は「と（3）」です。",
+    "explanation": "The sentence requires a particle indicating accompaniment. と (option 3) connects ともだち (friend) with the activity, meaning 'with a friend'. を (1) marks the object but is already used for テニス. へ (2) indicates direction, and の (4) shows possession, neither fitting the context. The correct structure is ともだちとテニスをしました, making と the right choice.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T18:53:47.273534+00:00",
+  "reviewed_at": "2026-11-10T22:12:23.662167+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "The new item and prior item share a similar question structure (choosing the correct particle) and the same initial instruction, but they differ in grammar focus: the prior item addresses time (六時（　）おきます) and the new item addresses companion (ともだち（　）テニスをしました). The particles tested ('に' vs 'と') serve distinct grammatical functions, and the contexts are unrelated. Both are distinct questions on different grammar points with no semantic duplication."
     }
   ],
-  "semantic_comparison_hash": "505f421c6c9390d51fa92e4418ab8b116c78064867daea8b4c09609c8b009fcd"
+  "semantic_comparison_hash": "15dacca3d3de6d3d4800ac142ca91a72fb4a3eaf424cde3fc77209dbcfa487c7"
 }

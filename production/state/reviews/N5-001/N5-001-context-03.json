@@ -1,5 +1,5 @@
 {
-  "question_hash": "224b6d9ba32ee8dfc6402e203f370beb54e4d5bf7faee3bc79159689de811000",
+  "question_hash": "ad7bbe62ed631be6ce739482651df989363d6ff7a75b286da5cfec30698ebcb8",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,16 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は文脈に基づいて適切な動詞を選びます。文の流れは「バスが来ました。みなさん、バスに（　）ください。」です。ここでは「バスに乗る」を意味する動詞が求められます。「のって」は「乗る」の連用形で、文法的に適切です。一方、「おりて」は「降りる」の連用形で、文脈に合いません。「たって」は「立つ」の連用形で、文脈に合いません。「あるいて」は誤った読み方で、正しい読み方は「あるいて」ではなく「あるいて」です（ただし、この選択肢は誤りが含まれているため、文法的にも不適切です）。したがって、正しい答えは「のって（4）」です。",
+    "explanation": "The sentence instructs people to board the bus. The verb for 'to get on' is 乗る (のる), whose te-form is のって (4). おりて (1) is the te-form of 下りる (to get off), which contradicts the context. たって (2) is an incorrect form (possibly a typo for たって, but it doesn't match any relevant verb here). あるいて (3) is the te-form of 行く (to go), which is unrelated to boarding. The correct choice is 4, matching the context of entering a vehicle.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T17:47:44.319182+00:00",
+  "reviewed_at": "2026-11-10T21:54:40.088652+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "The questions share a similar structure (choosing the best option with a contextual sentence and verb choices), but their content and contexts are distinct. Each item presents a unique scenario: rain/shelter (01), hot room/window (02), and bus boarding (03). The verbs required (get off/get on/open window) and contexts differ sufficiently to avoid semantic duplication. All items are distinct questions with different passage contexts."
     }
   ],
-  "semantic_comparison_hash": "b5f571973a256edce95166c9e2760ff378668e9a5b1deebb9f469d2ab5d3bf79"
+  "semantic_comparison_hash": "358aedab9fa02847e7953e15086101927c064684f11e7797df972b958ec95b11"
 }
