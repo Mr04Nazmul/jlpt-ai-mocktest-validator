@@ -1,4 +1,12 @@
 {
-  "sources": [],
-  "policy": "Only add exact HTTPS PDF URLs with documented reuse license or owner's written permission. Free-to-read is not reuse permission. No crawling or listening. User uploads require permission attestation."
+  "sources": [
+    {
+      "title": "Original N5 technical fixture (not a full exam)",
+      "url": "https://raw.githubusercontent.com/Mr04Nazmul/jlpt-ai-mocktest-validator/main/samples/original-n5-fixture.pdf",
+      "license": "CC0-1.0",
+      "rights_evidence": "samples/README.md",
+      "level": "N5"
+    }
+  ],
+  "policy": "No third-party source approved. Original fixture only. Add exact reusable GitHub PDF URLs with documented rights."
 }
