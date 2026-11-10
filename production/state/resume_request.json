@@ -1,0 +1,6 @@
+{
+  "reason": "Continue successful bounded review batch from latest checkpoint",
+  "checkpoint_commit": "b1885b47f7ea791ac293f5a3340135ce01d97383",
+  "observed_review_records": 13,
+  "date": "2026-11-10T14:43:00Z"
+}
