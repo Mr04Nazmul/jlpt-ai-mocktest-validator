@@ -45,7 +45,7 @@ PDF exports contain only human-reviewed items, ordered N5→N1; answer keys incl
 CID Japanese font rendering can depend on the PDF viewer; inspect exported PDFs.
 
 ## Permitted collection
-The source registry starts EMPTY: no third-party collection is claimed.
+The registry contains one original CC0 technical PDF fixture: no third-party collection is claimed.
 Add exact GitHub HTTPS PDF URLs to sources.json with title, license and rights_evidence.
 Accepted licenses: CC0-1.0, CC-BY-4.0, CC-BY-SA-4.0, or permission.
 Verify evidence yourself before adding; a registry claim is not legal verification.
