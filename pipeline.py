@@ -16,7 +16,13 @@ def db():
     c.execute("CREATE TABLE IF NOT EXISTS questions(id TEXT PRIMARY KEY, body TEXT NOT NULL)")
     return c
 def save(q):
-    with db() as c: c.execute("INSERT OR REPLACE INTO questions VALUES (?,?)",(q["id"],json.dumps(q,ensure_ascii=False)))
+    with db() as c:
+        old=c.execute("SELECT body FROM questions WHERE id=?",(q["id"],)).fetchone()
+        if old:
+            previous=json.loads(old[0])
+            if previous["status"]=="human_reviewed" and len(q["history"])<=len(previous["history"]):
+                raise ValueError("Reviewed record preserved; use explicit human review to change it")
+        c.execute("INSERT OR REPLACE INTO questions VALUES (?,?)",(q["id"],json.dumps(q,ensure_ascii=False)))
 def all_questions():
     with db() as c: return [json.loads(x[0]) for x in c.execute("SELECT body FROM questions ORDER BY id")]
 def normalize(s):
