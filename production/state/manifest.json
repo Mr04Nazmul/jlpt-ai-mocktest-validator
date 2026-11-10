@@ -10,10 +10,14 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 1,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
-      "error": "Independent review failed: N5-001-kanji_reading-01"
+      "error": "Retry with larger reviewer and strict review schema; prior model rejected correct school reading",
+      "previous_errors": [
+        "Independent review failed: N5-001-kanji_reading-01"
+      ],
+      "next_retry_at": 0
     },
     "N5-002": {
       "level": "N5",

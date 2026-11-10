@@ -1,0 +1,70 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "answer",
+    "defensible_choices",
+    "checks",
+    "explanation",
+    "issues"
+  ],
+  "properties": {
+    "answer": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "defensible_choices": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 4
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "checks": {
+      "type": "object",
+      "required": [
+        "japanese",
+        "level",
+        "mondai",
+        "reading",
+        "distractors",
+        "passage"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "japanese": {
+          "type": "boolean"
+        },
+        "level": {
+          "type": "boolean"
+        },
+        "mondai": {
+          "type": "boolean"
+        },
+        "reading": {
+          "type": "boolean"
+        },
+        "distractors": {
+          "type": "boolean"
+        },
+        "passage": {
+          "type": "boolean"
+        }
+      }
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 20
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ Target: 30 original non-listening examinations per level, 150 question PDFs plus
 
 ## Current operation
 
-0/150 complete. N5-001 has 43 original questions and DRAFT PDFs. The pipeline now uses local Qwen3:4b for generation and independent Gemma3:4b for review on a standard public-repository GitHub runner. No inference API key, paid model endpoint or Google credential is needed for this mode. CPU models can be wrong; agreement is recorded as AI review, never human verification. Failed or uncertain questions remain NEEDS_REVIEW.
+0/150 complete. N5-001 has 43 original questions and DRAFT PDFs. The pipeline now uses local Qwen3:4b for generation and independent Qwen3:8b for review on a standard public-repository GitHub runner. No inference API key, paid model endpoint or Google credential is needed for this mode. CPU models can be wrong; agreement is recorded as AI review, never human verification. Failed or uncertain questions remain NEEDS_REVIEW.
 
 Generation is enabled in bounded, resumable batches. Review records are cached by content and semantic comparison hashes; batch exhaustion yields a checkpoint without consuming an error retry. No paid runner/cache/artifact service is configured. Model downloads use the official Ollama registry. Provider outages remain external blockers.
 
