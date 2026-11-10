@@ -40,7 +40,7 @@ jobs:
             sleep 2
           done
           ollama pull qwen3:4b
-          ollama pull qwen3:8b
+          ollama pull qwen3:14b
       - name: Resume bounded original-exam batch
         run: python production/engine.py run
       - name: Persist checkpoints even after interruption

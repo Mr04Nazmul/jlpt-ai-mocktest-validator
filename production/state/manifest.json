@@ -10,19 +10,20 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 1,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
-      "error": "Independent review failed: N5-001-grammar_form-03",
+      "error": "8B reviewer repeatedly rejects correct aggregate-price grammar; upgrade to independent 14B reasoning model. Prior 8B cache is ineligible; preserve original correct item/key.",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
         "Malformed independent review for N5-001-context-02: '2' is not of type 'integer'",
         "Independent review failed: N5-001-grammar_form-03",
         "Independent review failed: N5-001-grammar_form-03",
-        "Semantic duplicate review failed: N5-001-context-02"
+        "Semantic duplicate review failed: N5-001-context-02",
+        "Independent review failed: N5-001-grammar_form-03"
       ],
-      "next_retry_at": 1794348901.2526941
+      "next_retry_at": 0
     },
     "N5-002": {
       "level": "N5",
