@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parent
 STATES=('PENDING','GENERATING','VALIDATING','RENDERING','VERIFIED','STORED','RETRY_PENDING','NEEDS_REVIEW')
 class Blocked(RuntimeError): pass
 class ReviewNeeded(RuntimeError): pass
+class BatchPause(Blocked): pass
 
 def read(p): return json.loads(Path(p).read_text())
 def write(p,obj):
@@ -20,12 +21,12 @@ def content_hash(q): return sha(json.dumps(q,ensure_ascii=False,sort_keys=True).
 def chars(s): return len(re.sub(r'\s+','',s))
 def now(): return dt.datetime.now(dt.timezone.utc).isoformat()
 
-def request_json(url,payload=None,headers=None,method=None):
+def request_json(url,payload=None,headers=None,method=None,timeout=120):
  body=None if payload is None else json.dumps(payload).encode()
  for attempt in range(5):
   try:
    req=request.Request(url,data=body,headers={'Content-Type':'application/json',**(headers or {})},method=method)
-   with request.urlopen(req,timeout=120) as res:return json.load(res)
+   with request.urlopen(req,timeout=timeout) as res:return json.load(res)
   except error.HTTPError as e:
    if e.code not in (408,429,500,502,503,504):raise Blocked(f'HTTP {e.code} from configured provider') from None
    if attempt==4:raise Blocked(f'Provider unavailable after retries (HTTP {e.code})') from None
@@ -49,11 +50,11 @@ class Models:
  def ask(self,role,prompt,exclude=None):
   failures=[]
   for p in self.choose(role,exclude):
-   if self.calls>=self.config['max_api_calls_per_run']:raise Blocked('Per-run API call budget reached')
+   if self.calls>=self.config['max_api_calls_per_run']:raise BatchPause('Saved batch checkpoint; continue in next run')
    self.calls+=1
    try:
     if p.get('kind')=='ollama':
-     result=request_json(p['base_url'].rstrip('/')+'/api/chat',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'format':'json','stream':False})
+     result=request_json(p['base_url'].rstrip('/')+'/api/chat',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'format':'json','stream':False,'think':False,'keep_alive':0,'options':{'num_ctx':16384,'num_predict':8192,'temperature':0.2}},timeout=900)
      text=result['message']['content']
     else:
      result=request_json(p['base_url'].rstrip('/')+'/chat/completions',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'response_format':{'type':'json_object'},'temperature':0.5},headers={'Authorization':'Bearer '+os.environ[p['key_env']]})
@@ -149,7 +150,7 @@ class Factory:
   try:
    g=self.models.choose('generator')[0];self.models.choose('reviewer',(g['base_url'],g['model']))
   except Blocked as e:blockers.append(str(e))
-  if not (os.getenv('DRIVE_SERVICE_ACCOUNT_JSON') or os.getenv('DRIVE_OAUTH_JSON')):blockers.append('No persistent Drive credential configured; connector credentials cannot be reused by Actions')
+  if not self.config.get('connector_storage_bridge') and not (os.getenv('DRIVE_SERVICE_ACCOUNT_JSON') or os.getenv('DRIVE_OAUTH_JSON')):blockers.append('No persistent Drive credential configured; connector credentials cannot be reused by Actions')
   for l in ['N5','N4','N3','N2','N1']:
    b=read(self.root/'blueprints'/f'{l}.json')
    if not b['workbook_layout_verified']:blockers.append(l+': workbook layout verification pending')
@@ -192,23 +193,26 @@ class Factory:
    if tuple(record['reviewer_identity'])==identities[q['id']] or r.get('answer')!=q['answer'] or r.get('defensible_choices')!=[q['answer']] or r.get('issues')!=[] or set(r.get('checks',{}))!=required or not all(v is True for v in r['checks'].values()) or len(r.get('explanation',''))<20:raise ReviewNeeded('Independent review failed: '+q['id'])
    # Semantic review compares every existing item in bounded windows, beyond lexical similarity.
    comparison=[o for o in self.bank+approved if o['category']==q['category'] or (o['passage'] and q['passage'])]
-   for start in range(0,len(comparison),16):
+   comparison_hash=sha(json.dumps(comparison,ensure_ascii=False,sort_keys=True).encode())
+   cached_semantic=record.get('semantic_comparison_hash')==comparison_hash
+   for start in range(0 if not cached_semantic else len(comparison),len(comparison),16):
     candidates=[{'id':o['id'],'question':o['question'],'passage':o['passage'],'passage_id':o['passage_id']} for o in comparison[start:start+16]]
     verdict,_=self.models.ask('reviewer','Detect semantic duplicates, paraphrased questions, reused narrative templates or near-identical passages. Distinct questions on a legitimately shared passage_id are allowed. Return JSON {"duplicate_ids":[],"uncertain":false}. New item '+json.dumps(q,ensure_ascii=False)+' Prior items '+json.dumps(candidates,ensure_ascii=False),identities[q['id']])
     if verdict.get('duplicate_ids')!=[] or verdict.get('uncertain') is not False:raise ReviewNeeded('Semantic duplicate review failed: '+q['id'])
     record.setdefault('semantic_reviews',[]).append(verdict)
+   record['semantic_comparison_hash']=comparison_hash
    write(review_path,record);reports.append(record);approved.append(q)
   return {'exam_id':id,'status':'AI_REVIEWED_NOT_HUMAN_VERIFIED','blueprint_version':b['version'],'question_count':len(items),'question_hashes':[content_hash(q) for q in items],'reviews':reports,'deterministic_errors':[]}
  def run(self):
   self.preflight()
   from renderer import render,verify_pdf
   from storage import Drive
-  drive=Drive(self.config);done=0
+  drive=None if self.config.get('connector_storage_bridge') else Drive(self.config);done=0
   # First N5 must be STORED before any higher-level production.
   targets=list(self.manifest['exams'])
   for id in targets:
    e=self.manifest['exams'][id]
-   if e['state'] in ('STORED','NEEDS_REVIEW') or e.get('attempts',0)>=self.config['max_attempts']:continue
+   if e['state'] in ('STORED','NEEDS_REVIEW','VERIFIED') or e.get('attempts',0)>=self.config['max_attempts']:continue
    if e.get('next_retry_at',0)>time.time():continue
    if id!='N5-001' and self.manifest['exams']['N5-001']['state']!='STORED':break
    e['attempts']=e.get('attempts',0)+1
@@ -221,6 +225,9 @@ class Factory:
     write(out/'questions.json',items);render(id,items,b,out)
     report['pdf_checks']={name:verify_pdf(out/name,items,name=='answer_key.pdf') for name in ['questions.pdf','answer_key.pdf']}
     write(out/'validation.json',report);self.transition(id,'VERIFIED')
+    if drive is None:
+     self.manifest['exams'][id]['storage_status']='AWAITING_CONNECTOR_UPLOAD_AND_HASH_VERIFICATION'
+     self.checkpoint();return
     receipts=[]
     for kind in ['questions.pdf','answer_key.pdf','questions.json','validation.json']:
      folder={'questions.pdf':'Question_PDFs','answer_key.pdf':'Answer_Keys','questions.json':'Question_Source_Data','validation.json':'Validation_Reports'}[kind]
@@ -236,6 +243,8 @@ class Factory:
     drive.put_verified(self.state/'manifest.json',self.config['drive_root_id'],'progress_manifest.json')
     drive.put_verified(self.state/'duplicate_index.json',self.config['drive_root_id'],'duplicate_index.json')
     done+=1
+   except BatchPause as exc:
+    self.transition(id,'RETRY_PENDING',error=str(exc),attempts=max(0,e['attempts']-1),next_retry_at=time.time()+60);return
    except ReviewNeeded as exc:self.transition(id,'NEEDS_REVIEW',error=str(exc))
    except Exception as exc:
     message=str(exc) if isinstance(exc,Blocked) else type(exc).__name__

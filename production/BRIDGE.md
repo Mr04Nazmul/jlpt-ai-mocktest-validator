@@ -1,0 +1,13 @@
+# Scheduled connector bridge and review recovery
+
+Repository: Mr04Nazmul/jlpt-ai-mocktest-validator. Only this dedicated project may be changed. Existing Drive mock questions must not be reused.
+
+1. Fetch current main and inspect Actions and production/state/manifest.json. Do not mutate canonical state while a production workflow is running. The cron resumes CPU generation/review every six hours. Keep standard ubuntu-latest runner, no paid API/cloud activation.
+2. For NEEDS_REVIEW, read the specific draft and independent review/error. Resolve actual Japanese/choice/passage issues, preserve evidence in Git, amend that category draft, reset that exam to RETRY_PENDING with attempts 0 and next_retry_at 0. Never bypass review or write an approval. Commit with head lease. A corrected draft must undergo independent Gemma review on a subsequent run.
+3. For VERIFIED with AWAITING_CONNECTOR_UPLOAD_AND_HASH_VERIFICATION, download output/<exam>/{questions.pdf,answer_key.pdf,questions.json,validation.json} from the current public repository. Re-run deterministic and PDF checks. Inspect representative page images. Upload each file via connected Google Drive to its exact per-level subfolder in drive_folders.json. Use exact exam filenames and deduplicate by observed file ID/hash.
+4. Fetch metadata before raw Drive downloads, then use google_drive.fetch(download_raw_file=true,include_base64=false). Materialize only its authenticated file_uri/workspace path. Do not invent IDs, use public-share links, or treat upload metadata as a round-trip proof.
+5. Build local downloads.json: four records with kind (questions.pdf/answer_key.pdf/questions.json/validation.json), drive_file_id, downloaded_path. Run python production/bridge.py EXAM-ID downloads.json. It validates hashes, source/review bindings and final PDFs before STORED. If downloads cannot be obtained, leave VERIFIED and report the blocker.
+6. Commit storage_receipts.json and all canonical state changes using current main as parent and expected SHA. On conflict re-read current state; never overwrite newer work. Upload latest progress manifest and duplicate index to project Drive root. Preserve previous files.
+7. Report only meaningful new completions, substantive corrections or external blockers. Never claim 150/150 until all 150 question papers and 150 keys have verified durable receipts. On verified 150/150, pause this scheduled bridge task and stop generation, keeping project data intact.
+
+No secret values are required by this bridge. If the connector asks for authentication, stop at that blocker; do not attempt to extract OAuth/session credentials.

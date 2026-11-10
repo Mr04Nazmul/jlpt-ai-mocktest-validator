@@ -2,9 +2,13 @@
 
 Target: 30 original non-listening examinations per level, 150 question PDFs plus 150 separate keys. Existing Drive tests are EXCLUDED by explicit user instruction (2026-11-10). Existing app, Supabase and old papers are untouched.
 
-## Current truth
+## Current operation
 
-0/150 complete. N5-001 has 43 original questions and DRAFT PDFs. Schema, category counts, passages and PDF integrity checks pass. Independent AI review and production Drive download verification have not run. The draft is not certified or complete. No authorized inference or persistent Drive credential was found locally. Production stays disabled until setup is verified.
+0/150 complete. N5-001 has 43 original questions and DRAFT PDFs. The pipeline now uses local Qwen3:4b for generation and independent Gemma3:4b for review on a standard public-repository GitHub runner. No inference API key, paid model endpoint or Google credential is needed for this mode. CPU models can be wrong; agreement is recorded as AI review, never human verification. Failed or uncertain questions remain NEEDS_REVIEW.
+
+Generation is enabled in bounded, resumable batches. Review records are cached by content and semantic comparison hashes; batch exhaustion yields a checkpoint without consuming an error retry. No paid runner/cache/artifact service is configured. Model downloads use the official Ollama registry. Provider outages remain external blockers.
+
+Storage uses a connector bridge: GitHub persists the four final artifacts and marks VERIFIED; an authorized ChatGPT scheduled task uploads them via the connected Drive account, downloads them again, and runs bridge.py against both byte sets. Only then may state become STORED. Connector absence, OAuth prompts or a scheduled-task failure must leave VERIFIED pending. The first N5 cannot release subsequent exams before this round trip succeeds. See BRIDGE.md.
 
 ## Blueprints
 
@@ -30,13 +34,13 @@ python production/engine.py run
 
 Workflow: scheduled every six hours, push-triggered and manually restartable. GitHub can delay schedules, disable inactive schedules or exhaust included quotas. Set GitHub paid budget to zero yourself; code cannot inspect billing. No paid API or cloud service is activated.
 
-## Configure existing authorized free resources
+## Optional API providers (not needed for active CPU mode)
 
 Add JLPT_GENERATOR_API_KEY and JLPT_REVIEWER_API_KEY as repository Actions secrets. Workflow maps them to GENERATOR_API_KEY and REVIEWER_API_KEY. Never put secrets in Git, config or chat.
 
 Populate config.json providers with kind (openai_compatible or ollama), base_url, model, key_env, roles (generator/reviewer), authorized_free:true. Set authorized_free only after confirming existing included/free quota and no billable overages. Empty providers are intentional. Distinct endpoint+model is required for independent blind review. Add authorized alternatives for failover. OpenAI-compatible APIs and local Ollama are implemented; other providers can use their documented compatibility endpoint. No dummy keys or automatic account activation.
 
-## Persistent Drive authorization
+## Optional direct runner Drive authorization (not needed for connector mode)
 
 ChatGPT connector authentication cannot be transferred to Actions. For personal My Drive use an approved user OAuth refresh credential saved as JLPT_DRIVE_OAUTH_JSON, containing client_id, client_secret, refresh_token and authorized drive.file scope. Ensure this OAuth app is actually authorized for the configured folder (drive.file does not grant arbitrary existing-folder access). User OAuth app testing mode can expire refresh tokens; choose a properly authorized durable setup. Alternative: JLPT_DRIVE_SERVICE_ACCOUNT_JSON for a service account with access to a Shared Drive. Sharing a personal My Drive folder with a service account alone does not solve its ownership/storage-quota restriction. Never enable paid storage automatically.
 

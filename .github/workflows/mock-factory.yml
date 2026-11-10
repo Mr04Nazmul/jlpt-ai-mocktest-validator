@@ -15,11 +15,13 @@ concurrency:
 jobs:
   production:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
+    env:
+      OLLAMA_HOST: 127.0.0.1:11434
+      OLLAMA_NUM_PARALLEL: '1'
+      OLLAMA_MAX_LOADED_MODELS: '1'
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -28,14 +30,20 @@ jobs:
       - run: python -m pip install -r production/requirements.txt
       - name: Verify software
         run: python -m unittest discover -s production/tests -v
-      - name: Resume one examination
-        env:
-          GENERATOR_API_KEY: ${{ secrets.JLPT_GENERATOR_API_KEY }}
-          REVIEWER_API_KEY: ${{ secrets.JLPT_REVIEWER_API_KEY }}
-          DRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.JLPT_DRIVE_SERVICE_ACCOUNT_JSON }}
-          DRIVE_OAUTH_JSON: ${{ secrets.JLPT_DRIVE_OAUTH_JSON }}
+      - name: Install local CPU inference
+        run: |
+          curl --fail --show-error --location --retry 3 https://ollama.com/install.sh -o /tmp/install-ollama.sh
+          sudo OLLAMA_NO_START=1 sh /tmp/install-ollama.sh
+          ollama serve > /tmp/jlpt-ollama.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:11434/api/version; then break; fi
+            sleep 2
+          done
+          ollama pull qwen3:4b
+          ollama pull gemma3:4b
+      - name: Resume bounded original-exam batch
         run: python production/engine.py run
-      - name: Persist checkpoints even when generation is blocked
+      - name: Persist checkpoints even after interruption
         if: always()
         run: |
           git config user.name 'JLPT Factory'
@@ -45,7 +53,6 @@ jobs:
             git commit -m 'Checkpoint original JLPT factory progress [skip ci]'
             git push
           fi
-      - name: Show truthful progress
+      - name: Show progress and blockers
         if: always()
-        run: |
-          python production/engine.py status >> "$GITHUB_STEP_SUMMARY"
+        run: python production/engine.py status >> "$GITHUB_STEP_SUMMARY"
