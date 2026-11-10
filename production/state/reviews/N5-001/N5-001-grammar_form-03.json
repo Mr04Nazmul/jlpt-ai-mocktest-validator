@@ -1,5 +1,5 @@
 {
-  "question_hash": "e2a16618a670aa2f1e5b3c4cec78e56ea3648e1e5a313642bd3f6dc00e07e4e8",
+  "question_hash": "fb0df49e6472e1a96c15f6512aa34fad348a6378cd78508a2203db825681b2a0",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
@@ -17,9 +17,9 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The first blank in the question '（　）に 何を 入れますか。' asks what to put into something. The particle 'に' is used for location or destination, fitting the context of putting something into a container. The second blank in '三つ（　）三百円です' uses 'に' to indicate quantity, as in '一つに百円です' (one for 100 yen). Both blanks require 'に', so the correct choice is 2. Other options like 'へ' (direction) or 'を' (object) don't fit the grammatical structure here.",
+    "explanation": "The sentence requires a particle to indicate the price for three items. に is used for pricing (e.g., 一つに百円です). で marks location/means, へ indicates direction, and を marks the object. None of the other particles fit the context of expressing price. The structure '三つに三百円です' correctly means 'Three is 300 yen.'",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T20:45:20.797804+00:00",
+  "reviewed_at": "2026-11-10T22:47:52.381044+00:00",
   "review_policy_version": "2"
 }

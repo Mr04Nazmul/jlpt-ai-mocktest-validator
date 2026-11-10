@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "NEEDS_REVIEW",
+      "attempts": 1,
       "generated": true,
-      "error": "Saved batch checkpoint; continue in next run",
+      "error": "Independent review failed: N5-001-grammar_form-03",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -770,7 +770,7 @@
       "attempts": 0
     }
   },
-  "failed": 1,
-  "pending_reviews": 0,
-  "updated_at": "2026-11-10T22:14:01.259557+00:00"
+  "failed": 0,
+  "pending_reviews": 1,
+  "updated_at": "2026-11-10T22:47:52.395223+00:00"
 }
