@@ -6,18 +6,14 @@
   "completed_answer_keys": 0,
   "complete": 0,
   "remaining": 150,
-  "blockers": [
-    "Production disabled until provider and Drive setup is verified",
-    "No authorized configured independent generator model",
-    "No persistent Drive credential configured; connector credentials cannot be reused by Actions"
-  ],
+  "blockers": [],
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "NEEDS_REVIEW",
+      "attempts": 1,
       "generated": true,
-      "error": "43-question original draft awaits independent model review; no configured credential"
+      "error": "Independent review failed: N5-001-kanji_reading-01"
     },
     "N5-002": {
       "level": "N5",
@@ -765,7 +761,7 @@
       "attempts": 0
     }
   },
-  "failed": 1,
-  "pending_reviews": 0,
-  "updated_at": "2026-11-10T12:38:39.454224+00:00"
+  "failed": 0,
+  "pending_reviews": 1,
+  "updated_at": "2026-11-10T12:48:42.244726+00:00"
 }

@@ -1,0 +1,32 @@
+{
+  "question_hash": "cbae225a4be9ce2dd73a09cdf5e66636da855d9e138123a0d0de74814b153dc0",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "gemma3:4b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "The question asks for the reading of the kanji ",
+    "学校": "",
+    "がっこ": "This is the correct reading of the kanji ",
+    "がこう": "This is a common reading of ",
+    "がっこう": "This is a more colloquial and less formal reading of ",
+    "かっこう": "This reading is not related to ",
+    "passage": true,
+    "issues": [
+      "The question is well-structured for an N5 kanji reading exercise. The passage is simple and focused. The correct answer, 'がっこ', is the most common and accepted reading of '学校' in this context. The distractors ('がこう', 'がっこう', 'かっこう') are plausible due to variations in pronunciation and usage, but are less frequent and less appropriate for an N5 level. The sentence ordering is natural and grammatically correct. No other issues are apparent."
+    ]
+  },
+  "reviewed_at": "2026-11-10T12:48:42.220534+00:00"
+}
