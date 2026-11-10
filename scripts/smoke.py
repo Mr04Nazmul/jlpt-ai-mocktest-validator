@@ -8,7 +8,7 @@ from reportlab.pdfbase.cidfonts import UnicodeCIDFont
 Path("data").mkdir(exist_ok=True)
 pdfmetrics.registerFont(UnicodeCIDFont("HeiseiKakuGo-W5"))
 c=canvas.Canvas("data/sample.pdf"); c.setFont("HeiseiKakuGo-W5",12)
-for i,line in enumerate(["Q1: わたしは 学生です。","1. がくせい","2. せんせい","3. いしゃ","4. かいしゃいん","Answer: 1"]): c.drawString(40,780-i*24,line)
+for i,line in enumerate(["Q1: 「学生」の 読み方は どれですか。","1. がくせい","2. せんせい","3. いしゃ","4. かいしゃいん","Answer: 1"]): c.drawString(40,780-i*24,line)
 c.save()
 pages=p.extract_pdf(Path("data/sample.pdf").read_bytes())
 qs=p.parse_questions(pages,"N5",{"title":"Original smoke fixture","license":"CC0-1.0"})
