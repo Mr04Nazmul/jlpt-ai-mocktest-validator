@@ -14,8 +14,21 @@
       "label": "JLPT Validator",
       "onAutoForward": "notify",
       "visibility": "private"
+    },
+    "11434": {
+      "onAutoForward": "ignore"
     }
   },
   "postCreateCommand": "bash scripts/setup.sh",
-  "postStartCommand": "bash scripts/start.sh"
+  "postStartCommand": "bash scripts/start.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "remote.autoForwardPorts": false
+      }
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  }
 }
