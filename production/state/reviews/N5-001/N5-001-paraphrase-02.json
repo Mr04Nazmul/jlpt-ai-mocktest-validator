@@ -21,5 +21,12 @@
     "issues": []
   },
   "reviewed_at": "2026-11-10T17:59:07.633173+00:00",
-  "review_policy_version": "2"
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "f04a78d5208028903e4b7601dbf60ef4f437b3e35c2916cf303069023432fdd6"
 }

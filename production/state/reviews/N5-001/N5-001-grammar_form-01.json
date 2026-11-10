@@ -1,0 +1,26 @@
+{
+  "question_hash": "7cc2de5224d43e9dffc0c9b7684083d8bd72c7eddc1dd6c85ff22d2a74bdfb2a",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題では、文法形式の選択が問われています。「（　）に 何を 入れますか。」という文は、「～に」に何かを入れるという文型を示しています。この文型は「～に～を入れる」の形で使われます。次に、「わたしは まいにち 六時（　）おきます。」という文は、「六時（　）おきます」の形で、時間の表現をしています。この文では、「六時（に）おきます」が自然な表現です。「に」は時間の前に使われ、動作のタイミングを示します。したがって、正解は「に（2）」です。他の選択肢は文法的に不自然です。「を」は動作の対象を示すため、ここには不適切です。「で」は場所や手段を示すため、時間の前に使われません。「が」は主語や所有を示すため、ここには不適切です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T18:52:01.113472+00:00",
+  "review_policy_version": "2",
+  "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}
