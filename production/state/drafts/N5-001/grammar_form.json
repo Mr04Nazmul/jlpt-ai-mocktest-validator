@@ -4,7 +4,7 @@
       "id": "N5-001-grammar_form-01",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。わたしは まいにち 六時（　）おきます。",
+      "question": "最も よい ものを 一つ えらんでください。\nわたしは まいにち 六時（　）おきます。",
       "choices": [
         "を",
         "に",
@@ -30,7 +30,7 @@
       "id": "N5-001-grammar_form-02",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。きのう、ともだち（　）テニスを しました。",
+      "question": "最も よい ものを 一つ えらんでください。\nきのう、ともだち（　）テニスを しました。",
       "choices": [
         "を",
         "へ",
@@ -56,7 +56,7 @@
       "id": "N5-001-grammar_form-03",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。この パンは 三つ（　）三百円です。",
+      "question": "最も よい ものを 一つ えらんでください。\nこの パンは 三つ（　）三百円です。",
       "choices": [
         "で",
         "に",
@@ -82,7 +82,7 @@
       "id": "N5-001-grammar_form-04",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。ここで しゃしんを（　）も いいですか。",
+      "question": "最も よい ものを 一つ えらんでください。\nここで しゃしんを（　）も いいですか。",
       "choices": [
         "とる",
         "とり",
@@ -108,7 +108,7 @@
       "id": "N5-001-grammar_form-05",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。きのうは あまり（　）。",
+      "question": "最も よい ものを 一つ えらんでください。\nきのうは あまり（　）。",
       "choices": [
         "さむいです",
         "さむくなかったです",
@@ -134,7 +134,7 @@
       "id": "N5-001-grammar_form-06",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。おんがくを（　）ながら、そうじを します。",
+      "question": "最も よい ものを 一つ えらんでください。\nおんがくを（　）ながら、そうじを します。",
       "choices": [
         "きく",
         "きいて",
@@ -160,7 +160,7 @@
       "id": "N5-001-grammar_form-07",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。日曜日は どこ（　）行きませんでした。",
+      "question": "最も よい ものを 一つ えらんでください。\n日曜日は どこ（　）行きませんでした。",
       "choices": [
         "へも",
         "だけ",
@@ -186,7 +186,7 @@
       "id": "N5-001-grammar_form-08",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。この へやは あの へや（　）広いです。",
+      "question": "最も よい ものを 一つ えらんでください。\nこの へやは あの へや（　）広いです。",
       "choices": [
         "まで",
         "しか",
@@ -212,7 +212,7 @@
       "id": "N5-001-grammar_form-09",
       "level": "N5",
       "category": "grammar_form",
-      "question": "（　）に 何を 入れますか。あしたは 休みですから、学校へ（　）。",
+      "question": "最も よい ものを 一つ えらんでください。\nあしたは 休みですから、学校へ（　）。",
       "choices": [
         "行きました",
         "行きません",
