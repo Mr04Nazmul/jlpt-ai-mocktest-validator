@@ -3,3 +3,9 @@ __pycache__/
 data/
 *.log
 .env
+
+# Canonical JSON and generated original outputs are durable in Git.
+production/state/*.sqlite3*
+production/*.jpg
+production/**/__pycache__/
+.env

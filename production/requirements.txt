@@ -1,0 +1,4 @@
+jsonschema==4.23.0
+reportlab==4.4.3
+PyMuPDF==1.26.3
+google-auth[requests]==2.40.3

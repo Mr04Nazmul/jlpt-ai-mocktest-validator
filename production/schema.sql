@@ -1,0 +1,5 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS exams(id TEXT PRIMARY KEY, level TEXT NOT NULL, state TEXT NOT NULL CHECK(state IN ('PENDING','GENERATING','VALIDATING','RENDERING','VERIFIED','STORED','RETRY_PENDING','NEEDS_REVIEW')), attempts INTEGER NOT NULL DEFAULT 0, error TEXT, updated_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS questions(id TEXT PRIMARY KEY, level TEXT NOT NULL, category TEXT NOT NULL, question TEXT NOT NULL, passage TEXT, choices_json TEXT NOT NULL, correct_answer INTEGER NOT NULL CHECK(correct_answer BETWEEN 1 AND 4), explanation TEXT NOT NULL, tags_json TEXT NOT NULL, provenance_json TEXT NOT NULL, validation_status TEXT NOT NULL, fingerprint TEXT UNIQUE NOT NULL, assigned_exam_id TEXT REFERENCES exams(id), payload_json TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS artifacts(exam_id TEXT REFERENCES exams(id), kind TEXT NOT NULL, sha256 TEXT NOT NULL, drive_file_id TEXT NOT NULL, verified_at TEXT NOT NULL, PRIMARY KEY(exam_id,kind));
+CREATE TABLE IF NOT EXISTS events(id INTEGER PRIMARY KEY, exam_id TEXT, timestamp TEXT NOT NULL, event TEXT NOT NULL, detail_json TEXT NOT NULL);

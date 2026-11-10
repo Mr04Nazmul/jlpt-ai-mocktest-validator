@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-reading_mid-01",
+      "level": "N5",
+      "category": "reading_mid",
+      "question": "妹は なぜ 青い くつを 買いましたか。",
+      "choices": [
+        "白い くつより 安かったから",
+        "はくと 歩きやすかったから",
+        "はじめから 青が 好きだったから",
+        "店に 青い くつしか なかったから"
+      ],
+      "answer": 2,
+      "explanation": "履いてみて歩きやすかったことが購入の理由です。最初は青い靴が好きではありませんでした。",
+      "passage": "日曜日、わたしは 妹と 新しい くつを 買いに 行きました。妹は 白い くつが ほしかったですが、店には 妹に ちょうど いい 大きさの 白い くつが ありませんでした。店の 人は「同じ 大きさの 青い くつなら あります」と 言いました。妹は はじめ、青い くつは 好きでは ありませんでした。でも、その くつを はいて みると、とても 歩きやすかったので、買う ことに しました。わたしは 黒い くつを はきましたが、少し 小さかったので、何も 買いませんでした。帰りに 二人で パンを 買って、家で 食べました。",
+      "passage_id": "N5-001-mid-A",
+      "tags": [
+        "reading_mid",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-reading_mid-02",
+      "level": "N5",
+      "category": "reading_mid",
+      "question": "「わたし」は 店で 何を 買いましたか。",
+      "choices": [
+        "黒い くつ",
+        "白い くつ",
+        "青い くつ",
+        "何も 買いませんでした"
+      ],
+      "answer": 4,
+      "explanation": "黒い靴は小さかったので買わなかったと書いてあります。パンは帰りに買いました。",
+      "passage": "日曜日、わたしは 妹と 新しい くつを 買いに 行きました。妹は 白い くつが ほしかったですが、店には 妹に ちょうど いい 大きさの 白い くつが ありませんでした。店の 人は「同じ 大きさの 青い くつなら あります」と 言いました。妹は はじめ、青い くつは 好きでは ありませんでした。でも、その くつを はいて みると、とても 歩きやすかったので、買う ことに しました。わたしは 黒い くつを はきましたが、少し 小さかったので、何も 買いませんでした。帰りに 二人で パンを 買って、家で 食べました。",
+      "passage_id": "N5-001-mid-A",
+      "tags": [
+        "reading_mid",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

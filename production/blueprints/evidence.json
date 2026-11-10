@@ -1,0 +1,115 @@
+{
+  "reviewed_at": "2026-11-10",
+  "method": "Official current test section page, all five purpose PDFs, 2020 change tables, 2018 workbook question PDFs and rendered answer tables",
+  "reference_totals": {
+    "N5": 43,
+    "N4": 57,
+    "N3": 74,
+    "N2": 75,
+    "N1": 70
+  },
+  "n1_difference": "2018 workbook integrated comprehension has 2 questions (63-64); old approximate guidebook has 3. Project uses explicit workbook distribution: 25 vocabulary + 20 grammar + 25 reading = 70.",
+  "length_ranges": "Project tolerance bands around approximate lengths stated in official purpose PDFs; not official cutoffs.",
+  "files": [
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3answer.pdf",
+      "sha256": "c4f1acc6b53add298bb28f8f4759e96242516b96546625c49c75d090d0913d2b",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N5answer.pdf",
+      "sha256": "7cf913bf1ed87c90ed7120319a171ca79cf4ab164a3b1aff74c461f9aa7857c4",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2answer.pdf",
+      "sha256": "68265ccb1d63179c77809e4d89d787ccaea1bd083e02e1d6e780d2fb92b67cf8",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1answer.pdf",
+      "sha256": "0c0e59695dd00bf0a05f2fbaa1bac0f164eb9bf5e5d242a39383febeda2c99c3",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4answer.pdf",
+      "sha256": "72b4e72cab02780f82653a3e1f08766f11ce698f77df8557d7971a2f48f452c1",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4G.pdf",
+      "sha256": "da3bec0d70fef11aa9291b12d56a964b99064c77d1bac4dbe9f17d01c92f08a7",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N5V.pdf",
+      "sha256": "44d6c36e877b5cace8cbbb3d96d7d6114d69d8f48520fc2a7bac0a4273307575",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N5G.pdf",
+      "sha256": "cba53d2111eec8b33adb85641e5fd41b4c3f775ef4553448b59aa15d638b040a",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N5R.pdf",
+      "sha256": "1a3ff408e7cdc29243a990d503c4d5dde71cdf9c3cf847245932ffa81322ba7c",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4R.pdf",
+      "sha256": "9cbfae13f485f6cb9cbae58dab79efa9f840377016566adaacd41e9586ad9a08",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3G.pdf",
+      "sha256": "fe4e17dec0eae246839a7a32423e9e9fc3beaca3a2c693bd5445cafd6f0bfc06",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3R.pdf",
+      "sha256": "1d56df57040ffe1da41c2cb6f152e3926d84fb5a17b7b25b348b01cfb9c89e69",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2R.pdf",
+      "sha256": "cae736f4da5baa87fedbc9457964d86ca90cbc1e3f6b3f2d7a405e3a33563f23",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N4V.pdf",
+      "sha256": "acda221ce269e6e60674ee9f340833eb18cf06a95425e97b0f3feed8fa5a66ec",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N3V.pdf",
+      "sha256": "66abec06d2e23d2ee66b94cdf905b34cc87f97a5ce0ce5da47dc304053d647ea",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1R.pdf",
+      "sha256": "1a66842a3c8593bc2cc522fb7e8bf6bc840ae49bceb82dff095474c5efff8fac",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2G.pdf",
+      "sha256": "b48d6e9002c981ca3d4250db4d0961a97d53145402b5eca058c2eb6fe75185e6",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1V.pdf",
+      "sha256": "c315b971250bf68667a8c38d534272c8e3c0bdb4caa517477fcc572b75c01e0d",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N2V.pdf",
+      "sha256": "c16247e1e6dc3c8b06dc0caf0ea94b7201628c3032c18bb2cc2ac0b1e69f79d6",
+      "usage": "structural reference only; contents not included"
+    },
+    {
+      "url": "https://www.jlpt.jp/samples/sample2018/pdf/N1G.pdf",
+      "sha256": "7c5e73d4f4a89444b1f98679a99a98a953c0b6ae0dca9eeb09815868b152ea83",
+      "usage": "structural reference only; contents not included"
+    }
+  ]
+}

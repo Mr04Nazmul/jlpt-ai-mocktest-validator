@@ -1,0 +1,242 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-grammar_form-01",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。わたしは まいにち 六時（　）おきます。",
+      "choices": [
+        "を",
+        "に",
+        "で",
+        "が"
+      ],
+      "answer": 2,
+      "explanation": "動作を行う時刻を示すので、時刻の後には「に」を使います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-02",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。きのう、ともだち（　）テニスを しました。",
+      "choices": [
+        "を",
+        "へ",
+        "と",
+        "の"
+      ],
+      "answer": 3,
+      "explanation": "一緒に行動する相手を示す助詞は「と」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-03",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。この パンは 三つ（　）三百円です。",
+      "choices": [
+        "で",
+        "に",
+        "へ",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "数量をまとめた値段は「三つで三百円」と表します。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-04",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。ここで しゃしんを（　）も いいですか。",
+      "choices": [
+        "とる",
+        "とり",
+        "とった",
+        "とって"
+      ],
+      "answer": 4,
+      "explanation": "許可を尋ねる「〜てもいいですか」には動詞のて形を使います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-05",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。きのうは あまり（　）。",
+      "choices": [
+        "さむいです",
+        "さむくなかったです",
+        "さむくないです",
+        "さむいでした"
+      ],
+      "answer": 2,
+      "explanation": "「きのう」は過去です。「あまり」と否定を組み合わせ、い形容詞の過去否定を使います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-06",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。おんがくを（　）ながら、そうじを します。",
+      "choices": [
+        "きく",
+        "きいて",
+        "きき",
+        "きいた"
+      ],
+      "answer": 3,
+      "explanation": "「ながら」の前は動詞のます形から「ます」を取った形です。「ききます」から「きき」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-07",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。日曜日は どこ（　）行きませんでした。",
+      "choices": [
+        "へも",
+        "だけ",
+        "から",
+        "より"
+      ],
+      "answer": 1,
+      "explanation": "「どこへも〜ません」で、どの場所にも行かないという意味になります。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-08",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。この へやは あの へや（　）広いです。",
+      "choices": [
+        "まで",
+        "しか",
+        "から",
+        "より"
+      ],
+      "answer": 4,
+      "explanation": "二つを比較して、比較の基準を示す助詞は「より」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-grammar_form-09",
+      "level": "N5",
+      "category": "grammar_form",
+      "question": "（　）に 何を 入れますか。あしたは 休みですから、学校へ（　）。",
+      "choices": [
+        "行きました",
+        "行きません",
+        "行っています",
+        "行きませんでした"
+      ],
+      "answer": 2,
+      "explanation": "未来の「あした」について、学校へ行かない予定を述べています。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "grammar_form",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

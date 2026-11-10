@@ -1,0 +1,98 @@
+{
+  "level": "N5",
+  "version": "2026-11-10.1",
+  "status": "STRUCTURE_CHECKED",
+  "count_policy": "Fixed project reference blueprint. N4/N5 question counts use official December 2020 revision. N1/N2/N3 counts use Official Practice Workbook Vol.2 (2018) answer tables. Actual sessions may vary. Not an official guarantee.",
+  "timing_minutes": [
+    20,
+    40
+  ],
+  "categories": [
+    {
+      "id": "kanji_reading",
+      "count": 7,
+      "choice_count": 4,
+      "passage_groups": 0
+    },
+    {
+      "id": "orthography",
+      "count": 5,
+      "choice_count": 4,
+      "passage_groups": 0
+    },
+    {
+      "id": "context",
+      "count": 6,
+      "choice_count": 4,
+      "passage_groups": 0
+    },
+    {
+      "id": "paraphrase",
+      "count": 3,
+      "choice_count": 4,
+      "passage_groups": 0
+    },
+    {
+      "id": "grammar_form",
+      "count": 9,
+      "choice_count": 4,
+      "passage_groups": 0
+    },
+    {
+      "id": "sentence_composition",
+      "count": 4,
+      "choice_count": 4,
+      "passage_groups": 0
+    },
+    {
+      "id": "text_grammar",
+      "count": 4,
+      "choice_count": 4,
+      "passage_groups": 1,
+      "passage_chars": [
+        160,
+        450
+      ]
+    },
+    {
+      "id": "reading_short",
+      "count": 2,
+      "choice_count": 4,
+      "passage_groups": 2,
+      "passage_chars": [
+        60,
+        110
+      ]
+    },
+    {
+      "id": "reading_mid",
+      "count": 2,
+      "choice_count": 4,
+      "passage_groups": 1,
+      "passage_chars": [
+        200,
+        320
+      ]
+    },
+    {
+      "id": "information",
+      "count": 1,
+      "choice_count": 4,
+      "passage_groups": 0,
+      "passage_chars": [
+        200,
+        320
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.jlpt.jp/e/guideline/testsections.html",
+    "https://www.jlpt.jp/e/reference/pdf/guidebook_s_e.pdf",
+    "https://www.jlpt.jp/e/topics/202009091599642827.html",
+    "https://www.jlpt.jp/e/samples/sampleindex.html"
+  ],
+  "workbook_layout_verified": true,
+  "total_questions": 43,
+  "workbook_reference": "https://www.jlpt.jp/samples/sample2018/pdf/N5answer.pdf",
+  "workbook_layout_note": "Read 2018 question PDFs and visually inspected official answer tables. N4/N5 workbook predates count reduction. Passage grouping is a project allocation within official item categories, not a claim of fixed official grouping."
+}

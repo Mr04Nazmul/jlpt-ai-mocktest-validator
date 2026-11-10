@@ -1,0 +1,112 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-text_grammar-01",
+      "level": "N5",
+      "category": "text_grammar",
+      "question": "文章の【1】に 入る ものは どれですか。",
+      "choices": [
+        "でも",
+        "だから",
+        "それから",
+        "では"
+      ],
+      "answer": 2,
+      "explanation": "友達がいなかったことが、一人で食べていた理由なので「だから」です。",
+      "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+      "passage_id": "N5-001-text-A",
+      "tags": [
+        "text_grammar",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-text_grammar-02",
+      "level": "N5",
+      "category": "text_grammar",
+      "question": "文章の【2】に 入る ものは どれですか。",
+      "choices": [
+        "まで",
+        "だけ",
+        "から",
+        "より"
+      ],
+      "answer": 3,
+      "explanation": "出発地を示すので「同じ国から来た」です。",
+      "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+      "passage_id": "N5-001-text-A",
+      "tags": [
+        "text_grammar",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-text_grammar-03",
+      "level": "N5",
+      "category": "text_grammar",
+      "question": "文章の【3】に 入る ものは どれですか。",
+      "choices": [
+        "からかったです",
+        "からくなかったです",
+        "からいでした",
+        "からくないでした"
+      ],
+      "answer": 2,
+      "explanation": "辛い食べ物が苦手なのに嬉しかったので、辛くなかったという過去否定です。",
+      "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+      "passage_id": "N5-001-text-A",
+      "tags": [
+        "text_grammar",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-text_grammar-04",
+      "level": "N5",
+      "category": "text_grammar",
+      "question": "文章の【4】に 入る ものは どれですか。",
+      "choices": [
+        "食べたいです",
+        "食べました",
+        "食べていました",
+        "食べませんでした"
+      ],
+      "answer": 1,
+      "explanation": "「来週」の希望を述べるので「食べたいです」です。他は過去形です。",
+      "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+      "passage_id": "N5-001-text-A",
+      "tags": [
+        "text_grammar",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

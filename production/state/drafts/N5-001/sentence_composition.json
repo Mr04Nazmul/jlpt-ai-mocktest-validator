@@ -1,0 +1,112 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-sentence_composition-01",
+      "level": "N5",
+      "category": "sentence_composition",
+      "question": "★に 入る ものは どれですか。わたしは ___ ★ ___ ___ すんでいます。",
+      "choices": [
+        "近い",
+        "駅",
+        "から",
+        "所に"
+      ],
+      "answer": 3,
+      "explanation": "「駅／から／近い／所に」の順です。★は「から」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "sentence_composition",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-sentence_composition-02",
+      "level": "N5",
+      "category": "sentence_composition",
+      "question": "★に 入る ものは どれですか。これは ___ ___ ★ ___ です。",
+      "choices": [
+        "時計",
+        "買った",
+        "で",
+        "日本"
+      ],
+      "answer": 2,
+      "explanation": "「日本／で／買った／時計」の順です。★は「買った」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "sentence_composition",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-sentence_composition-03",
+      "level": "N5",
+      "category": "sentence_composition",
+      "question": "★に 入る ものは どれですか。この 店では ___ ★ ___ ___ できます。",
+      "choices": [
+        "料理が",
+        "おいしい",
+        "安く",
+        "て"
+      ],
+      "answer": 4,
+      "explanation": "「安く／て／おいしい／料理が」の順です。★は「て」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "sentence_composition",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-sentence_composition-04",
+      "level": "N5",
+      "category": "sentence_composition",
+      "question": "★に 入る ものは どれですか。この 本は ___ ___ ★ ___ です。",
+      "choices": [
+        "好きな",
+        "本",
+        "一番",
+        "わたしが"
+      ],
+      "answer": 1,
+      "explanation": "「わたしが／一番／好きな／本」の順です。★は「好きな」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "sentence_composition",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

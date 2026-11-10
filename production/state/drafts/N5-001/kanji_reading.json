@@ -1,0 +1,190 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-kanji_reading-01",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\nあした、【学校】で テストが あります。",
+      "choices": [
+        "がっこ",
+        "がこう",
+        "がっこう",
+        "かっこう"
+      ],
+      "answer": 3,
+      "explanation": "「学校」は「がっこう」と読みます。小さい「っ」と長音が必要です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-kanji_reading-02",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\nこの 【白い】かばんは わたしのです。",
+      "choices": [
+        "しろい",
+        "くろい",
+        "あおい",
+        "あかい"
+      ],
+      "answer": 1,
+      "explanation": "「白い」は「しろい」です。他の選択肢は別の色です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-kanji_reading-03",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\nへやの 【電気】を けしてください。",
+      "choices": [
+        "てんき",
+        "でんしゃ",
+        "げんき",
+        "でんき"
+      ],
+      "answer": 4,
+      "explanation": "照明の「電気」は「でんき」と読みます。「天気」などと区別します。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-kanji_reading-04",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\n【毎朝】、パンを 食べます。",
+      "choices": [
+        "まいばん",
+        "まいあさ",
+        "まいにち",
+        "まいしゅう"
+      ],
+      "answer": 2,
+      "explanation": "「毎朝」は「まいあさ」です。「毎晩」「毎日」「毎週」とは違います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-kanji_reading-05",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\nこの 【道】を まっすぐ 行ってください。",
+      "choices": [
+        "みち",
+        "まち",
+        "いえ",
+        "はし"
+      ],
+      "answer": 1,
+      "explanation": "「道」は「みち」です。場所の「町」や「家」とは違います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-kanji_reading-06",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\nスーパーで 【牛肉】を 買いました。",
+      "choices": [
+        "ぎゅにく",
+        "ぎゅうにく",
+        "きゅうにく",
+        "ぎょうにく"
+      ],
+      "answer": 2,
+      "explanation": "「牛肉」は「ぎゅうにく」です。「ぎゅう」の長音を落とせません。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-kanji_reading-07",
+      "level": "N5",
+      "category": "kanji_reading",
+      "question": "【　】の ことばは どう 読みますか。\nえきは ここから 【近い】です。",
+      "choices": [
+        "ながい",
+        "たかい",
+        "ひくい",
+        "ちかい"
+      ],
+      "answer": 4,
+      "explanation": "距離が短いことを表す「近い」は「ちかい」と読みます。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "kanji_reading",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

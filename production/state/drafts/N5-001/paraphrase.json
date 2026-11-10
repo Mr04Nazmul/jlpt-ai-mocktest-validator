@@ -1,0 +1,86 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-paraphrase-01",
+      "level": "N5",
+      "category": "paraphrase",
+      "question": "【　】の ぶぶんと だいたい 同じ いみの 文を えらんでください。\nこの テストは【むずかしくないです】。",
+      "choices": [
+        "この テストは やさしいです。",
+        "この テストは ながいです。",
+        "この テストは きたないです。",
+        "この テストは おもしろくないです。"
+      ],
+      "answer": 1,
+      "explanation": "「むずかしくない」は、難度が低い「やさしい」と近い意味です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "paraphrase",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-paraphrase-02",
+      "level": "N5",
+      "category": "paraphrase",
+      "question": "【　】の ぶぶんと だいたい 同じ いみの 文を えらんでください。\nあの 店は【いつも】人が 多いです。",
+      "choices": [
+        "あの 店は きのうだけ 人が 多かったです。",
+        "あの 店は ときどき 人が 多いです。",
+        "あの 店は まいにち 人が 多いです。",
+        "あの 店は あしただけ 人が 多いです。"
+      ],
+      "answer": 3,
+      "explanation": "「いつも」は、この文では毎日そうであるという意味です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "paraphrase",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-paraphrase-03",
+      "level": "N5",
+      "category": "paraphrase",
+      "question": "【　】の ぶぶんと だいたい 同じ いみの 文を えらんでください。\n【もう 一ど】言ってください。",
+      "choices": [
+        "小さい こえで 言ってください。",
+        "同じ ことを また 言ってください。",
+        "はやく 言ってください。",
+        "べつの ことを 言ってください。"
+      ],
+      "answer": 2,
+      "explanation": "「もう一ど」は同じ内容を再び、という意味です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "paraphrase",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

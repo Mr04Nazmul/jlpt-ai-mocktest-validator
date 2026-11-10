@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "N5-001-kanji_reading-01",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\nあした、【学校】で テストが あります。",
+    "choices": [
+      "がっこ",
+      "がこう",
+      "がっこう",
+      "かっこう"
+    ],
+    "answer": 3,
+    "explanation": "「学校」は「がっこう」と読みます。小さい「っ」と長音が必要です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-kanji_reading-02",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\nこの 【白い】かばんは わたしのです。",
+    "choices": [
+      "しろい",
+      "くろい",
+      "あおい",
+      "あかい"
+    ],
+    "answer": 1,
+    "explanation": "「白い」は「しろい」です。他の選択肢は別の色です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-kanji_reading-03",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\nへやの 【電気】を けしてください。",
+    "choices": [
+      "てんき",
+      "でんしゃ",
+      "げんき",
+      "でんき"
+    ],
+    "answer": 4,
+    "explanation": "照明の「電気」は「でんき」と読みます。「天気」などと区別します。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-kanji_reading-04",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\n【毎朝】、パンを 食べます。",
+    "choices": [
+      "まいばん",
+      "まいあさ",
+      "まいにち",
+      "まいしゅう"
+    ],
+    "answer": 2,
+    "explanation": "「毎朝」は「まいあさ」です。「毎晩」「毎日」「毎週」とは違います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-kanji_reading-05",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\nこの 【道】を まっすぐ 行ってください。",
+    "choices": [
+      "みち",
+      "まち",
+      "いえ",
+      "はし"
+    ],
+    "answer": 1,
+    "explanation": "「道」は「みち」です。場所の「町」や「家」とは違います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-kanji_reading-06",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\nスーパーで 【牛肉】を 買いました。",
+    "choices": [
+      "ぎゅにく",
+      "ぎゅうにく",
+      "きゅうにく",
+      "ぎょうにく"
+    ],
+    "answer": 2,
+    "explanation": "「牛肉」は「ぎゅうにく」です。「ぎゅう」の長音を落とせません。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-kanji_reading-07",
+    "level": "N5",
+    "category": "kanji_reading",
+    "question": "【　】の ことばは どう 読みますか。\nえきは ここから 【近い】です。",
+    "choices": [
+      "ながい",
+      "たかい",
+      "ひくい",
+      "ちかい"
+    ],
+    "answer": 4,
+    "explanation": "距離が短いことを表す「近い」は「ちかい」と読みます。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "kanji_reading",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-orthography-01",
+    "level": "N5",
+    "category": "orthography",
+    "question": "【　】の ことばは どう 書きますか。\n【やま】の しゃしんを とりました。",
+    "choices": [
+      "川",
+      "山",
+      "田",
+      "天"
+    ],
+    "answer": 2,
+    "explanation": "「やま」と書く漢字は「山」です。他の漢字は別の語を表します。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "orthography",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-orthography-02",
+    "level": "N5",
+    "category": "orthography",
+    "question": "【　】の ことばは どう 書きますか。\n【みず】を 一ぱい ください。",
+    "choices": [
+      "火",
+      "木",
+      "金",
+      "水"
+    ],
+    "answer": 4,
+    "explanation": "飲み物の「みず」は「水」と書きます。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "orthography",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-orthography-03",
+    "level": "N5",
+    "category": "orthography",
+    "question": "【　】の ことばは どう 書きますか。\n【みぎ】に 小さい こうえんが あります。",
+    "choices": [
+      "左",
+      "石",
+      "右",
+      "口"
+    ],
+    "answer": 3,
+    "explanation": "方向の「みぎ」は「右」です。「左」は「ひだり」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "orthography",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-orthography-04",
+    "level": "N5",
+    "category": "orthography",
+    "question": "【　】の ことばは どう 書きますか。\nおとうとは 【はち】さいです。",
+    "choices": [
+      "八",
+      "入",
+      "人",
+      "六"
+    ],
+    "answer": 1,
+    "explanation": "数の「はち」は「八」です。「入」「人」と形が似ていますが別の字です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "orthography",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-orthography-05",
+    "level": "N5",
+    "category": "orthography",
+    "question": "【　】の ことばは どう 書きますか。\nきょうは 【やすみ】です。",
+    "choices": [
+      "体み",
+      "休み",
+      "本み",
+      "木み"
+    ],
+    "answer": 2,
+    "explanation": "「やすみ」は「休み」と書きます。人偏と木の形です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "orthography",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-context-01",
+    "level": "N5",
+    "category": "context",
+    "question": "（　）に 何を 入れますか。あめが ふっていますから、（　）を さして 行きます。",
+    "choices": [
+      "くつ",
+      "ぼうし",
+      "かさ",
+      "とけい"
+    ],
+    "answer": 3,
+    "explanation": "雨のときに「さす」のは「かさ」です。靴や帽子にはこの動詞を使いません。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "context",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-context-02",
+    "level": "N5",
+    "category": "context",
+    "question": "（　）に 何を 入れますか。あついですね。まどを（　）も いいですか。",
+    "choices": [
+      "あけて",
+      "しめて",
+      "けして",
+      "つけて"
+    ],
+    "answer": 1,
+    "explanation": "暑いので窓を開けたい、という場面です。「まどをあける」が自然です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "context",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-context-03",
+    "level": "N5",
+    "category": "context",
+    "question": "（　）に 何を 入れますか。バスが 来ました。みなさん、バスに（　）ください。",
+    "choices": [
+      "おりて",
+      "たって",
+      "あるいて",
+      "のって"
+    ],
+    "answer": 4,
+    "explanation": "到着したバスに乗る場面なので「のって」が適切です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "context",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-context-04",
+    "level": "N5",
+    "category": "context",
+    "question": "（　）に 何を 入れますか。きょうは たくさん 歩きました。とても（　）。",
+    "choices": [
+      "あらいました",
+      "つかれました",
+      "わすれました",
+      "おぼえました"
+    ],
+    "answer": 2,
+    "explanation": "たくさん歩いた結果の状態は「つかれました」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "context",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-context-05",
+    "level": "N5",
+    "category": "context",
+    "question": "（　）に 何を 入れますか。かいぎは 三時に（　）。二時五十分までに 来てください。",
+    "choices": [
+      "およぎます",
+      "はじまります",
+      "あそびます",
+      "やすみます"
+    ],
+    "answer": 2,
+    "explanation": "会議が始まる時刻を知らせています。「はじまります」が文脈に合います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "context",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-context-06",
+    "level": "N5",
+    "category": "context",
+    "question": "（　）に 何を 入れますか。母の たんじょうびに 花を（　）。",
+    "choices": [
+      "かしました",
+      "ならいました",
+      "かぶりました",
+      "あげました"
+    ],
+    "answer": 4,
+    "explanation": "誕生日に贈り物をすることは「花をあげる」と言います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "context",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-paraphrase-01",
+    "level": "N5",
+    "category": "paraphrase",
+    "question": "【　】の ぶぶんと だいたい 同じ いみの 文を えらんでください。\nこの テストは【むずかしくないです】。",
+    "choices": [
+      "この テストは やさしいです。",
+      "この テストは ながいです。",
+      "この テストは きたないです。",
+      "この テストは おもしろくないです。"
+    ],
+    "answer": 1,
+    "explanation": "「むずかしくない」は、難度が低い「やさしい」と近い意味です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "paraphrase",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-paraphrase-02",
+    "level": "N5",
+    "category": "paraphrase",
+    "question": "【　】の ぶぶんと だいたい 同じ いみの 文を えらんでください。\nあの 店は【いつも】人が 多いです。",
+    "choices": [
+      "あの 店は きのうだけ 人が 多かったです。",
+      "あの 店は ときどき 人が 多いです。",
+      "あの 店は まいにち 人が 多いです。",
+      "あの 店は あしただけ 人が 多いです。"
+    ],
+    "answer": 3,
+    "explanation": "「いつも」は、この文では毎日そうであるという意味です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "paraphrase",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-paraphrase-03",
+    "level": "N5",
+    "category": "paraphrase",
+    "question": "【　】の ぶぶんと だいたい 同じ いみの 文を えらんでください。\n【もう 一ど】言ってください。",
+    "choices": [
+      "小さい こえで 言ってください。",
+      "同じ ことを また 言ってください。",
+      "はやく 言ってください。",
+      "べつの ことを 言ってください。"
+    ],
+    "answer": 2,
+    "explanation": "「もう一ど」は同じ内容を再び、という意味です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "paraphrase",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-01",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。わたしは まいにち 六時（　）おきます。",
+    "choices": [
+      "を",
+      "に",
+      "で",
+      "が"
+    ],
+    "answer": 2,
+    "explanation": "動作を行う時刻を示すので、時刻の後には「に」を使います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-02",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。きのう、ともだち（　）テニスを しました。",
+    "choices": [
+      "を",
+      "へ",
+      "と",
+      "の"
+    ],
+    "answer": 3,
+    "explanation": "一緒に行動する相手を示す助詞は「と」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-03",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。この パンは 三つ（　）三百円です。",
+    "choices": [
+      "で",
+      "に",
+      "へ",
+      "を"
+    ],
+    "answer": 1,
+    "explanation": "数量をまとめた値段は「三つで三百円」と表します。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-04",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。ここで しゃしんを（　）も いいですか。",
+    "choices": [
+      "とる",
+      "とり",
+      "とった",
+      "とって"
+    ],
+    "answer": 4,
+    "explanation": "許可を尋ねる「〜てもいいですか」には動詞のて形を使います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-05",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。きのうは あまり（　）。",
+    "choices": [
+      "さむいです",
+      "さむくなかったです",
+      "さむくないです",
+      "さむいでした"
+    ],
+    "answer": 2,
+    "explanation": "「きのう」は過去です。「あまり」と否定を組み合わせ、い形容詞の過去否定を使います。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-06",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。おんがくを（　）ながら、そうじを します。",
+    "choices": [
+      "きく",
+      "きいて",
+      "きき",
+      "きいた"
+    ],
+    "answer": 3,
+    "explanation": "「ながら」の前は動詞のます形から「ます」を取った形です。「ききます」から「きき」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-07",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。日曜日は どこ（　）行きませんでした。",
+    "choices": [
+      "へも",
+      "だけ",
+      "から",
+      "より"
+    ],
+    "answer": 1,
+    "explanation": "「どこへも〜ません」で、どの場所にも行かないという意味になります。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-08",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。この へやは あの へや（　）広いです。",
+    "choices": [
+      "まで",
+      "しか",
+      "から",
+      "より"
+    ],
+    "answer": 4,
+    "explanation": "二つを比較して、比較の基準を示す助詞は「より」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-grammar_form-09",
+    "level": "N5",
+    "category": "grammar_form",
+    "question": "（　）に 何を 入れますか。あしたは 休みですから、学校へ（　）。",
+    "choices": [
+      "行きました",
+      "行きません",
+      "行っています",
+      "行きませんでした"
+    ],
+    "answer": 2,
+    "explanation": "未来の「あした」について、学校へ行かない予定を述べています。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "grammar_form",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-sentence_composition-01",
+    "level": "N5",
+    "category": "sentence_composition",
+    "question": "★に 入る ものは どれですか。わたしは ___ ★ ___ ___ すんでいます。",
+    "choices": [
+      "近い",
+      "駅",
+      "から",
+      "所に"
+    ],
+    "answer": 3,
+    "explanation": "「駅／から／近い／所に」の順です。★は「から」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "sentence_composition",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-sentence_composition-02",
+    "level": "N5",
+    "category": "sentence_composition",
+    "question": "★に 入る ものは どれですか。これは ___ ___ ★ ___ です。",
+    "choices": [
+      "時計",
+      "買った",
+      "で",
+      "日本"
+    ],
+    "answer": 2,
+    "explanation": "「日本／で／買った／時計」の順です。★は「買った」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "sentence_composition",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-sentence_composition-03",
+    "level": "N5",
+    "category": "sentence_composition",
+    "question": "★に 入る ものは どれですか。この 店では ___ ★ ___ ___ できます。",
+    "choices": [
+      "料理が",
+      "おいしい",
+      "安く",
+      "て"
+    ],
+    "answer": 4,
+    "explanation": "「安く／て／おいしい／料理が」の順です。★は「て」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "sentence_composition",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-sentence_composition-04",
+    "level": "N5",
+    "category": "sentence_composition",
+    "question": "★に 入る ものは どれですか。この 本は ___ ___ ★ ___ です。",
+    "choices": [
+      "好きな",
+      "本",
+      "一番",
+      "わたしが"
+    ],
+    "answer": 1,
+    "explanation": "「わたしが／一番／好きな／本」の順です。★は「好きな」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "sentence_composition",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-text_grammar-01",
+    "level": "N5",
+    "category": "text_grammar",
+    "question": "文章の【1】に 入る ものは どれですか。",
+    "choices": [
+      "でも",
+      "だから",
+      "それから",
+      "では"
+    ],
+    "answer": 2,
+    "explanation": "友達がいなかったことが、一人で食べていた理由なので「だから」です。",
+    "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+    "passage_id": "N5-001-text-A",
+    "tags": [
+      "text_grammar",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-text_grammar-02",
+    "level": "N5",
+    "category": "text_grammar",
+    "question": "文章の【2】に 入る ものは どれですか。",
+    "choices": [
+      "まで",
+      "だけ",
+      "から",
+      "より"
+    ],
+    "answer": 3,
+    "explanation": "出発地を示すので「同じ国から来た」です。",
+    "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+    "passage_id": "N5-001-text-A",
+    "tags": [
+      "text_grammar",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-text_grammar-03",
+    "level": "N5",
+    "category": "text_grammar",
+    "question": "文章の【3】に 入る ものは どれですか。",
+    "choices": [
+      "からかったです",
+      "からくなかったです",
+      "からいでした",
+      "からくないでした"
+    ],
+    "answer": 2,
+    "explanation": "辛い食べ物が苦手なのに嬉しかったので、辛くなかったという過去否定です。",
+    "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+    "passage_id": "N5-001-text-A",
+    "tags": [
+      "text_grammar",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-text_grammar-04",
+    "level": "N5",
+    "category": "text_grammar",
+    "question": "文章の【4】に 入る ものは どれですか。",
+    "choices": [
+      "食べたいです",
+      "食べました",
+      "食べていました",
+      "食べませんでした"
+    ],
+    "answer": 1,
+    "explanation": "「来週」の希望を述べるので「食べたいです」です。他は過去形です。",
+    "passage": "わたしは 先月、この まちに 来ました。はじめは ともだちが いませんでした。【１】、毎日 一人で ごはんを 食べていました。先週、学校で リンさんに 会いました。リンさんは わたしと 同じ 国【２】来た 人です。きのう、二人で 小さい 店へ 行きました。その 店の カレーは あまり【３】。わたしは からい 食べものが 好きでは ないので、うれしかったです。来週も リンさんと ごはんを【４】。今から 楽しみです。",
+    "passage_id": "N5-001-text-A",
+    "tags": [
+      "text_grammar",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-reading_short-01",
+    "level": "N5",
+    "category": "reading_short",
+    "question": "二人は どこで べんきょうしますか。",
+    "choices": [
+      "学校",
+      "図書館",
+      "きっさてん",
+      "ユミさんの 家"
+    ],
+    "answer": 3,
+    "explanation": "連絡には、図書館は休みなので駅前の喫茶店に来てほしいとあります。",
+    "passage": "ミナさんへ\nきょうの 日本語の べんきょうは、図書館では ありません。図書館は 休みです。駅の 前の きっさてんに 三時に 来てください。わたしは 赤い かばんを 持っています。\nユミ",
+    "passage_id": "N5-001-short-A",
+    "tags": [
+      "reading_short",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-reading_short-02",
+    "level": "N5",
+    "category": "reading_short",
+    "question": "この 人は きょう、何で 家に 帰りましたか。",
+    "choices": [
+      "バス",
+      "自転車",
+      "車",
+      "電車"
+    ],
+    "answer": 4,
+    "explanation": "帰るときは雨で、自転車を会社に置いて電車で帰ったと書いてあります。",
+    "passage": "わたしは いつも バスで 会社へ 行きます。でも、きょうは 天気が よかったので、自転車で 行きました。帰る ときは 雨でした。自転車は 会社に おいて、電車で 帰りました。",
+    "passage_id": "N5-001-short-B",
+    "tags": [
+      "reading_short",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-reading_mid-01",
+    "level": "N5",
+    "category": "reading_mid",
+    "question": "妹は なぜ 青い くつを 買いましたか。",
+    "choices": [
+      "白い くつより 安かったから",
+      "はくと 歩きやすかったから",
+      "はじめから 青が 好きだったから",
+      "店に 青い くつしか なかったから"
+    ],
+    "answer": 2,
+    "explanation": "履いてみて歩きやすかったことが購入の理由です。最初は青い靴が好きではありませんでした。",
+    "passage": "日曜日、わたしは 妹と 新しい くつを 買いに 行きました。妹は 白い くつが ほしかったですが、店には 妹に ちょうど いい 大きさの 白い くつが ありませんでした。店の 人は「同じ 大きさの 青い くつなら あります」と 言いました。妹は はじめ、青い くつは 好きでは ありませんでした。でも、その くつを はいて みると、とても 歩きやすかったので、買う ことに しました。わたしは 黒い くつを はきましたが、少し 小さかったので、何も 買いませんでした。帰りに 二人で パンを 買って、家で 食べました。",
+    "passage_id": "N5-001-mid-A",
+    "tags": [
+      "reading_mid",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-reading_mid-02",
+    "level": "N5",
+    "category": "reading_mid",
+    "question": "「わたし」は 店で 何を 買いましたか。",
+    "choices": [
+      "黒い くつ",
+      "白い くつ",
+      "青い くつ",
+      "何も 買いませんでした"
+    ],
+    "answer": 4,
+    "explanation": "黒い靴は小さかったので買わなかったと書いてあります。パンは帰りに買いました。",
+    "passage": "日曜日、わたしは 妹と 新しい くつを 買いに 行きました。妹は 白い くつが ほしかったですが、店には 妹に ちょうど いい 大きさの 白い くつが ありませんでした。店の 人は「同じ 大きさの 青い くつなら あります」と 言いました。妹は はじめ、青い くつは 好きでは ありませんでした。でも、その くつを はいて みると、とても 歩きやすかったので、買う ことに しました。わたしは 黒い くつを はきましたが、少し 小さかったので、何も 買いませんでした。帰りに 二人で パンを 買って、家で 食べました。",
+    "passage_id": "N5-001-mid-A",
+    "tags": [
+      "reading_mid",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  {
+    "id": "N5-001-information-01",
+    "level": "N5",
+    "category": "information",
+    "question": "リーさんは 土曜日の 午前中は 仕事です。千円までの きょうしつに 行きたいです。どれに 行けますか。",
+    "choices": [
+      "Ａ",
+      "Ｂ",
+      "Ｃ",
+      "Ｄ"
+    ],
+    "answer": 4,
+    "explanation": "午前は仕事なので午後のCかDです。千円までなので千円のDに行けます。Cは千五百円です。",
+    "passage": "さくら センター　土曜日の きょうしつ\nＡ　日本語：午前九時から 十時まで。千円。日本語で かんたんな 話を します。はじめての 人も 来てください。\nＢ　料理：午前十時から 十二時まで。二千円。カレーを 作ります。エプロンを 持ってきてください。\nＣ　しゃしん：午後一時から 三時まで。千五百円。外で しゃしんを とります。カメラを 持ってきてください。\nＤ　え：午後二時から 四時まで。千円。花の えを かきます。紙と ペンは センターに あります。\nどの きょうしつも、金曜日の 午後五時までに 電話で 名前を 言ってください。",
+    "passage_id": "N5-001-information-A",
+    "tags": [
+      "information",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  }
+]

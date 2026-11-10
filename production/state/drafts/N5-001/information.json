@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-information-01",
+      "level": "N5",
+      "category": "information",
+      "question": "リーさんは 土曜日の 午前中は 仕事です。千円までの きょうしつに 行きたいです。どれに 行けますか。",
+      "choices": [
+        "Ａ",
+        "Ｂ",
+        "Ｃ",
+        "Ｄ"
+      ],
+      "answer": 4,
+      "explanation": "午前は仕事なので午後のCかDです。千円までなので千円のDに行けます。Cは千五百円です。",
+      "passage": "さくら センター　土曜日の きょうしつ\nＡ　日本語：午前九時から 十時まで。千円。日本語で かんたんな 話を します。はじめての 人も 来てください。\nＢ　料理：午前十時から 十二時まで。二千円。カレーを 作ります。エプロンを 持ってきてください。\nＣ　しゃしん：午後一時から 三時まで。千五百円。外で しゃしんを とります。カメラを 持ってきてください。\nＤ　え：午後二時から 四時まで。千円。花の えを かきます。紙と ペンは センターに あります。\nどの きょうしつも、金曜日の 午後五時までに 電話で 名前を 言ってください。",
+      "passage_id": "N5-001-information-A",
+      "tags": [
+        "information",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

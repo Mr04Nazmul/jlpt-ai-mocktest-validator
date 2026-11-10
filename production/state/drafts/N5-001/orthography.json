@@ -1,0 +1,138 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-orthography-01",
+      "level": "N5",
+      "category": "orthography",
+      "question": "【　】の ことばは どう 書きますか。\n【やま】の しゃしんを とりました。",
+      "choices": [
+        "川",
+        "山",
+        "田",
+        "天"
+      ],
+      "answer": 2,
+      "explanation": "「やま」と書く漢字は「山」です。他の漢字は別の語を表します。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "orthography",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-orthography-02",
+      "level": "N5",
+      "category": "orthography",
+      "question": "【　】の ことばは どう 書きますか。\n【みず】を 一ぱい ください。",
+      "choices": [
+        "火",
+        "木",
+        "金",
+        "水"
+      ],
+      "answer": 4,
+      "explanation": "飲み物の「みず」は「水」と書きます。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "orthography",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-orthography-03",
+      "level": "N5",
+      "category": "orthography",
+      "question": "【　】の ことばは どう 書きますか。\n【みぎ】に 小さい こうえんが あります。",
+      "choices": [
+        "左",
+        "石",
+        "右",
+        "口"
+      ],
+      "answer": 3,
+      "explanation": "方向の「みぎ」は「右」です。「左」は「ひだり」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "orthography",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-orthography-04",
+      "level": "N5",
+      "category": "orthography",
+      "question": "【　】の ことばは どう 書きますか。\nおとうとは 【はち】さいです。",
+      "choices": [
+        "八",
+        "入",
+        "人",
+        "六"
+      ],
+      "answer": 1,
+      "explanation": "数の「はち」は「八」です。「入」「人」と形が似ていますが別の字です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "orthography",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-orthography-05",
+      "level": "N5",
+      "category": "orthography",
+      "question": "【　】の ことばは どう 書きますか。\nきょうは 【やすみ】です。",
+      "choices": [
+        "体み",
+        "休み",
+        "本み",
+        "木み"
+      ],
+      "answer": 2,
+      "explanation": "「やすみ」は「休み」と書きます。人偏と木の形です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "orthography",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

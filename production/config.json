@@ -1,0 +1,9 @@
+{
+  "drive_root_id": "1D43Max-bmXXBnCEQjeO6EZFjjeb0jXyd",
+  "drive_level_ids": {"N5":"1AJGBHDOf9I9mLQ6SvaUrgafZbzpevodW","N4":"1gzsp74iPyixea9jSDGTqJcF4BclS1gP8","N3":"1flzzHzpGm-GYwNm6dfricr3UMqrmu-aU","N2":"156EG3B8gfHmJMfSEoW7TcBtV0FO-fuUY","N1":"1Jd-1gObdnthS2BmaMBbFI4XLY09sI6UG"},
+  "providers": [],
+  "max_exams_per_run": 1,
+  "max_api_calls_per_run": 300,
+  "max_attempts": 5,
+  "production_enabled": false
+}

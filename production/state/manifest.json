@@ -1,0 +1,771 @@
+{
+  "planned": 150,
+  "generated": 1,
+  "validated": 0,
+  "completed_question_pdfs": 0,
+  "completed_answer_keys": 0,
+  "complete": 0,
+  "remaining": 150,
+  "blockers": [
+    "Production disabled until provider and Drive setup is verified",
+    "No authorized configured independent generator model",
+    "No persistent Drive credential configured; connector credentials cannot be reused by Actions"
+  ],
+  "exams": {
+    "N5-001": {
+      "level": "N5",
+      "state": "RETRY_PENDING",
+      "attempts": 0,
+      "generated": true,
+      "error": "43-question original draft awaits independent model review; no configured credential"
+    },
+    "N5-002": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-003": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-004": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-005": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-006": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-007": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-008": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-009": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-010": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-011": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-012": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-013": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-014": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-015": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-016": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-017": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-018": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-019": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-020": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-021": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-022": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-023": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-024": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-025": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-026": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-027": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-028": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-029": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N5-030": {
+      "level": "N5",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-001": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-002": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-003": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-004": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-005": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-006": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-007": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-008": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-009": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-010": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-011": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-012": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-013": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-014": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-015": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-016": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-017": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-018": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-019": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-020": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-021": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-022": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-023": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-024": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-025": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-026": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-027": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-028": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-029": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N4-030": {
+      "level": "N4",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-001": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-002": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-003": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-004": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-005": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-006": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-007": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-008": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-009": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-010": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-011": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-012": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-013": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-014": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-015": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-016": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-017": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-018": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-019": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-020": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-021": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-022": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-023": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-024": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-025": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-026": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-027": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-028": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-029": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N3-030": {
+      "level": "N3",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-001": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-002": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-003": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-004": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-005": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-006": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-007": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-008": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-009": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-010": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-011": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-012": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-013": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-014": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-015": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-016": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-017": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-018": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-019": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-020": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-021": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-022": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-023": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-024": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-025": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-026": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-027": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-028": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-029": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N2-030": {
+      "level": "N2",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-001": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-002": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-003": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-004": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-005": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-006": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-007": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-008": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-009": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-010": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-011": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-012": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-013": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-014": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-015": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-016": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-017": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-018": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-019": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-020": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-021": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-022": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-023": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-024": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-025": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-026": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-027": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-028": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-029": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    },
+    "N1-030": {
+      "level": "N1",
+      "state": "PENDING",
+      "attempts": 0
+    }
+  },
+  "failed": 1,
+  "pending_reviews": 0,
+  "updated_at": "2026-11-10T12:32:02.633421+00:00"
+}

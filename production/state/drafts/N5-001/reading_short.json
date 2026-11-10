@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-reading_short-01",
+      "level": "N5",
+      "category": "reading_short",
+      "question": "二人は どこで べんきょうしますか。",
+      "choices": [
+        "学校",
+        "図書館",
+        "きっさてん",
+        "ユミさんの 家"
+      ],
+      "answer": 3,
+      "explanation": "連絡には、図書館は休みなので駅前の喫茶店に来てほしいとあります。",
+      "passage": "ミナさんへ\nきょうの 日本語の べんきょうは、図書館では ありません。図書館は 休みです。駅の 前の きっさてんに 三時に 来てください。わたしは 赤い かばんを 持っています。\nユミ",
+      "passage_id": "N5-001-short-A",
+      "tags": [
+        "reading_short",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-reading_short-02",
+      "level": "N5",
+      "category": "reading_short",
+      "question": "この 人は きょう、何で 家に 帰りましたか。",
+      "choices": [
+        "バス",
+        "自転車",
+        "車",
+        "電車"
+      ],
+      "answer": 4,
+      "explanation": "帰るときは雨で、自転車を会社に置いて電車で帰ったと書いてあります。",
+      "passage": "わたしは いつも バスで 会社へ 行きます。でも、きょうは 天気が よかったので、自転車で 行きました。帰る ときは 雨でした。自転車は 会社に おいて、電車で 帰りました。",
+      "passage_id": "N5-001-short-B",
+      "tags": [
+        "reading_short",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}

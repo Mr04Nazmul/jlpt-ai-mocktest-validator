@@ -1,0 +1,7 @@
+[
+ {"name":"Official current JLPT structure","url":"https://www.jlpt.jp/e/guideline/testsections.html","use":"structural reference only"},
+ {"name":"Official N4/N5 revision","url":"https://www.jlpt.jp/e/topics/202009091599642827.html","use":"2020 revised counts"},
+ {"name":"Official practice workbooks","url":"https://www.jlpt.jp/e/samples/sampleindex.html","use":"structural reference only; no copied questions"},
+ {"name":"JMdict candidate","url":"https://www.edrdg.org/jmdict/j_jmdict.html","use":"not imported; inspect current attribution and share-alike license before importing"},
+ {"name":"Tatoeba candidate","url":"https://tatoeba.org/en/terms_of_use","use":"not imported; verify applicable sentence license before reuse"}
+]

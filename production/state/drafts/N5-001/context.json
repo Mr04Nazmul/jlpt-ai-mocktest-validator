@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "id": "N5-001-context-01",
+      "level": "N5",
+      "category": "context",
+      "question": "（　）に 何を 入れますか。あめが ふっていますから、（　）を さして 行きます。",
+      "choices": [
+        "くつ",
+        "ぼうし",
+        "かさ",
+        "とけい"
+      ],
+      "answer": 3,
+      "explanation": "雨のときに「さす」のは「かさ」です。靴や帽子にはこの動詞を使いません。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "context",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-context-02",
+      "level": "N5",
+      "category": "context",
+      "question": "（　）に 何を 入れますか。あついですね。まどを（　）も いいですか。",
+      "choices": [
+        "あけて",
+        "しめて",
+        "けして",
+        "つけて"
+      ],
+      "answer": 1,
+      "explanation": "暑いので窓を開けたい、という場面です。「まどをあける」が自然です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "context",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-context-03",
+      "level": "N5",
+      "category": "context",
+      "question": "（　）に 何を 入れますか。バスが 来ました。みなさん、バスに（　）ください。",
+      "choices": [
+        "おりて",
+        "たって",
+        "あるいて",
+        "のって"
+      ],
+      "answer": 4,
+      "explanation": "到着したバスに乗る場面なので「のって」が適切です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "context",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-context-04",
+      "level": "N5",
+      "category": "context",
+      "question": "（　）に 何を 入れますか。きょうは たくさん 歩きました。とても（　）。",
+      "choices": [
+        "あらいました",
+        "つかれました",
+        "わすれました",
+        "おぼえました"
+      ],
+      "answer": 2,
+      "explanation": "たくさん歩いた結果の状態は「つかれました」です。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "context",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-context-05",
+      "level": "N5",
+      "category": "context",
+      "question": "（　）に 何を 入れますか。かいぎは 三時に（　）。二時五十分までに 来てください。",
+      "choices": [
+        "およぎます",
+        "はじまります",
+        "あそびます",
+        "やすみます"
+      ],
+      "answer": 2,
+      "explanation": "会議が始まる時刻を知らせています。「はじまります」が文脈に合います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "context",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    },
+    {
+      "id": "N5-001-context-06",
+      "level": "N5",
+      "category": "context",
+      "question": "（　）に 何を 入れますか。母の たんじょうびに 花を（　）。",
+      "choices": [
+        "かしました",
+        "ならいました",
+        "かぶりました",
+        "あげました"
+      ],
+      "answer": 4,
+      "explanation": "誕生日に贈り物をすることは「花をあげる」と言います。",
+      "passage": "",
+      "passage_id": "",
+      "tags": [
+        "context",
+        "N5"
+      ],
+      "provenance": {
+        "kind": "original_ai_generation",
+        "model": "ChatGPT-session",
+        "endpoint": "chatgpt-session",
+        "review_status": "UNREVIEWED"
+      }
+    }
+  ],
+  "generator_identity": [
+    "chatgpt-session",
+    "ChatGPT-session"
+  ]
+}
