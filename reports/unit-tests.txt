@@ -1,0 +1,11 @@
+test_bad_key_and_listening (test_pipeline.PipelineTest.test_bad_key_and_listening) ... ok
+test_export_requires_review (test_pipeline.PipelineTest.test_export_requires_review) ... ok
+test_parser (test_pipeline.PipelineTest.test_parser) ... ok
+test_roundtrip_and_duplicates (test_pipeline.PipelineTest.test_roundtrip_and_duplicates) ... ok
+test_source_rights (test_pipeline.PipelineTest.test_source_rights) ... ok
+test_wrong_level (test_pipeline.PipelineTest.test_wrong_level) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.017s
+
+OK

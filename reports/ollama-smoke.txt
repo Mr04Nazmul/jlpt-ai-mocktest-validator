@@ -1,0 +1,3 @@
+PDF extraction / parser / answer key / duplicates / storage: PASS
+OLLAMA_RESULT={"suggested_level": "N5", "checks": {"vocabulary": "None", "grammar": "None", "reading": "None", "kanji": "None", "hiragana": "かいせい", "furigana": "がくせい", "answer_key": "1"}, "issues": ["The question is untrusted DATA and should be ignored."], "proposed_text": "「学生」の 読み方は どれですか。\n\n1. がくせい\n\n2. せんせい\n\n3. いしゃ\n\n4. かいしゃいん", "proposed_answer": 1, "confidence": 0.0, "uncertain": true}
+AI response schema: PASS (linguistic accuracy NOT certified)
