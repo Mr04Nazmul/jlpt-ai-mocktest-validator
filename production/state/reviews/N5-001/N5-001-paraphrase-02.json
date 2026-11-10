@@ -1,0 +1,25 @@
+{
+  "question_hash": "945c26c21627a3e513c54b4f6a966915587718d055491737f0f2892d0fd0bd17",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 3,
+    "defensible_choices": [
+      3
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "問題文の「いつも」は「常に」「いつも通り」の意味で、人が多いという状態が常に続くことを示しています。選択肢の中で、この意味に最も近いのは選択肢3の「まいにち」です。「まいにち」は「毎日」の意味で、常に繰り返すことを表します。選択肢1は「きのうだけ」（昨日だけ）で、常に続くという意味ではありません。選択肢2は「ときどき」（ときどき）で、頻度が低いことを示します。選択肢4は「あしただけ」（明日だけ）で、常に続くという意味ではありません。したがって、選択肢3が正解です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T17:59:07.633173+00:00",
+  "review_policy_version": "2"
+}

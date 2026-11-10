@@ -13,13 +13,13 @@
       "state": "RETRY_PENDING",
       "attempts": 0,
       "generated": true,
-      "error": "Clarified window-opening context; enforce reviewer JSON schema at generation and independently re-review changed item.",
+      "error": "Saved batch checkpoint; continue in next run",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
         "Malformed independent review for N5-001-context-02: '2' is not of type 'integer'"
       ],
-      "next_retry_at": 0
+      "next_retry_at": 1794333607.6408718
     },
     "N5-002": {
       "level": "N5",
@@ -767,7 +767,7 @@
       "attempts": 0
     }
   },
-  "failed": 0,
-  "pending_reviews": 1,
-  "updated_at": "2026-11-10T14:47:41.009461+00:00"
+  "failed": 1,
+  "pending_reviews": 0,
+  "updated_at": "2026-11-10T17:59:07.653826+00:00"
 }

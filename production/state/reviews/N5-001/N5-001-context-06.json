@@ -1,0 +1,32 @@
+{
+  "question_hash": "db855faceba6210696deecc1538ab12425b779e7d49b1c2ec6115e7edd71f274",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 4,
+    "defensible_choices": [
+      4
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題では、文脈に合った動詞の形を選ぶ必要があります。文の意味は「母の誕生日に花を（　）」と、花を何かするという動作を表しています。動詞の語尾は「た」で過去形を表しており、文の主語は「私」または「誰か」であると考えられます。\n\n選択肢1「かしました」は「かす」の過去形で、意味は「かす（薄れる）」であり、文脈に合いません。\n選択肢2「ならいました」は「ならす」の過去形で、意味は「ならす（調和させる）」であり、文脈に合いません。\n選択肢3「かぶりました」は「かぶる」の過去形で、意味は「かぶる（かぶる、重なる）」であり、文脈に合いません。\n選択肢4「あげました」は「あげる」の過去形で、意味は「あげる（与える）」であり、文脈に合います。母の誕生日に花を「あげる」ことが自然です。\nしたがって、正解は選択肢4「あげました」です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T17:55:02.763935+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "7647916e61a6f0cd0a001f7d625e65e6c9b143a73435befc692002b98f1af13e"
+}

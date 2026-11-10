@@ -1,0 +1,32 @@
+{
+  "question_hash": "000ac23e70176b4efc22738d0297f64429db56e003bc3dd173281673f7e71e5a",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題は文脈に基づいて適切な動詞を選択する問題です。「かいぎは 三時に（　）。二時五十分までに 来てください。」という文から、「かいぎ（会議）」が3時に始まるという意味が読み取れます。したがって、空欄には「始まる」を表す動詞が必要です。「はじまります」は「始まる」のマスラ形式で、文脈に合います。一方、「およぎます」は「泳ぐ」、「あそびます」は「遊ぶ」、「やすみます」は「休む」を表すため、文脈に合いません。したがって、正解は2です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T17:52:19.251428+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "98888d588ce8aea54ef378fde317bbd79da4369b2a8a0249eb7819231270f355"
+}

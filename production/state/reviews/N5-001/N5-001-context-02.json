@@ -1,13 +1,13 @@
 {
-  "question_hash": "c238897c499a36d6f2e69d4ecf21c45d291785eeed4eac8353fcc64cfe4da005",
+  "question_hash": "f5ce04a5ff7f7e61af56af2f7e295a5ca3122c1bab714aee1006f002e2f6d05e",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:8b"
   ],
   "review": {
-    "answer": "2",
+    "answer": 1,
     "defensible_choices": [
-      2
+      1
     ],
     "checks": {
       "japanese": true,
@@ -17,9 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は文脈に基づいて適切な動詞の活用形を選ぶ問題です。文の前半「あついですね」は「暑いですね」という意味で、暑さを表現しています。その後の「まどを（　）も いいですか」は「窓を（　）もいいですか」という文で、窓を開けるかどうかを尋ねています。この文脈では、窓を閉める（しめて）ことが暑い時の対処として適切です。他の選択肢について見ると、「あけて」は開ける意味で、暑い時に窓を開けることは逆効果です。「けして」は「閉じて」の古語形で、現代日本語では使われません。「つけて」は「付ける」の意味で、窓に付けるという意味は文脈に合いません。したがって、最も自然で文脈に合った選択肢は「しめて（2）」です。",
+    "explanation": "The question asks what to put in the blank: 「（　）に 何を 入れますか。へやが あついです。外の すずしい 空気を 入れたいので、まどを（　）も いいですか。」 The context is that the room is hot, and the person wants to let in cool outside air. Therefore, the correct verb should mean 'to open' or 'to let in'. The verb 「あけて」means 'to open', which fits the context of letting in cool air. 「しめて」means 'to close', which would prevent air from coming in, so it is incorrect. 「けして」is a form of 'to close' or 'to shut', and 「つけて」means 'to put on' or 'to attach', which are not relevant to opening a window. Thus, the correct answer is 1.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T14:47:40.978852+00:00",
-  "review_policy_version": "2"
+  "reviewed_at": "2026-11-10T17:45:34.581024+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "059d88995648f5baf3926027edd44f3c4b2d949eb803ce2c205c5aa15f071506"
 }

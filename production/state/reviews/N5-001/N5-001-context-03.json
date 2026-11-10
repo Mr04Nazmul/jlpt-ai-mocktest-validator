@@ -1,0 +1,32 @@
+{
+  "question_hash": "224b6d9ba32ee8dfc6402e203f370beb54e4d5bf7faee3bc79159689de811000",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 4,
+    "defensible_choices": [
+      4
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題は文脈に基づいて適切な動詞を選びます。文の流れは「バスが来ました。みなさん、バスに（　）ください。」です。ここでは「バスに乗る」を意味する動詞が求められます。「のって」は「乗る」の連用形で、文法的に適切です。一方、「おりて」は「降りる」の連用形で、文脈に合いません。「たって」は「立つ」の連用形で、文脈に合いません。「あるいて」は誤った読み方で、正しい読み方は「あるいて」ではなく「あるいて」です（ただし、この選択肢は誤りが含まれているため、文法的にも不適切です）。したがって、正しい答えは「のって（4）」です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T17:47:44.319182+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "b5f571973a256edce95166c9e2760ff378668e9a5b1deebb9f469d2ab5d3bf79"
+}

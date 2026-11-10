@@ -1,0 +1,32 @@
+{
+  "question_hash": "c2e5e12d31aba32881002ac774e1fc75deff4fd0033ce7e671f981ba661cac90",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題では、前文「きょうは たくさん 歩きました。」（今日はたくさん歩きました）から、後文「とても（　）。」（とても～）に適切な語句を選ぶ必要があります。前文は「たくさん歩いた」という動作を述べており、その結果として「疲れました」（つかれました）が自然に続きます。これは「たくさん歩いた」→「疲れました」の因果関係を表しており、文脈的に最も適切です。\n\n選択肢1「あらいました」（ありました）は、存在を表す語で、文脈に合いません。\n選択肢3「わすれました」（忘れました）は、忘れることを表す語で、歩いたこととは無関係です。\n選択肢4「おぼえました」（覚えました）も、歩いたこととは無関係です。\nしたがって、選択肢2「つかれました」が最も自然で文脈に合います。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T17:50:06.158303+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "f54851270c0117668e0dcc65379b4a2fefd6eb3c5c177aaf68ef2581677e2e71"
+}
