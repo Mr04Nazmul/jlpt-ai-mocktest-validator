@@ -1,0 +1,32 @@
+{
+  "question_hash": "0a1452b017d9940762a0be574e85a7e6dd4a36874d0ef565364b7be8b1c9672a",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 4,
+    "defensible_choices": [
+      4
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題は「電気」の読みを尋ねています。文脈では「へやの【電気】をけしてください」という指示文が使われており、ここでは「電気」が「でんき」と読むべきです。「電気」は「でんき」という読みが標準的な読みであり、電気の意味で使われています。\n\n選択肢の中では、「てんき」は天気の意味で使われ、「でんしゃ」は電車の意味、「げんき」は元気の意味です。これらは文脈に合致しません。したがって、「でんき」が正解です。\n\n他の選択肢は文脈や意味の面で誤り、N5レベルの語彙として適切ではありません。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:09:58.092445+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "a538792152dd12796a7cd4d2ac0e8abd37327605e8e43fd0be73792ac93741ef"
+}

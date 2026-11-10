@@ -1,0 +1,32 @@
+{
+  "question_hash": "35471797e6fd70ec3bc098279d00b8b78ecfa424c6ab20e507476d462c2d6373",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題は、N5レベルの漢字読みに関するものです。文「この【道】をまっすぐ行ってください。」は、日常会話の中でよく使われる指示文で、文脈的に「道」は「みち」と読むことが自然です。「道」は「みち」という読みが基本読みであり、N5レベルの学習者にとっても十分に理解可能な語です。\n\n選択肢の中では、「みち」が正解です。「まち」は「場所」や「停留所」を意味する読みであり、文脈に合いません。「いえ」は「家」、「はし」は「橋」を意味する読みで、どちらも文脈に合いません。したがって、「みち」が唯一自然で文脈に合った読みです。\n\nこの問題は、漢字の基本読みを問うものであり、N5レベルの学習者にとって適切な難易度です。選択肢は十分に多様で、誤読を誘う可能性のある読みを含んでおり、適切な誘導が行われています。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:13:14.237864+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "cdbfed0cb1f42007f15d5401160a18c5aa14d6c392e4b95ee92bca148291fa85"
+}

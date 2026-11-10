@@ -1,0 +1,32 @@
+{
+  "question_hash": "f9588868ed20c3ab337a11dc46af88fda41d7e78a325676fc8b622a57b20202d",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題は「白い」の読みを尋ねています。文の意味は「この白いかばんはわたしのです（この白い鞄は私のものです）」です。この文の中で「白い」は「しろい」と読みます。「しろい」は「白い」の標準的な読みです。他の選択肢「くろい（黒い）」「あおい（青い）」「あかい（赤い）」は文の意味と矛盾しており、文脈に合いません。したがって、「しろい」が唯一正しい読みです。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:08:34.066178+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "5895ff615a3c59533ed710c26f0e20a704d3f50afd17a62ad7fc6b331f0519d4"
+}

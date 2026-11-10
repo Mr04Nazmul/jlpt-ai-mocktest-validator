@@ -1,0 +1,32 @@
+{
+  "question_hash": "7f707b5434b8d9f8df0b822744589502f2ffb1017f6fdf330873e6afd0097426",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "「牛肉」は「ぎゅうにく」と読みます。これは「牛（うし）」＋「肉（にく）」の組み合わせで、「うし」は「ぎゅう」と長音をもつ読み方（音読み）です。「ぎゅうにく」は正しい読み方です。\n\n「ぎゅにく」は「牛」の読みが短音で表されているため、不自然です。「きゅうにく」は「牛」の読みが「きゅう」となっており、誤りです。「ぎょうにく」は「牛」の読みが「ぎょう」となっており、誤りです。\n\nしたがって、「ぎゅうにく」が唯一正しい読み方であり、他の選択肢は誤りです。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:14:47.141553+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false
+    }
+  ],
+  "semantic_comparison_hash": "b7de232558af5b9843f717ca7d31e4f40ae6595bcd769f6fdadfc06e44162069"
+}

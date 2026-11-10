@@ -1,0 +1,25 @@
+{
+  "question_hash": "eae7fd8fc8aaa19ef09b568966055207813bfd6c836c19e2f9da750c1fbcc00e",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:8b"
+  ],
+  "review": {
+    "answer": 3,
+    "defensible_choices": [
+      3
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この問題は「近い」の読み方を尋ねています。文の意味は「えきは ここから 【近い】です」つまり「電車はここから近いです」という意味になります。この文脈では「近い」は「ちかい」と読みます。「ちかい」は「近い」の標準的な読み方です。\n\n他の選択肢について：\n- 「ながい」は「長い」の読み方で、文脈に合いません。\n- 「たかい」は「高い」の読み方で、文脈に合いません。\n- 「ひくい」は「低い」の読み方で、文脈に合いません。\n\nしたがって、正解は「ちかい」（選択肢3）です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-10T13:16:24.070110+00:00",
+  "review_policy_version": "2"
+}
