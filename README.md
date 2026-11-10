@@ -11,8 +11,8 @@ external hosting, GPU, listening, or changes to Nihongo Path Books.
 3. The devcontainer installs Python dependencies and Ollama. If setup needs retry:
    `bash scripts/setup.sh`
 4. Run `bash scripts/start.sh`, then `bash scripts/model.sh`.
-   Model selection uses available RAM: 2.5–6 GB: qwen2.5:0.5b;
-   6–12 GB: qwen2.5:1.5b; 12+ GB: qwen2.5:3b.
+   Model selection uses available RAM: 2.5–4.5 GB: qwen2.5:0.5b;
+   4.5–12 GB: qwen2.5:1.5b; 12+ GB: qwen2.5:3b.
    Below 2.5 GB: refuse. These are conservative heuristics, not benchmarks.
 5. Open private port 8501 in iPhone Safari and authenticate with GitHub.
    Ollama port 11434 must never be forwarded.
