@@ -17,9 +17,9 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は、文法形式に関するものです。文の意味は「このパンは三つに三百円です」と読みます。ここでは「三つ（　）三百円です」という構文が使われており、数量を示す「三つ」の後に「に」が使われます。これは「～に～です」という表現で、数量を示す語の後に「に」が使われることが一般的です。したがって、正解は「に（2）」です。\n\n他の選択肢について検討します：\n- 「で（1）」は、場所や手段を示すときに使われますが、この文では数量を示すための適切な助詞ではありません。\n- 「へ（3）」は、方向や目標を示すときに使われますが、この文では数量を示すための適切な助詞ではありません。\n- 「を（4）」は、動作の対象を示すときに使われますが、この文では数量を示すための適切な助詞ではありません。\nしたがって、他の選択肢は文法的に不適切であり、正解は「に（2）」です。",
+    "explanation": "The first blank in the question '（　）に 何を 入れますか。' asks what to put into something. The particle 'に' is used for location or destination, fitting the context of putting something into a container. The second blank in '三つ（　）三百円です' uses 'に' to indicate quantity, as in '一つに百円です' (one for 100 yen). Both blanks require 'に', so the correct choice is 2. Other options like 'へ' (direction) or 'を' (object) don't fit the grammatical structure here.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T18:56:29.756807+00:00",
+  "reviewed_at": "2026-11-10T20:45:20.797804+00:00",
   "review_policy_version": "2"
 }

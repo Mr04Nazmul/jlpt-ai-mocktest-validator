@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "NEEDS_REVIEW",
+      "attempts": 1,
       "generated": true,
-      "error": "Reviewer incorrectly rejected quantity-price particle で. Correct original item/key preserved; retry with reviewer reasoning enabled.",
+      "error": "Independent review failed: N5-001-grammar_form-03",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -770,5 +770,5 @@
   },
   "failed": 0,
   "pending_reviews": 1,
-  "updated_at": "2026-11-10T18:56:29.785574+00:00"
+  "updated_at": "2026-11-10T20:45:20.821213+00:00"
 }
