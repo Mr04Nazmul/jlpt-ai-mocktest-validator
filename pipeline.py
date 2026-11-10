@@ -68,7 +68,9 @@ def ai_review(q):
         "messages":[{"role":"system","content":prompt},{"role":"user","content":json.dumps(q,ensure_ascii=False)}],
         "options":{"temperature":0,"num_ctx":4096,"num_predict":1200,"num_gpu":0}},timeout=240)
     response.raise_for_status()
-    out=json.loads(response.json()["message"]["content"])
+    raw=response.json()["message"]["content"]
+    Path("data/last_ai_response.json").write_text(raw)
+    out=json.loads(raw)
     checks=["vocabulary","grammar","reading","kanji","hiragana","furigana","answer_key"]
     if not isinstance(out,dict) or not all(k in out for k in ["suggested_level","checks","issues","proposed_text","proposed_answer","confidence","uncertain"]):
         raise ValueError("Incomplete AI response; manual review required")
