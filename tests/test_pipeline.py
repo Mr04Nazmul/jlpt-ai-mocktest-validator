@@ -6,7 +6,7 @@ class PipelineTest(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory()
         self.patch=patch.object(p,"DB",Path(self.tmp.name)/"q.db"); self.patch.start()
-        self.text="わたしは 学生です。\n1. がくせい\n2. せんせい\n3. いしゃ\n4. かいしゃいん"
+        self.text="「学生」の 読み方は どれですか。\n1. がくせい\n2. せんせい\n3. いしゃ\n4. かいしゃいん"
         self.q=p.make_question(self.text,"N5",{"title":"Original CC0 fixture"},answer=1)
     def tearDown(self): self.patch.stop(); self.tmp.cleanup()
     def test_roundtrip_and_duplicates(self):
