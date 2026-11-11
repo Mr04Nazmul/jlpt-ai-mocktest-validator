@@ -2,7 +2,7 @@
   "question_hash": "194117d69bee5863bda6325425b1cf045081203c30fb8bf71abb722a8189c91f",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 4,
@@ -17,17 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The sentence describes giving flowers on a mother's birthday. あげました (gave) directly matches the context of presenting flowers as a gift. かしました (bought) implies purchasing but not the act of giving. ならいました (became) and かぶりました (wore) are semantically unrelated to flower-giving. The N5 level requires basic verbs, and あげました is foundational.",
+    "explanation": "この文脈では「あげました」が最も適切です。母の誕生日に花を贈る行為を表すため、贈与を意味する「あげる」の過去形「あげました」が正しいです。他の選択肢は文脈に合いません。「かしました」は「買う」の過去形で、贈る行為ではありません。「ならいました」は「学ぶ」の過去形で、文脈に無関係です。「かぶりました」は「着る」の過去形で、花を着るという意味に矛盾します。N5レベルに合った基本的な動詞の使い分けが求められており、選択肢は自然な日本語で構成されています。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T22:06:59.228273+00:00",
+  "reviewed_at": "2026-11-11T04:21:17.893957+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
       "uncertain": false,
-      "reason": "The new item N5-001-context-06 has a distinct context (birthday gift) and unique verb choices (あげました) compared to prior items which focus on umbrella (かしました), window (あけました), bus (乗りました), tiredness (つかいました), and meeting (はじめました). While all follow the same question format, their content, context, and verb usage are sufficiently different to qualify as distinct questions on separate passage_ids."
+      "reason": "The new item (N5-001-context-06) involves selecting the correct verb for giving flowers on a birthday ('あげました'), which is distinct in context and verb usage compared to prior items (e.g., carrying an umbrella, opening windows, boarding buses, feeling tired, meeting times). No semantic duplication, paraphrasing, or template reuse is detected."
     }
   ],
-  "semantic_comparison_hash": "69c41715383d1acd3de19350ef4583228876daa5496178e20214ccec58ba3c8e"
+  "semantic_comparison_hash": "1af9234de6672f87e3e561a07d84872860c477bf2c0c0e949ba5d92b43ac4028"
 }

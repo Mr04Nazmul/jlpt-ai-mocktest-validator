@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "NEEDS_REVIEW",
+      "attempts": 1,
       "generated": true,
-      "error": "Bus item now explicitly states intended trip to school; correct boarding key preserved. Re-review changed content independently; reviewer hallucinations remain rejected.",
+      "error": "Independent review failed: N5-001-paraphrase-01",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -775,5 +775,5 @@
   },
   "failed": 0,
   "pending_reviews": 1,
-  "updated_at": "2026-11-11T03:10:57.747370+00:00"
+  "updated_at": "2026-11-11T04:37:04.946651+00:00"
 }

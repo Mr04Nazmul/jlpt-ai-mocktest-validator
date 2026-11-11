@@ -2,7 +2,7 @@
   "question_hash": "7e6c66ffe4cb386d242b78a7156bcfb8d39227117d3db4b88685456ffa7ad190",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,17 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The sentence describes walking a lot, leading to physical exhaustion. つかれました (option 2) directly conveys 'got tired,' which is the logical consequence. あらいました (1) means 'appeared' (unrelated), わすれました (3) means 'forgot' (unrelated), and おぼえました (4) means 'remembered' (unrelated). The natural Japanese connection between walking extensively and fatigue makes 2 the only defensible choice.",
+    "explanation": "文脈から、たくさん歩いた後によく合うのは「つかれました」です。他の選択肢は文意に合いません。1は「あらいました」は「出現した」の意味で、2は「つかれました」は「疲れた」の意味で、3は「わすれました」は「忘れた」の意味で、4は「おぼえました」は「覚えた」の意味です。文脈から「疲れた」が最も適切です。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T21:58:51.877306+00:00",
+  "reviewed_at": "2026-11-11T04:01:03.156567+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
       "uncertain": false,
-      "reason": "All items have distinct contextual scenarios (weather, temperature, transportation, physical exertion) and unique choice options. While they share the same question format (select the best option from four choices), their content, context, and answer explanations differ. The empty passage_id indicates they are independent items without shared passage content."
+      "reason": "The new item involves selecting a verb to describe the state of being tired after walking, while prior items focus on different contexts (rain, opening windows, boarding a bus). The question structures are similar but the semantic content and answer choices differ, indicating no direct duplication."
     }
   ],
-  "semantic_comparison_hash": "b2729a534e33aaa9aaa5842b841238c216648abffb59a0326ae7245c5050437f"
+  "semantic_comparison_hash": "d56e8912dec920cd3a396686851e63ab93e9ea0a014b07581291d27435ba1de0"
 }

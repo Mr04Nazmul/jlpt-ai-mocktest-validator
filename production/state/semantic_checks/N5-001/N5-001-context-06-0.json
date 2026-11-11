@@ -10,7 +10,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item N5-001-context-06 has a distinct context (birthday gift) and unique verb choices (あげました) compared to prior items which focus on umbrella (かしました), window (あけました), bus (乗りました), tiredness (つかいました), and meeting (はじめました). While all follow the same question format, their content, context, and verb usage are sufficiently different to qualify as distinct questions on separate passage_ids."
+    "reason": "The new item (N5-001-context-06) involves selecting the correct verb for giving flowers on a birthday ('あげました'), which is distinct in context and verb usage compared to prior items (e.g., carrying an umbrella, opening windows, boarding buses, feeling tired, meeting times). No semantic duplication, paraphrasing, or template reuse is detected."
   },
-  "recorded_at": "2026-11-10T22:09:12.917201+00:00"
+  "recorded_at": "2026-11-11T04:28:31.325786+00:00"
 }

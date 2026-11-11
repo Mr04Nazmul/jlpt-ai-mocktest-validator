@@ -1,13 +1,13 @@
 {
-  "question_hash": "ad7bbe62ed631be6ce739482651df989363d6ff7a75b286da5cfec30698ebcb8",
+  "question_hash": "abd4811e560571c1f01a3e02ba5bb5478fed2db93531330d1605aa9c430c4c13",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:14b"
   ],
   "review": {
-    "answer": 1,
+    "answer": 4,
     "defensible_choices": [
-      1
+      4
     ],
     "checks": {
       "japanese": true,
@@ -17,9 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "正解は「おりて」です。バスが来たときに「おりてください」は自然な表現です。他の選択肢では、「たって」は「立って」の誤記で文脈に合いません。「あるいて」は存在しない動詞です。「のって」は「乗って」の誤記で、バスに乗り込む場面に使われますが、バスが来たときに「乗って」は不自然です。",
+    "explanation": "この文脈では、バスに乗り込む動作を表す「のって」が適切です。他の選択肢は文意に合いません。「おりて」は降りる、「たって」は立つ、「あるいて」は歩くを意味し、いずれも「のって」に比べて文脈に不適切です。N5レベルの語彙と文法に合っており、選択肢も学習者にとって理解可能なレベルです。",
     "issues": []
   },
-  "reviewed_at": "2026-11-11T03:10:57.730693+00:00",
-  "review_policy_version": "2"
+  "reviewed_at": "2026-11-11T03:52:21.192632+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item presents a distinct question about selecting the appropriate verb form for 'getting on a bus' (のって), while the prior items involve different contexts (holding an umbrella in the rain and opening a window for fresh air). The semantic content, grammatical focus, and situational contexts are unique to each item. No paraphrased questions, reused templates, or near-identical passages are detected."
+    }
+  ],
+  "semantic_comparison_hash": "358aedab9fa02847e7953e15086101927c064684f11e7797df972b958ec95b11"
 }
