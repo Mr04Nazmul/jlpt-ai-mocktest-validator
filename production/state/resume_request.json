@@ -1,6 +1,5 @@
 {
-  "reason": "Continue successful independent review from latest durable checkpoint",
-  "checkpoint_commit": "21d3bcfe683f9d2b7e5b3d6f11262ec34c912181",
-  "observed_review_records": 25,
-  "date": "2026-11-11T14:48:45+09:00"
+  "checkpoint_commit": "445b9873bf05f9378aaf7a5a799bb2ba4c9fe44d",
+  "requested_at": "2026-11-11T10:42:00Z",
+  "reason": "Retry transient local reviewer provider failure after committed checkpoint; preserve independent review and retry counters."
 }
