@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 1,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
-      "error": "Independent review failed: N5-001-context-03",
+      "error": "Bus item now explicitly states intended trip to school; correct boarding key preserved. Re-review changed content independently; reviewer hallucinations remain rejected.",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -22,7 +22,8 @@
         "Independent review failed: N5-001-grammar_form-03",
         "Semantic duplicate review failed: N5-001-context-02",
         "Independent review failed: N5-001-grammar_form-03",
-        "Independent review failed: N5-001-orthography-04"
+        "Independent review failed: N5-001-orthography-04",
+        "Independent review failed: N5-001-context-03"
       ],
       "next_retry_at": 0
     },
