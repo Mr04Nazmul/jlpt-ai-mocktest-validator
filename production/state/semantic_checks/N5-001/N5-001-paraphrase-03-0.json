@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-paraphrase-03",
+  "candidate_ids": [
+    "N5-001-paraphrase-01",
+    "N5-001-paraphrase-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item asks about 'もう一ど' with choices related to repeating the same content, while prior items focus on different underlined phrases ('むずかしくないです' and 'いつも') with distinct answer choices. No semantic duplication or paraphrasing detected between the new item and prior items."
+  },
+  "recorded_at": "2026-11-11T05:04:56.780839+00:00"
+}

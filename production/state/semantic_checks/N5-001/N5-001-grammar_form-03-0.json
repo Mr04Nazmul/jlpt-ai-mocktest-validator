@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-grammar_form-03",
+  "candidate_ids": [
+    "N5-001-grammar_form-01",
+    "N5-001-grammar_form-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All items are distinct grammar questions targeting different grammatical points (quantity-price relation, time, and accompaniment). While they share the same question format and N5 level, their semantic content and grammatical focus differ sufficiently to avoid duplication."
+  },
+  "recorded_at": "2026-11-11T05:20:01.851459+00:00"
+}

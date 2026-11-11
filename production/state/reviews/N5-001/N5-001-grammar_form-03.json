@@ -2,12 +2,12 @@
   "question_hash": "fb0df49e6472e1a96c15f6512aa34fad348a6378cd78508a2203db825681b2a0",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
-    "answer": 2,
+    "answer": 1,
     "defensible_choices": [
-      2
+      1
     ],
     "checks": {
       "japanese": true,
@@ -17,9 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The sentence requires a particle to indicate the price for three items. に is used for pricing (e.g., 一つに百円です). で marks location/means, へ indicates direction, and を marks the object. None of the other particles fit the context of expressing price. The structure '三つに三百円です' correctly means 'Three is 300 yen.'",
+    "explanation": "この文は「三つで三百円」の構文を示しており、数量に基づく価格を表す際に「で」が用いられる。他の選択肢「に」「へ」「を」は方向や対象を示すが、価格の文脈には不適切である。文の自然さやレベルの適切性、読み方、選択肢の誘導性に問題は見られない。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T22:47:52.381044+00:00",
-  "review_policy_version": "2"
+  "reviewed_at": "2026-11-11T05:17:35.806962+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "All items are distinct grammar questions targeting different grammatical points (quantity-price relation, time, and accompaniment). While they share the same question format and N5 level, their semantic content and grammatical focus differ sufficiently to avoid duplication."
+    }
+  ],
+  "semantic_comparison_hash": "2693a82fcaf58a95f9e0e0254c79d69e601681a1bcaf5bccf046dedcbe5db8af"
 }

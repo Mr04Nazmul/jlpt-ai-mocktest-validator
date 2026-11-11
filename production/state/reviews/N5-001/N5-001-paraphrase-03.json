@@ -2,7 +2,7 @@
   "question_hash": "5d3ce3768a4233759e64f3b098f4462c80851bbd92ff607171105df7003a872f",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,16 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The question asks to choose a sentence that has approximately the same meaning as 【もう 一ど】言ってください。The phrase 【もう 一ど】 is a common way to say 'please say it again' or 'say it once more'.\n\nChoice 1: 小さい こえで 言ってください。means 'please speak in a small voice' — this is about volume, not repetition, so it is not a paraphrase.\n\nChoice 2: 同じ ことを また 言ってください。means 'please say the same thing again' — this directly matches the meaning of 【もう 一ど】言ってください。It is the correct answer.\n\nChoice 3: はやく 言ってください。means 'please speak quickly' — this is about speed, not repetition, so it is not a paraphrase.\n\nChoice 4: べつの ことを 言ってください。means 'please say something else' — this is about changing the content, not repeating, so it is not a paraphrase.\n\nTherefore, the best choice is 2.",
+    "explanation": "「もう一ど言ってください」は「同じことをまた言ってください」に最も近い意味である。選択肢1は「小さいこえで」で音量を問うており、選択肢3は「はやく」で速度を問うており、選択肢4は「べつのこと」で内容の変更を要求している。これらはすべて「もう一ど」の意味と一致しない。選択肢2は「同じこと」を「また」言うという文脈で、原文の意図を正確に反映している。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T18:49:23.306876+00:00",
+  "reviewed_at": "2026-11-11T05:02:56.871305+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "The new item asks about 'もう一ど' with choices related to repeating the same content, while prior items focus on different underlined phrases ('むずかしくないです' and 'いつも') with distinct answer choices. No semantic duplication or paraphrasing detected between the new item and prior items."
     }
   ],
-  "semantic_comparison_hash": "c10c89c3de9c8030ec5b65104c79d48e0af7ca072f7f543592dfcaaff4e5bd00"
+  "semantic_comparison_hash": "e1cbe27c6c79fd4a071c9efb4adca49a8ddc146301e83266369ce743ae12640b"
 }

@@ -2,7 +2,7 @@
   "question_hash": "945c26c21627a3e513c54b4f6a966915587718d055491737f0f2892d0fd0bd17",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 3,
@@ -17,16 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "問題文の「いつも」は「常に」「いつも通り」の意味で、人が多いという状態が常に続くことを示しています。選択肢の中で、この意味に最も近いのは選択肢3の「まいにち」です。「まいにち」は「毎日」の意味で、常に繰り返すことを表します。選択肢1は「きのうだけ」（昨日だけ）で、常に続くという意味ではありません。選択肢2は「ときどき」（ときどき）で、頻度が低いことを示します。選択肢4は「あしただけ」（明日だけ）で、常に続くという意味ではありません。したがって、選択肢3が正解です。",
+    "explanation": "原文の「いつも」は「常に」「常に」を意味し、選択肢3の「まいにち」は「毎日」を意味しますが、文脈では「いつも」に最も近い意味を表しています。選択肢1と4は「きのうだけ」「あしただけ」で、特定の日付に限定しており、原文の意味と一致しません。選択肢2の「ときどき」は「時折」「たまに」を意味し、原文の「いつも」と反対の意味になります。したがって、選択肢3が正解です。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T17:59:07.633173+00:00",
+  "reviewed_at": "2026-11-11T04:57:11.336990+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "The questions are structurally similar (fill-in-the-blank with multiple-choice options) and share the same level/category, but the content differs significantly. The prior item focuses on 'むずかしくないです' (not difficult), while the new item focuses on 'いつも' (always). The answer choices, explanations, and semantic targets are distinct, indicating no direct duplication or paraphrasing."
     }
   ],
-  "semantic_comparison_hash": "f04a78d5208028903e4b7601dbf60ef4f437b3e35c2916cf303069023432fdd6"
+  "semantic_comparison_hash": "927fe34de6b1fe8dca3cedc237e049ccc45775ba817c169f7a3eaee3b80a9103"
 }

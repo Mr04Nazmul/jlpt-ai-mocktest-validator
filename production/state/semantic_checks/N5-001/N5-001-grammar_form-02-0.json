@@ -6,7 +6,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item and prior item share a similar question structure (choosing the correct particle) and the same initial instruction, but they differ in grammar focus: the prior item addresses time (六時（　）おきます) and the new item addresses companion (ともだち（　）テニスをしました). The particles tested ('に' vs 'と') serve distinct grammatical functions, and the contexts are unrelated. Both are distinct questions on different grammar points with no semantic duplication."
+    "reason": "The new item and prior item are both N5 grammar_form questions but differ in content, grammatical focus (companionship vs. time), answer choices, and explanations. They share structural similarity (multiple-choice format) but not semantic content or passage_id reuse."
   },
-  "recorded_at": "2026-11-10T22:14:01.250562+00:00"
+  "recorded_at": "2026-11-11T05:15:15.690462+00:00"
 }

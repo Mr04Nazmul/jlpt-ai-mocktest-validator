@@ -13,7 +13,7 @@
       "state": "RETRY_PENDING",
       "attempts": 0,
       "generated": true,
-      "error": "Improve paraphrase distractor naturalness: replace dirty-test wording with a grammatical timing statement. Correct answer unchanged; changed item needs independent review.",
+      "error": "Saved batch checkpoint; continue in next run",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -26,7 +26,7 @@
         "Independent review failed: N5-001-context-03",
         "Independent review failed: N5-001-paraphrase-01"
       ],
-      "next_retry_at": 0
+      "next_retry_at": 1794374880.383315
     },
     "N5-002": {
       "level": "N5",
@@ -774,7 +774,7 @@
       "attempts": 0
     }
   },
-  "failed": 0,
-  "pending_reviews": 1,
-  "updated_at": "2026-11-11T04:37:04.946651+00:00"
+  "failed": 1,
+  "pending_reviews": 0,
+  "updated_at": "2026-11-11T05:27:00.389155+00:00"
 }

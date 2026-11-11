@@ -1,0 +1,33 @@
+{
+  "question_hash": "9f06bb403b490a8e5b1959fd7dc28378217b96f97d0e315267f8cb9e0906af9f",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 4,
+    "defensible_choices": [
+      4
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この文は「～てもいいですか」の構文を用いており、この構文では動詞のて形が必要です。選択肢4「とって」は「とる」のて形であり、文法的に正しいです。選択肢1「とる」は辞書形で、この構文には不適切です。選択肢2「とり」は「とる」の連用形ではなく、て形ではありません。選択肢3「とった」は過去形で、文脈に合いません。したがって、選択肢4が正解です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T05:24:07.114545+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item introduces a distinct grammar point (te-form for permission) not present in prior items, which focus on different particles (に, と, で). No semantic duplication or paraphrasing detected."
+    }
+  ],
+  "semantic_comparison_hash": "5181f8f54507fe5b3a263bbab50e4c458807b4f08969df042f9097c530d17bcf"
+}

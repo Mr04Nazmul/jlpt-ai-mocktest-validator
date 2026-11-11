@@ -1,0 +1,12 @@
+{
+  "question_id": "N5-001-paraphrase-02",
+  "candidate_ids": [
+    "N5-001-paraphrase-01"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The questions are structurally similar (fill-in-the-blank with multiple-choice options) and share the same level/category, but the content differs significantly. The prior item focuses on 'むずかしくないです' (not difficult), while the new item focuses on 'いつも' (always). The answer choices, explanations, and semantic targets are distinct, indicating no direct duplication or paraphrasing."
+  },
+  "recorded_at": "2026-11-11T04:59:49.800296+00:00"
+}

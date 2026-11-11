@@ -2,7 +2,7 @@
   "question_hash": "33502e07c2cc9ee6437efeb2f33ffbaa7c4bf2a28c669003abd00d7ed7119737",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,10 +17,10 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The sentence describes a habitual action at a specific time (六時). The particle に is used to indicate specific times in Japanese. で indicates duration/means, が indicates possession/topic, and を marks objects. Thus, に (choice 2) is correct. Other choices are invalid: で would imply 'for six hours', が would incorrectly mark the time as a topic, and を is for objects.",
+    "explanation": "文の構造は「六時（　）おきます」であり、動詞「おきます」は「～に置く」の意味を持つが、この文脈では「六時に起きる」の誤記である可能性がある。ただし、与えられた文を基準にすると、時間の指定には「に」が用いられるため、選択肢2が正解となる。他の選択肢は、目的語（を）、場所・手段（で）、主語（が）を示すが、文脈に合致しない。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T22:10:31.642007+00:00",
+  "reviewed_at": "2026-11-11T05:10:48.479773+00:00",
   "review_policy_version": "2",
   "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 }
