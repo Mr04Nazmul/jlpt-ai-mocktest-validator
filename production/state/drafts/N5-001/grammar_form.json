@@ -134,20 +134,21 @@
       "id": "N5-001-grammar_form-06",
       "level": "N5",
       "category": "grammar_form",
-      "question": "最も よい ものを 一つ えらんでください。\nおんがくを（　）ながら、そうじを します。",
+      "question": "最も よい ものを 一つ えらんでください。\n父は いま ラジオで おんがくを（　）います。",
       "choices": [
         "きく",
         "きいて",
         "きき",
         "きいた"
       ],
-      "answer": 3,
-      "explanation": "「ながら」の前は動詞のます形から「ます」を取った形です。「ききます」から「きき」です。",
+      "answer": 2,
+      "explanation": "今している動作は「動詞のて形＋います」で表します。「きく」のて形は「きいて」なので、「きいています」が正解です。辞書形・ます形の語幹・た形は「います」に直接つながりません。",
       "passage": "",
       "passage_id": "",
       "tags": [
         "grammar_form",
-        "N5"
+        "N5",
+        "te_iru_progressive"
       ],
       "provenance": {
         "kind": "original_ai_generation",

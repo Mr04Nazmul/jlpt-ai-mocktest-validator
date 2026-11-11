@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 1,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
-      "error": "Independent review failed: N5-001-grammar_form-06",
+      "error": "Replace more advanced ながら item with N5 progressive ている; preserve original disagreement in recovery note and require fresh independent review.",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -24,9 +24,10 @@
         "Independent review failed: N5-001-grammar_form-03",
         "Independent review failed: N5-001-orthography-04",
         "Independent review failed: N5-001-context-03",
-        "Independent review failed: N5-001-paraphrase-01"
+        "Independent review failed: N5-001-paraphrase-01",
+        "Independent review failed: N5-001-grammar_form-06"
       ],
-      "next_retry_at": 1794374880.383315
+      "next_retry_at": 0
     },
     "N5-002": {
       "level": "N5",

@@ -1,0 +1,8 @@
+{
+  "question_id": "N5-001-grammar_form-06",
+  "original_construct": "ながら + verb stem; original answer きき was correct",
+  "replacement_reason": "Use elementary progressive ている for the N5 blueprint rather than the more advanced simultaneous-action construct. This is a replacement item, not acceptance of the reviewer’s incorrect claim that ながら follows て-form.",
+  "new_answer": "きいて",
+  "approval": "PENDING_INDEPENDENT_REVIEW",
+  "human_verified": false
+}
