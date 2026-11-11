@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 1,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
-      "error": "Independent review failed: N5-001-paraphrase-01",
+      "error": "Improve paraphrase distractor naturalness: replace dirty-test wording with a grammatical timing statement. Correct answer unchanged; changed item needs independent review.",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -23,7 +23,8 @@
         "Semantic duplicate review failed: N5-001-context-02",
         "Independent review failed: N5-001-grammar_form-03",
         "Independent review failed: N5-001-orthography-04",
-        "Independent review failed: N5-001-context-03"
+        "Independent review failed: N5-001-context-03",
+        "Independent review failed: N5-001-paraphrase-01"
       ],
       "next_retry_at": 0
     },
