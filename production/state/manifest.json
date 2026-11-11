@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 1,
+      "state": "NEEDS_REVIEW",
+      "attempts": 2,
       "generated": true,
-      "error": "All configured reviewer alternatives failed: qwen3:14b",
+      "error": "Independent review failed: N5-001-sentence_composition-02",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -776,7 +776,7 @@
       "attempts": 0
     }
   },
-  "failed": 1,
-  "pending_reviews": 0,
-  "updated_at": "2026-11-11T10:06:28.530760+00:00"
+  "failed": 0,
+  "pending_reviews": 1,
+  "updated_at": "2026-11-11T11:44:40.178888+00:00"
 }
