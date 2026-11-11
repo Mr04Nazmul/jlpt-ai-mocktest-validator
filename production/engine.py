@@ -187,6 +187,11 @@ class Factory:
    review_path=self.state/'reviews'/id/(q['id']+'.json')
    public={k:v for k,v in q.items() if k not in ('answer','explanation','provenance')}
    public['choices']={str(i):choice for i,choice in enumerate(q['choices'],1)}
+   if q['category']=='sentence_composition':
+    # Supply positional structure only, never the author's solution or key.
+    slots=list(re.finditer(r'___|★',q['question']))[-4:]
+    public['composition_positions']=[{'position':i,'marked':m.group()=='★'} for i,m in enumerate(slots,1)]
+    public['composition_task']='Arrange all four numbered fragments into these four positions. Return the fragment number at the marked position, not the fragment adjacent to the printed ending.'
    eligible_reviewers={(p['base_url'],p['model']) for p in self.models.choose('reviewer',identities[q['id']])}
    cached=read(review_path) if review_path.exists() else {}
    if cached.get('question_hash')==content_hash(q) and tuple(cached.get('reviewer_identity',[])) in eligible_reviewers and cached.get('review_policy_version')=='2' and cached.get('review',{}).get('answer')==q['answer'] and cached.get('review',{}).get('issues')==[]:record=cached

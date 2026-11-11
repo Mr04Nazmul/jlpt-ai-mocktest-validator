@@ -1,0 +1,28 @@
+{
+  "reason": "Reviewer confuses marked second position with final fragment. Correct sentence remains おいしい/料理を/食べる/ことが. Retain content/key; supply only positional structure, no solution, then require independent review.",
+  "previous_review": {
+    "question_hash": "7c209b10ec76e6afa4e35f83bd2fb2321c9ddfcbae11ecd7ece950e2d7767338",
+    "reviewer_identity": [
+      "http://127.0.0.1:11434",
+      "qwen3:14b"
+    ],
+    "review": {
+      "answer": 4,
+      "defensible_choices": [
+        4
+      ],
+      "checks": {
+        "japanese": true,
+        "level": true,
+        "mondai": true,
+        "reading": true,
+        "distractors": true,
+        "passage": true
+      },
+      "explanation": "正しい文は「この店では 料理を ことが おいしい 吃る できます」ではありませんが、選択肢の4（ことが）を★の位置に置くと、文脈的に最も自然な構文になります。他の選択肢は文法的に不自然です。1（料理を）は目的語として適切ですが、★の位置に置くと文の流れがおかしくなります。2（食べる）は動詞として適切ですが、★の位置に置くと「食べるできます」となり、文法的に誤ります。3（おいしい）は形容詞として適切ですが、★の位置に置くと「おいしいできます」となり、文法的に誤ります。したがって、4（ことが）が正解です。",
+      "issues": []
+    },
+    "reviewed_at": "2026-11-11T19:56:11.334948+00:00",
+    "review_policy_version": "2"
+  }
+}
