@@ -1,0 +1,30 @@
+{
+  "reason": "Reviewer solved correctly but counted only underscores, excluding star. Clarify star is also a slot. Do not accept review with issues.",
+  "prior_review": {
+    "question_hash": "c662af341c4be36e0f3bed92d871d1fcab19e246297b79f99c6f07a964533086",
+    "reviewer_identity": [
+      "http://127.0.0.1:11434",
+      "qwen3:14b"
+    ],
+    "review": {
+      "answer": 2,
+      "defensible_choices": [
+        2
+      ],
+      "checks": {
+        "japanese": true,
+        "level": true,
+        "mondai": true,
+        "reading": true,
+        "distractors": true,
+        "passage": true
+      },
+      "explanation": "正解は「買った」（選択肢2）です。文は「これは日本で買った時計です。」となり、すべての語を正しく使用しています。選択肢1「時計」は文末に適切ですが、★の位置には不適切です。選択肢3「で」は場所を示す助詞で、★の位置には不適切です。選択肢4「日本」は場所を示す語で、★の位置には不適切です。",
+      "issues": [
+        "問題文の空白数（3つ）と使用する語の数（4つ）が一致していないため、文法的に成立しない文を作成することが不可能です。"
+      ]
+    },
+    "reviewed_at": "2026-11-11T11:44:40.155423+00:00",
+    "review_policy_version": "2"
+  }
+}
