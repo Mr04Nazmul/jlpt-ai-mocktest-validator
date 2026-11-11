@@ -1,5 +1,5 @@
 {
-  "question_hash": "c662af341c4be36e0f3bed92d871d1fcab19e246297b79f99c6f07a964533086",
+  "question_hash": "255e97debcde12acf2a07163aaa2df1039e1b1eea71a3c54d0470c6636b815ba",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:14b"
@@ -17,11 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "正解は「買った」（選択肢2）です。文は「これは日本で買った時計です。」となり、すべての語を正しく使用しています。選択肢1「時計」は文末に適切ですが、★の位置には不適切です。選択肢3「で」は場所を示す助詞で、★の位置には不適切です。選択肢4「日本」は場所を示す語で、★の位置には不適切です。",
-    "issues": [
-      "問題文の空白数（3つ）と使用する語の数（4つ）が一致していないため、文法的に成立しない文を作成することが不可能です。"
-    ]
+    "explanation": "正解は「買った」です。文は「これは日本で買った時計です。」と完成します。この文はすべての語を正しく使用しており、文法的にも自然です。選択肢1「時計」は文末に置かれるべき語であり、選択肢3「で」は「日本」の後に続く助詞として適切です。選択肢4「日本」は「で」の前に置かれるべき語です。したがって、選択肢2「買った」が正解です。",
+    "issues": []
   },
-  "reviewed_at": "2026-11-11T11:44:40.155423+00:00",
-  "review_policy_version": "2"
+  "reviewed_at": "2026-11-11T14:08:07.119355+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item and prior item share the same category (sentence_composition) and level (N5), but their question structures and content differ. The new item requires composing a sentence with four words and selecting the third blank's answer, while the prior item asks for a single blank's correct word in a different sentence structure. No semantic duplication or near-identical passages are detected."
+    }
+  ],
+  "semantic_comparison_hash": "f385d6a15dfa89fcfa8065b1c55cbb1d189aedadcadc48c2ae81d9ae7b728c58"
 }

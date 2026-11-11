@@ -1,0 +1,12 @@
+{
+  "question_id": "N5-001-sentence_composition-02",
+  "candidate_ids": [
+    "N5-001-sentence_composition-01"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item and prior item share the same category (sentence_composition) and level (N5), but their question structures and content differ. The new item requires composing a sentence with four words and selecting the third blank's answer, while the prior item asks for a single blank's correct word in a different sentence structure. No semantic duplication or near-identical passages are detected."
+  },
+  "recorded_at": "2026-11-11T14:11:18.307211+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "question_hash": "282cab14bba0371ef2beb975f7a2a70b44e9c0909408639a4728899af18c2f91",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この店では 料理が できます は自然な文で、料理が は主語を表し、できます は可能であることを示す。他の選択肢は文法的に不適切である。選択肢2（おいしい）は形容詞で、文の構造に合わない。選択肢3（安く）は副詞で、この文脈では不自然である。選択肢4（て）は助詞で、文の意味を成さない。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T14:24:41.581787+00:00",
+  "review_policy_version": "2"
+}
