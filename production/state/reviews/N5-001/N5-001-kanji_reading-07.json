@@ -2,7 +2,7 @@
   "question_hash": "eae7fd8fc8aaa19ef09b568966055207813bfd6c836c19e2f9da750c1fbcc00e",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 4,
@@ -17,16 +17,9 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は「近い」の読みを尋ねています。文の意味は「えきは ここから 【近い】です」ということなので、「ここから近い」つまり「ここに近い」を意味します。この文脈では「ちかい」が適切な読みです。「ながい」は「長い」、「たかい」は「高い」、「ひくい」は「低い」の読みであり、文脈に合いません。したがって、正解は4です。",
+    "explanation": "The kanji 【近い】 in the sentence 'えきは ここから 【近い】です。' (The station is close from here) must be read as 'ちかい' (option 4), which means 'close' or 'near.' Other choices are incorrect: ながい (long), たかい (high/expensive), and ひくい (low/shallow) do not match the context of proximity. The question is appropriate for N5 level, with clear distractors and natural Japanese.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:47:04.987875+00:00",
-  "review_policy_version": "2",
-  "semantic_reviews": [
-    {
-      "duplicate_ids": [],
-      "uncertain": false
-    }
-  ],
-  "semantic_comparison_hash": "9fd352e2bc7dc05ee6e822cd867325320bea2a2bf95052657d0baaee4e6edc62"
+  "reviewed_at": "2026-11-11T00:56:44.958971+00:00",
+  "review_policy_version": "2"
 }

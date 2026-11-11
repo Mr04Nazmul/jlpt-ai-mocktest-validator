@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-kanji_reading-03",
+  "candidate_ids": [
+    "N5-001-kanji_reading-01",
+    "N5-001-kanji_reading-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item shares a similar question structure with prior items (fill-in-the-blank kanji reading question with multiple-choice answers), but the target vocabulary ('電気' in N5-001-kanji_reading-03) is distinct from the prior items' targets ('学校' and '白い'). The explanations also differ in their specific linguistic distinctions. No semantic duplication or near-identical passages are detected."
+  },
+  "recorded_at": "2026-11-11T00:18:42.865365+00:00"
+}

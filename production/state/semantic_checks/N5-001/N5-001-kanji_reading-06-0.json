@@ -1,0 +1,16 @@
+{
+  "question_id": "N5-001-kanji_reading-06",
+  "candidate_ids": [
+    "N5-001-kanji_reading-01",
+    "N5-001-kanji_reading-02",
+    "N5-001-kanji_reading-03",
+    "N5-001-kanji_reading-04",
+    "N5-001-kanji_reading-05"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All questions follow the same structural template but target distinct kanji/compound words (e.g., 牛肉, 学校, 白い, 電気, 毎朝, 道). No semantic duplication, paraphrasing, or near-identical passages exist between items. The consistent question format is expected for a series of kanji reading exercises."
+  },
+  "recorded_at": "2026-11-11T00:51:24.554587+00:00"
+}

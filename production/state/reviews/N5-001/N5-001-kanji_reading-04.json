@@ -2,7 +2,7 @@
   "question_hash": "21ca87648936cbffb46c7d3856f73197055034ed7488ee92b01c905dbe8a2da7",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,15 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "「毎朝」は「まいあさ」と読みます。この語は「毎」（まい）＋「朝」（あさ）で構成され、「毎」は「毎度」や「毎日」などに使われる副詞、「朝」は「朝ごはん」や「朝の」などに使われる時間の表現です。文脈では「毎朝」は「毎日朝」の意味で使われており、正しい読みは「まいあさ」です。\n\n「まいばん」は「毎晩」の読みで、夜の時間に使われます。「まいにち」は「毎日」の読みで、一日ごとに繰り返すことを表します。「まいしゅう」は存在しない読みです。したがって、「まいあさ」が唯一正しい読みであり、他の選択肢は誤りです。",
+    "explanation": "「毎朝」は「まいあさ」と読みます。毎（まい）は「毎日」や「毎週」などと同じ読みですが、朝（あさ）は「あさ」のみの読みです。選択肢1「まいばん」は「毎晩」（夜）を表し、選択肢3「まいにち」は「毎日」（日）を表し、選択肢4「まいしゅう」は「毎週」（週）を表します。文脈が「朝」なので、選択肢2のみが正解です。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:11:31.255955+00:00",
+  "reviewed_at": "2026-11-11T00:23:03.952715+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "All questions follow a standard template for kanji/kana reading practice, but each tests a distinct target word (毎朝, 学校, 白い, 電気) with unique content. No semantic duplication, paraphrasing, or shared narrative templates exist between items."
     }
   ],
   "semantic_comparison_hash": "f07abfa4b4eb909e80e61186b50787b5f684d4a7b9a6bff6e96b54e4d16fd403"

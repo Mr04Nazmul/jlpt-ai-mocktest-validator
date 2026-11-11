@@ -1,0 +1,14 @@
+{
+  "question_id": "N5-001-kanji_reading-04",
+  "candidate_ids": [
+    "N5-001-kanji_reading-01",
+    "N5-001-kanji_reading-02",
+    "N5-001-kanji_reading-03"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All questions follow a standard template for kanji/kana reading practice, but each tests a distinct target word (毎朝, 学校, 白い, 電気) with unique content. No semantic duplication, paraphrasing, or shared narrative templates exist between items."
+  },
+  "recorded_at": "2026-11-11T00:27:48.670047+00:00"
+}

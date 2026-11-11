@@ -2,7 +2,7 @@
   "question_hash": "f9588868ed20c3ab337a11dc46af88fda41d7e78a325676fc8b622a57b20202d",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 1,
@@ -17,15 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は「白い」の読みを尋ねています。文の意味は「この白いかばんはわたしのです（この白い鞄は私のものです）」です。この文の中で「白い」は「しろい」と読みます。「しろい」は「白い」の標準的な読みです。他の選択肢「くろい（黒い）」「あおい（青い）」「あかい（赤い）」は文の意味と矛盾しており、文脈に合いません。したがって、「しろい」が唯一正しい読みです。",
+    "explanation": "The kanji 白い (shiroi) means 'white' and is correctly read as しろい. Choice 2 (くろい) refers to 黒い ('black'), choice 3 (あおい) refers to 青い ('blue'), and choice 4 (あかい) refers to 赤い ('red'). These are all valid N5-level readings but do not match the context of 白い. The sentence explicitly uses 白い to describe a white bag, making しろい the only defensible choice.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:08:34.066178+00:00",
+  "reviewed_at": "2026-11-11T00:03:17.304216+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "The new item and prior item share a similar question structure (fill-in-the-blank kanji reading) and category (kanji_reading), but they test different kanji (白い vs. 学校) with distinct answer choices and explanations. Since the content being tested is not semantically overlapping and the passage_ids are empty (no shared passage), they are not duplicates."
     }
   ],
   "semantic_comparison_hash": "5895ff615a3c59533ed710c26f0e20a704d3f50afd17a62ad7fc6b331f0519d4"

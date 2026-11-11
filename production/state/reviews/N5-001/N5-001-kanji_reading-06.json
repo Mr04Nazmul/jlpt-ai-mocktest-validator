@@ -2,7 +2,7 @@
   "question_hash": "7f707b5434b8d9f8df0b822744589502f2ffb1017f6fdf330873e6afd0097426",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,15 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "「牛肉」は「ぎゅうにく」と読みます。これは「牛（うし）」＋「肉（にく）」の組み合わせで、「うし」は「ぎゅう」と長音をもつ読み方（音読み）です。「ぎゅうにく」は正しい読み方です。\n\n「ぎゅにく」は「牛」の読みが短音で表されているため、不自然です。「きゅうにく」は「牛」の読みが「きゅう」となっており、誤りです。「ぎょうにく」は「牛」の読みが「ぎょう」となっており、誤りです。\n\nしたがって、「ぎゅうにく」が唯一正しい読み方であり、他の選択肢は誤りです。",
+    "explanation": "The correct reading for 【牛肉】 is ぎゅうにく (choice 2). 牛 is read as ぎゅう in compound words like 牛乳 (ぎゅうにゅう) and 肉 is consistently にく. Choice 1 (ぎゅにく) incorrectly uses ぎゅ for 牛, which is not standard. Choice 3 (きゅうにく) uses an incorrect kana for 牛. Choice 4 (ぎょうにく) confuses 牛 with 酪 (ぎょう), which is unrelated. The question aligns with N5 level vocabulary and readings.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:14:47.141553+00:00",
+  "reviewed_at": "2026-11-11T00:45:22.104010+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "All questions follow the same structural template but target distinct kanji/compound words (e.g., 牛肉, 学校, 白い, 電気, 毎朝, 道). No semantic duplication, paraphrasing, or near-identical passages exist between items. The consistent question format is expected for a series of kanji reading exercises."
     }
   ],
   "semantic_comparison_hash": "b7de232558af5b9843f717ca7d31e4f40ae6595bcd769f6fdadfc06e44162069"
