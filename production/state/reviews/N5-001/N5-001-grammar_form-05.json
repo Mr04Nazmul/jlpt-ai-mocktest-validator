@@ -1,0 +1,33 @@
+{
+  "question_hash": "8ea4275ee98eae80d7a3bc0fdb49b9c7a58d4d519efb3ae29e346311ca7719d5",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文脈は「きのうはあまり（　）」で、過去の否定を表す必要があります。形容詞「さむい」の過去否定形は「さむくなかったです」（選択肢2）です。選択肢1「さむいです」は現在肯定形で文脈に合いません。選択肢3「さむくないです」は現在否定形で、過去を表していません。選択肢4「さむいでした」は過去形の誤用で、正しい過去形は「さむかったです」です。したがって、選択肢2が唯一正解です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T05:56:53.795215+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item (N5-001-grammar_form-05) focuses on past-negative い-adjective conjugation with 'あまり' (e.g., 'さむくなかったです'), while prior items address distinct grammar points: time expressions (N5-001-grammar_form-01), particle usage (N5-001-grammar_form-02), counter usage (N5-001-grammar_form-03), and verb phrase completion (N5-001-grammar_form-04). No semantic duplication, paraphrasing, or shared narrative templates are present."
+    }
+  ],
+  "semantic_comparison_hash": "2532f526c6c138eda726985583e990ef56e5779e6d1f5f00d049377e723fed54"
+}

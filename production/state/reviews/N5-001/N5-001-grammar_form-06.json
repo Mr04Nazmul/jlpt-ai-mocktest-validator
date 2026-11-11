@@ -1,0 +1,25 @@
+{
+  "question_hash": "b76f1ad41e128be25b2e9c73220527bfdc1ae571d2fd45b5d40229d364dcad46",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文の構造は「ながら」で二つの動作を同時に表しています。「ながら」は連用形（て形）に接続するため、正しい形は「きいて」です。選択肢1「きく」は辞書形で、「ながら」に不適切です。選択肢3「きき」はマス形で、文法的に不適切です。選択肢4「きいた」は過去形で、現在の動作を表す文脈に不適切です。したがって、選択肢2が唯一の正解です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T06:04:53.206999+00:00",
+  "review_policy_version": "2"
+}
