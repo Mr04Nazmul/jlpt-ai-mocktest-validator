@@ -1,0 +1,29 @@
+{
+  "previous_question": {
+    "id": "N5-001-sentence_composition-03",
+    "level": "N5",
+    "category": "sentence_composition",
+    "question": "★に 入る ものは どれですか。この 店では ___ ★ ___ ___ できます。",
+    "choices": [
+      "料理が",
+      "おいしい",
+      "安く",
+      "て"
+    ],
+    "answer": 4,
+    "explanation": "「安く／て／おいしい／料理が」の順です。★は「て」です。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "sentence_composition",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  "reason": "Original split adjective ending and restaurant cooking interpretation were awkward. New original item uses natural 食べることができます construction and explicit four-word ordering. No approval written."
+}
