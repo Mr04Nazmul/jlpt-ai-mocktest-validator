@@ -2,7 +2,7 @@
   "question_hash": "dd6fb6b004d5aa4874a25c007f437618b45e381517c83b87e02590d91a2b3eef",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 3,
@@ -17,15 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "問題文は「【みぎ】に 小さい こうえんが あります。」と述べています。この文では「みぎ（右）」という言葉が使われており、その語を正しく書くことが問われています。「みぎ」は「右」の読み方です。選択肢の中では「3：右」が正しい書き方です。他の選択肢は「左（ひだり）」「石（いし）」「口（くち）」であり、これらは文脈に合致しません。したがって、正解は「3：右」です。",
+    "explanation": "The hiragana みぎ corresponds to the kanji 右 (choice 3), meaning 'right.' 左 (choice 1) is 'left' (ひだり), 石 (choice 2) is 'stone,' and 口 (choice 4) is 'mouth.' Only 右 matches the reading みぎ. The level N5 is appropriate as 右 is an N5 kanji. Distractors are plausible but incorrect. No passage is needed for this standalone orthography question.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:49:44.896549+00:00",
+  "reviewed_at": "2026-11-11T02:08:33.515713+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "All items share the same question structure and orthography category, but the target vocabulary (みぎ/やま/みず) and explanations are distinct. The template reuse is legitimate for N5 orthography questions, and no semantic content overlaps between the specific questions."
     }
   ],
   "semantic_comparison_hash": "fc6f1603a61ea41eb3c8c96d41e9d2821753e546df3ecc56ea403928311b1e3d"

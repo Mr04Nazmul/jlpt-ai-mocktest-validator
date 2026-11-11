@@ -1,0 +1,12 @@
+{
+  "question_id": "N5-001-orthography-02",
+  "candidate_ids": [
+    "N5-001-orthography-01"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "Both items use a similar question template (hiragana-to-kanji conversion with context), but the specific content differs: N5-001-orthography-01 asks about 'やま' (mountain) in the context of taking a photo, while N5-001-orthography-02 asks about 'みず' (water) in the context of requesting a drink. The answers (山 vs. 水) and explanations are distinct, so they are not semantic duplicates."
+  },
+  "recorded_at": "2026-11-11T02:05:01.984388+00:00"
+}

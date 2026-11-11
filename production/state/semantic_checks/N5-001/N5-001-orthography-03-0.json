@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-orthography-03",
+  "candidate_ids": [
+    "N5-001-orthography-01",
+    "N5-001-orthography-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All items share the same question structure and orthography category, but the target vocabulary (みぎ/やま/みず) and explanations are distinct. The template reuse is legitimate for N5 orthography questions, and no semantic content overlaps between the specific questions."
+  },
+  "recorded_at": "2026-11-11T02:13:49.487539+00:00"
+}

@@ -2,7 +2,7 @@
   "question_hash": "f38ada840b6d40cba297b94a4717e9b8b68c4c61b8a7c6fa5b9710e674c47612",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 4,
@@ -17,15 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The question asks, 【　】の ことばは どう 書きますか。【みず】を 一ぱい ください。 This translates to 'How do you write the word for 【みず】? Please give me a full cup.' The word 【みず】 is the reading for the kanji 水, which means 'water.' The question is testing orthography, specifically the correct kanji for the on'yomi reading 'みず.' Among the choices, only 水 (choice 4) matches this reading. The other choices—火 (fire), 木 (tree), and 金 (metal)—have different readings and meanings, making them incorrect. The question is appropriate for N5 level as it focuses on basic kanji readings and writing.",
+    "explanation": "The word 【みず】 corresponds to the kanji 水 (choice 4), which means 'water' in Japanese. The other choices are 火 (fire, choice 1), 木 (tree, choice 2), and 金 (gold, choice 3), none of which have the reading 'みず'. This is a basic N5 orthography question, and the answer is consistent with the level. The distractors are plausible common kanji but with incorrect readings. The passage is empty, but the question is self-contained and valid.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:48:52.663388+00:00",
+  "reviewed_at": "2026-11-11T02:01:13.339342+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "Both items use a similar question template (hiragana-to-kanji conversion with context), but the specific content differs: N5-001-orthography-01 asks about 'やま' (mountain) in the context of taking a photo, while N5-001-orthography-02 asks about 'みず' (water) in the context of requesting a drink. The answers (山 vs. 水) and explanations are distinct, so they are not semantic duplicates."
     }
   ],
   "semantic_comparison_hash": "98ffa11b2d13399674473566872e696abf4003f1df6463896cfdc7c6261b77fd"

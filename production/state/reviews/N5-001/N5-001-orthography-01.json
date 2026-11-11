@@ -2,7 +2,7 @@
   "question_hash": "ed5a4e56bb8b583cdaefbd98ca4244f61c15e7beacdf70c440aca5692ff12c40",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,10 +17,10 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The question asks how to write the word for '【やま】' in kanji. The sentence given is 【やま】の しゃしんを とりました, which translates to 'I took a photo of the 【やま】.' The word 【やま】 means 'mountain' in Japanese. The correct kanji for 'mountain' is 山 (read as やま). Among the choices, 2 is 山, which matches the meaning and reading of 【やま】. The other choices are: 1 (川 - 'river', read as かわ), 3 (田 - 'field', read as た), and 4 (天 - 'sky/heaven', read as てん). These do not match the reading or meaning of 【やま】, making them incorrect choices.",
+    "explanation": "The hiragana 【やま】 corresponds to the kanji 山 (yama), meaning 'mountain.' Choice 1 (川, kawa) means 'river,' choice 3 (田, ta) means 'field,' and choice 4 (天, ten) means 'heaven/sky.' None of these match the hiragana 【やま】. The sentence '山の写真をとりました' (I took a photo of a mountain) is contextually natural and fits N5 level vocabulary. Distractors are common N5 kanji with distinct readings, making them plausible but incorrect. Passage consistency is not an issue as the question is self-contained.",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:48:11.304301+00:00",
+  "reviewed_at": "2026-11-11T01:57:44.843124+00:00",
   "review_policy_version": "2",
   "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 }

@@ -1,0 +1,17 @@
+{
+  "question_id": "N5-001-kanji_reading-07",
+  "candidate_ids": [
+    "N5-001-kanji_reading-01",
+    "N5-001-kanji_reading-02",
+    "N5-001-kanji_reading-03",
+    "N5-001-kanji_reading-04",
+    "N5-001-kanji_reading-05",
+    "N5-001-kanji_reading-06"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All items follow a consistent template structure for kanji reading questions (sentence with blank, multiple-choice options, explanation). However, each question uses distinct kanji (e.g., 近い in N5-001-kanji_reading-07 vs. 学校, 白い, 電気, etc. in prior items) and unique contextual sentences. No semantic duplication, paraphrasing, or near-identical passages are present across items."
+  },
+  "recorded_at": "2026-11-11T01:52:16.550880+00:00"
+}
