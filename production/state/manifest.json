@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "NEEDS_REVIEW",
+      "attempts": 1,
       "generated": true,
-      "error": "Replace awkward restaurant cooking construction with explicit eating ability; fresh independent review required.",
+      "error": "Independent review failed: N5-001-sentence_composition-03",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -780,5 +780,5 @@
   },
   "failed": 0,
   "pending_reviews": 1,
-  "updated_at": "2026-11-11T14:24:41.654528+00:00"
+  "updated_at": "2026-11-11T15:07:30.954995+00:00"
 }
