@@ -1,0 +1,30 @@
+{
+  "reason": "Reviewer omitted required fragment and selected final phrase rather than starred slot. Added category-specific blind solving procedure; question and correct answer unchanged. No approval written.",
+  "prior_review": {
+    "question_hash": "7c209b10ec76e6afa4e35f83bd2fb2321c9ddfcbae11ecd7ece950e2d7767338",
+    "reviewer_identity": [
+      "http://127.0.0.1:11434",
+      "qwen3:14b"
+    ],
+    "review": {
+      "answer": 4,
+      "defensible_choices": [
+        4
+      ],
+      "checks": {
+        "japanese": true,
+        "level": true,
+        "mondai": true,
+        "reading": true,
+        "distractors": true,
+        "passage": true
+      },
+      "explanation": "正解は「4: ことが」です。この文は「この店では 料理を 吃る ことができます。」と完成します。ここで、「ことができます」は「～ことができる」の文型で、動詞「食べる」の連用形「食べて」ではなく、「ことができる」の「こと」が文末にくる構文です。選択肢1「料理を」は目的語として適切ですが、文の構造上2番目の星印（2番目の空欄）には「ことが」が入ります。選択肢2「食べる」は動詞で、この文型では「ことができます」の「こと」が文末にくるため不適切です。選択肢3「おいしい」は形容詞で、文脈に合いません。他の選択肢は文法的に不適切または文脈に合いません。",
+      "issues": [
+        "問題文の空白数（3つ）と使用する語の数（4つ）が一致していないため、正解が一意に定まらない。"
+      ]
+    },
+    "reviewed_at": "2026-11-11T15:07:30.939229+00:00",
+    "review_policy_version": "2"
+  }
+}
