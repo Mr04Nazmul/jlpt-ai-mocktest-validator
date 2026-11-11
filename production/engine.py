@@ -21,22 +21,22 @@ def content_hash(q): return sha(json.dumps(q,ensure_ascii=False,sort_keys=True).
 def chars(s): return len(re.sub(r'\s+','',s))
 def now(): return dt.datetime.now(dt.timezone.utc).isoformat()
 
-def request_json(url,payload=None,headers=None,method=None,timeout=120):
+def request_json(url,payload=None,headers=None,method=None,timeout=120,attempts=5):
  body=None if payload is None else json.dumps(payload).encode()
- for attempt in range(5):
+ for attempt in range(attempts):
   try:
    req=request.Request(url,data=body,headers={'Content-Type':'application/json',**(headers or {})},method=method)
    with request.urlopen(req,timeout=timeout) as res:return json.load(res)
   except error.HTTPError as e:
    if e.code not in (408,429,500,502,503,504):raise Blocked(f'HTTP {e.code} from configured provider') from None
-   if attempt==4:raise Blocked(f'Provider unavailable after retries (HTTP {e.code})') from None
+   if attempt==attempts-1:raise Blocked(f'Provider unavailable after retries (HTTP {e.code})') from None
    retry=e.headers.get('Retry-After','')
    delay=float(retry) if retry.isdigit() else 2**attempt+random.random()
    # Long waits become a durable retry instead of occupying a runner.
    if delay>45:raise Blocked(f'Rate limit: retry after {delay} seconds') from None
    time.sleep(delay)
   except (TimeoutError,OSError):
-   if attempt==4:raise Blocked('Configured provider network failure') from None
+   if attempt==attempts-1:raise Blocked('Configured provider network failure') from None
    time.sleep(2**attempt)
 
 class Models:
@@ -54,13 +54,15 @@ class Models:
    self.calls+=1
    try:
     if p.get('kind')=='ollama':
-     result=request_json(p['base_url'].rstrip('/')+'/api/chat',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'format':schema or 'json','stream':False,'think':role=='reviewer','keep_alive':0,'options':{'num_ctx':8192 if role=='reviewer' else 16384,'num_predict':8192,'temperature':0.2}},timeout=900)
+     result=request_json(p['base_url'].rstrip('/')+'/api/chat',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'format':schema or 'json','stream':False,'think':role=='reviewer','keep_alive':0,'options':{'num_ctx':8192 if role=='reviewer' else 16384,'num_predict':8192,'temperature':0.2}},timeout=1200,attempts=2)
      text=result['message']['content']
     else:
      result=request_json(p['base_url'].rstrip('/')+'/chat/completions',{'model':p['model'],'messages':[{'role':'user','content':prompt}],'response_format':{'type':'json_object'},'temperature':0.5},headers={'Authorization':'Bearer '+os.environ[p['key_env']]})
      text=result['choices'][0]['message']['content']
     return json.loads(text),(p['base_url'],p['model'])
-   except (Blocked,ValueError,KeyError):failures.append(p['model'])
+   except (Blocked,ValueError,KeyError) as exc:
+    detail=str(exc) if isinstance(exc,Blocked) else type(exc).__name__
+    failures.append(p['model']+': '+detail)
   raise Blocked(f'All configured {role} alternatives failed: '+', '.join(failures))
 
 def check_questions(items,blueprint,complete=True):
