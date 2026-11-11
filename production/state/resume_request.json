@@ -1,6 +1,6 @@
 {
-  "reason": "Resume successful 14B independent-review checkpoint",
-  "checkpoint_commit": "b9bf57a70eb36c01312ab6455cdced250cd0981b",
-  "current_reviewer_records": 7,
-  "date": "2026-11-11T10:43:18+09:00"
+  "reason": "Continue successful independent review from latest durable checkpoint",
+  "checkpoint_commit": "21d3bcfe683f9d2b7e5b3d6f11262ec34c912181",
+  "observed_review_records": 25,
+  "date": "2026-11-11T14:48:45+09:00"
 }
