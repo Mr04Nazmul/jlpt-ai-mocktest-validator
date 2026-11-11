@@ -1,0 +1,33 @@
+{
+  "question_hash": "106aace652e70bef00e454c040653e797d34d2303b9ba99a7874e566da343b62",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文脈は「あしたは休みですから」であり、未来の行動を否定する必要がある。選択肢2「行きません」は現在・未来の否定形で、文脈に合致する。選択肢1「行きました」は過去形で、未来の行動を表すには不適切である。選択肢3「行っています」は現在進行形で、否定の意図と矛盾する。選択肢4「行きませんでした」は過去否定形で、未来の行動を表すには不適切である。N5レベルの文法として、否定形の使用は適切であり、他の選択肢は学習者がよく間違える典型的な誤答である。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T07:06:35.300295+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item 'N5-001-grammar_form-09' involves a future tense context ('あした') and the choice of '行きません' to express a planned absence from school. None of the prior items share this exact grammatical structure, time frame, or contextual scenario. While item 'N5-001-grammar_form-07' also involves a negative choice ('行きませんでした'), it refers to a past event ('日曜日') and uses a different verb form (past negative). The semantic focus on future planning in the new item is unique among the provided questions."
+    }
+  ],
+  "semantic_comparison_hash": "a20540e8e4a90074bf52e96f83cafe11307ff59c2f334a05e822071b860afe66"
+}

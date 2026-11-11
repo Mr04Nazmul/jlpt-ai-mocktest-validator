@@ -1,5 +1,5 @@
 {
-  "question_hash": "b76f1ad41e128be25b2e9c73220527bfdc1ae571d2fd45b5d40229d364dcad46",
+  "question_hash": "da46176cb345d9f5c99b1b7c9b2e1446dc891dc5af784e8e87c1258080570fa5",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:14b"
@@ -17,9 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "文の構造は「ながら」で二つの動作を同時に表しています。「ながら」は連用形（て形）に接続するため、正しい形は「きいて」です。選択肢1「きく」は辞書形で、「ながら」に不適切です。選択肢3「きき」はマス形で、文法的に不適切です。選択肢4「きいた」は過去形で、現在の動作を表す文脈に不適切です。したがって、選択肢2が唯一の正解です。",
+    "explanation": "現在進行形を表す「て＋いる」の文型が適切です。動詞「聞く」のて形は「聞いて」であり、文脈に合います。選択肢1は基本形で現在進行形には不適切です。選択肢3はマス形で、現在進行形には使われません。選択肢4は過去形で、現在の動作を表すには不適切です。",
     "issues": []
   },
-  "reviewed_at": "2026-11-11T06:04:53.206999+00:00",
-  "review_policy_version": "2"
+  "reviewed_at": "2026-11-11T06:48:33.424115+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "No semantic duplication detected. The new item focuses on the te-iru progressive form with 'きく' (listening), while prior items cover different grammatical structures (time expressions, 'with' particle, price, taking photos, incomplete sentence). All items have distinct grammatical points and question contexts."
+    }
+  ],
+  "semantic_comparison_hash": "241c90af5a5453de84c85df6ecbba1d3b2ca6838e8482b963555155613fbd830"
 }

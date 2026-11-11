@@ -1,0 +1,16 @@
+{
+  "question_id": "N5-001-grammar_form-06",
+  "candidate_ids": [
+    "N5-001-grammar_form-01",
+    "N5-001-grammar_form-02",
+    "N5-001-grammar_form-03",
+    "N5-001-grammar_form-04",
+    "N5-001-grammar_form-05"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "No semantic duplication detected. The new item focuses on the te-iru progressive form with 'きく' (listening), while prior items cover different grammatical structures (time expressions, 'with' particle, price, taking photos, incomplete sentence). All items have distinct grammatical points and question contexts."
+  },
+  "recorded_at": "2026-11-11T06:51:40.696378+00:00"
+}

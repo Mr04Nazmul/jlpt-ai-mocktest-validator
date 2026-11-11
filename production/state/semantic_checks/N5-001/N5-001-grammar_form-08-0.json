@@ -1,0 +1,18 @@
+{
+  "question_id": "N5-001-grammar_form-08",
+  "candidate_ids": [
+    "N5-001-grammar_form-01",
+    "N5-001-grammar_form-02",
+    "N5-001-grammar_form-03",
+    "N5-001-grammar_form-04",
+    "N5-001-grammar_form-05",
+    "N5-001-grammar_form-06",
+    "N5-001-grammar_form-07"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item introduces a unique comparison structure using 'より' between two nouns (このへや vs あのへや), which differs from prior items that use particles in distinct contexts (e.g., time, location, accompaniment). No semantic duplication or paraphrasing is detected."
+  },
+  "recorded_at": "2026-11-11T07:03:24.721758+00:00"
+}

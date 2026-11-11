@@ -1,0 +1,17 @@
+{
+  "question_id": "N5-001-grammar_form-07",
+  "candidate_ids": [
+    "N5-001-grammar_form-01",
+    "N5-001-grammar_form-02",
+    "N5-001-grammar_form-03",
+    "N5-001-grammar_form-04",
+    "N5-001-grammar_form-05",
+    "N5-001-grammar_form-06"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item tests the grammar point 'どこへも〜ません' (not going anywhere), which is distinct from the prior items that focus on different grammatical structures (e.g., time expressions, companions, price, permission, and activities). No semantic duplication, paraphrasing, or shared narrative templates are detected."
+  },
+  "recorded_at": "2026-11-11T06:58:22.879428+00:00"
+}

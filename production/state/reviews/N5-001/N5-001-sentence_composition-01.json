@@ -1,0 +1,26 @@
+{
+  "question_hash": "9b7f6a0e1af5dbab549c36fdbf6dda801885cfd9fc6762bdec034399f865f724",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 3,
+    "defensible_choices": [
+      3
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文脈から、空欄に適する語は「から」です。この文は「～に住んでいます」の構文を用いており、場所を示す際には「から」が適切です。他の選択肢は文法的に不自然です。選択肢1「近い」は形容詞で、場所を示す語として不適切です。選択肢2「駅」は場所を示す名詞ですが、文の構造に合いません。選択肢4「所に」は「に」を含むが、文の流れに不自然です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T07:46:58.299223+00:00",
+  "review_policy_version": "2",
+  "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

@@ -1,0 +1,25 @@
+{
+  "question_hash": "ce61cd6205ddf42855730ba4fe5b5ba49888acc9f854b25a53c00b09bfdc9d4f",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "正解は選択肢1「時計」です。文は「これは日本で買った時計です。」と完成し、自然な日本語です。他の選択肢では、2「買った」は動詞で文脈に合わず、3「で」は助詞として不適切、4「日本」は文の意味を成しません。N5レベルに合っており、読みも正しいです。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T07:59:12.979110+00:00",
+  "review_policy_version": "2"
+}

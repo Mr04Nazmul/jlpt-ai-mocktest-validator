@@ -1,0 +1,33 @@
+{
+  "question_hash": "fe17678b6b7134295a4c1ac7e8a3dff32a465fd38d7f16a4a559f7a235c83680",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文の意味は「日曜日はどこにも行きませんでした」であり、空白に「へも」を挿入すると「どこへも」の形になり、目的地を示す「へ」に「も」を加えて「どこにも」を意味する。この構文はN5レベルの文法に合致し、否定の強調を表す。他の選択肢では、「だけ」は限定を表し、「から」は出発地を表し、「より」は比較を表すが、いずれも文の否定的な意味と矛盾する。したがって、選択肢1が唯一の正解である。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-11T06:55:53.414307+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item tests the grammar point 'どこへも〜ません' (not going anywhere), which is distinct from the prior items that focus on different grammatical structures (e.g., time expressions, companions, price, permission, and activities). No semantic duplication, paraphrasing, or shared narrative templates are detected."
+    }
+  ],
+  "semantic_comparison_hash": "d93235752a42524eedbbb76b73e9ab719b7506ed0acb71a1997ec2d001b6cb58"
+}
