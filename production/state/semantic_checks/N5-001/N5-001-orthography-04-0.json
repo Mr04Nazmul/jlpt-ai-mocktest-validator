@@ -1,0 +1,14 @@
+{
+  "question_id": "N5-001-orthography-04",
+  "candidate_ids": [
+    "N5-001-orthography-01",
+    "N5-001-orthography-02",
+    "N5-001-orthography-03"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All items share the same question template and structure (fill-in-the-blank orthography quiz with kana-to-kanji matching), but the specific content (target kana words: はち, やま, みず, みぎ) and answer choices are distinct. The shared structure is legitimate for this question type and does not constitute semantic duplication."
+  },
+  "recorded_at": "2026-11-11T02:53:36.691320+00:00"
+}

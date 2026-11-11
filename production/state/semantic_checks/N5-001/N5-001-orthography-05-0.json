@@ -1,0 +1,15 @@
+{
+  "question_id": "N5-001-orthography-05",
+  "candidate_ids": [
+    "N5-001-orthography-01",
+    "N5-001-orthography-02",
+    "N5-001-orthography-03",
+    "N5-001-orthography-04"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "All items follow a consistent structure for orthography questions at N5 level, but each tests distinct kanji (やすみ/休み, やま/山, みず/水, みぎ/右, はち/八) with unique explanations. No semantic duplication or paraphrasing detected between the new item and prior items."
+  },
+  "recorded_at": "2026-11-11T03:00:23.979835+00:00"
+}

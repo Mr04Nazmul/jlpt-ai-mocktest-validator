@@ -17,12 +17,17 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The word 「はち」 corresponds to the number 8 in Japanese. The correct kanji for 8 is 八 (choice 1). The other choices are incorrect: 入 (choice 2) represents ",
-    "issues": [
-      " or ",
-      "nyū"
-    ]
+    "explanation": "文脈から「はち」は「八」を指すことが明確です。選択肢1は「八」で、8を表す正しい漢字です。選択肢2「入」は「はいる」の意味で、選択肢3「人」は「ひと」を表し、選択肢4「六」は6を表すため、いずれも文脈に合いません。この問題はN5レベルに適しており、漢字の読み書きを問う典型的な構成です。",
+    "issues": []
   },
-  "reviewed_at": "2026-11-11T02:17:21.131377+00:00",
-  "review_policy_version": "2"
+  "reviewed_at": "2026-11-11T02:50:48.909570+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "All items share the same question template and structure (fill-in-the-blank orthography quiz with kana-to-kanji matching), but the specific content (target kana words: はち, やま, みず, みぎ) and answer choices are distinct. The shared structure is legitimate for this question type and does not constitute semantic duplication."
+    }
+  ],
+  "semantic_comparison_hash": "f98ee40360a6a2ca871bc3e03769e2e853de269025214fae580b5e915c2f470f"
 }

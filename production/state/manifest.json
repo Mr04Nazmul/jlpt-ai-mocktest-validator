@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "NEEDS_REVIEW",
+      "attempts": 1,
       "generated": true,
-      "error": "Reviewer answered orthography correctly but emitted truncated explanation fragments as issues; retry full independent review with complete Japanese prose, without altering question/key.",
+      "error": "Independent review failed: N5-001-context-03",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -774,5 +774,5 @@
   },
   "failed": 0,
   "pending_reviews": 1,
-  "updated_at": "2026-11-11T02:17:21.147691+00:00"
+  "updated_at": "2026-11-11T03:10:57.747370+00:00"
 }

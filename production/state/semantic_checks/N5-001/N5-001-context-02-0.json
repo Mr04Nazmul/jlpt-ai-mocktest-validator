@@ -6,7 +6,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item and prior item share a similar question structure (choosing the best option with a scenario and verb selection), but the content differs significantly. The prior question involves rain and an umbrella ('あめがふっていますから、（　）をさして行きます'), while the new question involves a hot room and window opening ('へやがあついです。外のすずしい空気を入れたいので、まどを（　）もいいですか'). The scenarios, verbs, and contexts are distinct, so no semantic duplication or reused template exists."
+    "reason": "The new item and prior item share similar structural templates (multiple-choice context questions at N5 level) but differ in semantic content. The new question involves selecting an action to let in cool air (opening a window), while the prior question involves selecting an item to use in the rain (umbrella). The contexts, scenarios, and correct answers are distinct, with no direct semantic duplication or paraphrasing."
   },
-  "recorded_at": "2026-11-10T21:53:04.337191+00:00"
+  "recorded_at": "2026-11-11T03:08:36.467261+00:00"
 }

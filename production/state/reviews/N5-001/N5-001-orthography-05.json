@@ -2,7 +2,7 @@
   "question_hash": "9f71e0bf4c4234cde845c5567c4c3341ec7bb0ede067e0952060067d3b41ad09",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 2,
@@ -17,15 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "この問題は、文「きょうは 【やすみ】です。」に基づき、「やすみ」の正しい表記を選ぶものです。「やすみ」は「休み」の読みであり、文脈では「休日」を意味しています。選択肢の中で「休み」（選択肢2）が正しい表記です。\n\n選択肢1「体み」は「体」に「み」をつける形で、文法的に不自然です。「体」は「からだ」であり、読みは「からだ」です。「み」は「みる」や「みる」などの動詞の連用形として使われますが、ここでは不適切です。\n\n選択肢3「本み」は「本」に「み」をつける形で、文法的に不自然です。「本」は「ほん」であり、読みは「ほん」です。「み」は「みる」や「みる」などの動詞の連用形として使われますが、ここでは不適切です。\n\n選択肢4「木み」は「木」に「み」をつける形で、文法的に不自然です。「木」は「き」であり、読みは「き」です。「み」は「みる」や「みる」などの動詞の連用形として使われますが、ここでは不適切です。\n\nしたがって、正しい表記は選択肢2「休み」です。",
+    "explanation": "「やすみ」は「休み」に書きます。他の選択肢は「体み」「本み」「木み」ですが、これらは「やすみ」の意味や読みに合いません。選択肢2の「休み」は「やすみ」の正しい漢字表記であり、文脈にも合います。他の選択肢は誤った漢字の組み合わせで、学習者にとって誤解を招く可能性がありますが、問題文の文脈とレベルに合っています。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T13:51:57.307499+00:00",
+  "reviewed_at": "2026-11-11T02:56:19.930058+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
-      "uncertain": false
+      "uncertain": false,
+      "reason": "All items follow a consistent structure for orthography questions at N5 level, but each tests distinct kanji (やすみ/休み, やま/山, みず/水, みぎ/右, はち/八) with unique explanations. No semantic duplication or paraphrasing detected between the new item and prior items."
     }
   ],
   "semantic_comparison_hash": "f6c087fbf59fb4db41331c2d6dce92fb2e425665d11f3fcd1c58f35de0903db3"

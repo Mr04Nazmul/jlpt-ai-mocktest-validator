@@ -2,7 +2,7 @@
   "question_hash": "55dad13e419872f05ee53700ffeec2e80c9698920012c425a409e609ac5aced5",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
-    "qwen3:8b"
+    "qwen3:14b"
   ],
   "review": {
     "answer": 1,
@@ -17,16 +17,16 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "The sentence describes a hot room where the speaker wants to let in cool outside air by opening the window. The verb 'あけて' (open) directly matches this context. Option 2 'しめて' (close) contradicts the goal of letting in air. Option 3 'けして' (close) is a distractor with similar meaning to しめて. Option 4 'つけて' (attach) is unrelated to window operations. The natural Japanese choice for opening windows is 'あけて', making it the only defensible answer.",
+    "explanation": "文脈から、部屋が暑く外の涼しい空気を取り入れたいという意図が読み取れるため、窓を開ける「あけて」が適切です。選択肢2「しめて」は窓を閉める意味で文意と矛盾し、選択肢3「けして」は「禁止する」の意味で文脈に合いません。選択肢4「つけて」は「電気をつける」などに用いられ、窓の動作には不適切です。他の選択肢は文法的に正しくても文意に合いません。",
     "issues": []
   },
-  "reviewed_at": "2026-11-10T20:53:57.722201+00:00",
+  "reviewed_at": "2026-11-11T03:06:01.101947+00:00",
   "review_policy_version": "2",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
       "uncertain": false,
-      "reason": "The new item and prior item share a similar question structure (choosing the best option with a scenario and verb selection), but the content differs significantly. The prior question involves rain and an umbrella ('あめがふっていますから、（　）をさして行きます'), while the new question involves a hot room and window opening ('へやがあついです。外のすずしい空気を入れたいので、まどを（　）もいいですか'). The scenarios, verbs, and contexts are distinct, so no semantic duplication or reused template exists."
+      "reason": "The new item and prior item share similar structural templates (multiple-choice context questions at N5 level) but differ in semantic content. The new question involves selecting an action to let in cool air (opening a window), while the prior question involves selecting an item to use in the rain (umbrella). The contexts, scenarios, and correct answers are distinct, with no direct semantic duplication or paraphrasing."
     }
   ],
   "semantic_comparison_hash": "9d0b771e20c3d3a0f6796e9163242b9ee8b245280219b51d9c2220e3a564c49f"
