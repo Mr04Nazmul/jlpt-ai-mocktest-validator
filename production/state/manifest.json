@@ -11,9 +11,9 @@
     "N5-001": {
       "level": "N5",
       "state": "RETRY_PENDING",
-      "attempts": 0,
+      "attempts": 1,
       "generated": true,
-      "error": "Retry independent review with explicit answer-blind slot positions",
+      "error": "All configured reviewer alternatives failed: qwen3:14b: Configured provider network failure",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -32,7 +32,7 @@
         "Independent review failed: N5-001-sentence_composition-03",
         "Independent review failed: N5-001-sentence_composition-03"
       ],
-      "next_retry_at": 0
+      "next_retry_at": 1794470877.556793
     },
     "N5-002": {
       "level": "N5",
@@ -780,7 +780,7 @@
       "attempts": 0
     }
   },
-  "failed": 0,
-  "pending_reviews": 1,
-  "updated_at": "2026-11-11T19:56:11.351074+00:00"
+  "failed": 1,
+  "pending_reviews": 0,
+  "updated_at": "2026-11-12T07:57:57.566546+00:00"
 }
