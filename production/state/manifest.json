@@ -11,9 +11,9 @@
     "N5-001": {
       "level": "N5",
       "state": "RETRY_PENDING",
-      "attempts": 0,
+      "attempts": 1,
       "generated": true,
-      "error": "All configured reviewer alternatives failed: qwen3:14b: Configured provider network failure (timeout after 1200s; 2 attempts)",
+      "error": "All configured reviewer alternatives failed: qwen3:14b: Configured provider network failure (timeout after 2400s; 1 attempts)",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -32,7 +32,7 @@
         "Independent review failed: N5-001-sentence_composition-03",
         "Independent review failed: N5-001-sentence_composition-03"
       ],
-      "next_retry_at": 0
+      "next_retry_at": 1794581127.3197186
     },
     "N5-002": {
       "level": "N5",
@@ -782,5 +782,5 @@
   },
   "failed": 1,
   "pending_reviews": 0,
-  "updated_at": "2026-11-13T13:32:05.377416+00:00"
+  "updated_at": "2026-11-13T14:35:27.329019+00:00"
 }
