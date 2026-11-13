@@ -35,8 +35,11 @@ def request_json(url,payload=None,headers=None,method=None,timeout=120,attempts=
    # Long waits become a durable retry instead of occupying a runner.
    if delay>45:raise Blocked(f'Rate limit: retry after {delay} seconds') from None
    time.sleep(delay)
-  except (TimeoutError,OSError):
-   if attempt==attempts-1:raise Blocked('Configured provider network failure') from None
+  except (TimeoutError,OSError) as exc:
+   # Report safe error classes, never URLs, headers or provider response bodies.
+   cause=exc.reason if isinstance(exc,error.URLError) else exc
+   detail=f'timeout after {timeout}s' if isinstance(cause,TimeoutError) else type(cause).__name__
+   if attempt==attempts-1:raise Blocked(f'Configured provider network failure ({detail}; {attempts} attempts)') from None
    time.sleep(2**attempt)
 
 class Models:
