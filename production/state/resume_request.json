@@ -1,5 +1,5 @@
 {
-  "checkpoint_commit": "c609b210dbe277d87f3557a29beafd2e95909905",
-  "requested_at": "2026-11-13T22:43:54.920Z",
-  "reason": "Resume remaining independent semantic checks after successful wall-time checkpoint; six updated semantic checks passed in prior batch. Preserve canonical status and review evidence."
+  "checkpoint_commit": "7f4b90e11acb66d6c3668d4ef3ae566be6a1635b",
+  "requested_at": "2026-11-13T23:50:28.838Z",
+  "reason": "Retry transient local Ollama reviewer HTTP 500 after backoff elapsed. Preserve two newly passed semantic checks, independent review requirements, and existing retry counter."
 }
