@@ -43,6 +43,13 @@ jobs:
           ollama pull qwen3:14b
       - name: Resume bounded original-exam batch
         run: python production/engine.py run
+      - name: Diagnose local inference resources
+        if: always()
+        continue-on-error: true
+        run: |
+          free -m
+          ps -C ollama -o pid,pcpu,pmem,rss,etime,comm
+          curl --fail --silent --show-error --max-time 5 http://127.0.0.1:11434/api/ps
       - name: Persist checkpoints even after interruption
         if: always()
         run: |
