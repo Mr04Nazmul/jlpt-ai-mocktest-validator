@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item presents a distinct question about selecting the appropriate verb form for 'getting on a bus' (のって), while the prior items involve different contexts (holding an umbrella in the rain and opening a window for fresh air). The semantic content, grammatical focus, and situational contexts are unique to each item. No paraphrased questions, reused templates, or near-identical passages are detected."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "All items have distinct contexts, grammatical focuses, and answer explanations. N5-001-context-03 involves verb conjugation (te-form of 'のる') for boarding a bus, while N5-001-context-01 and 02 test vocabulary choices related to weather and temperature. No semantic duplication, paraphrasing, or reused narratives are present."
     }
   ],
-  "semantic_comparison_hash": "358aedab9fa02847e7953e15086101927c064684f11e7797df972b958ec95b11"
+  "semantic_comparison_hash": "358aedab9fa02847e7953e15086101927c064684f11e7797df972b958ec95b11",
+  "semantic_policy_version": "2"
 }

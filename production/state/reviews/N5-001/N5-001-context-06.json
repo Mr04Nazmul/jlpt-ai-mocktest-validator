@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item (N5-001-context-06) involves selecting the correct verb for giving flowers on a birthday ('あげました'), which is distinct in context and verb usage compared to prior items (e.g., carrying an umbrella, opening windows, boarding buses, feeling tired, meeting times). No semantic duplication, paraphrasing, or template reuse is detected."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item involves selecting a verb for giving flowers on a birthday ('あげました'), which differs in context, verb usage, and explanation from all prior items. Prior items focus on rain, window opening, boarding a bus, feeling tired, and meeting times, with distinct verbs and explanations. No semantic duplication or paraphrasing is detected."
     }
   ],
-  "semantic_comparison_hash": "1af9234de6672f87e3e561a07d84872860c477bf2c0c0e949ba5d92b43ac4028"
+  "semantic_comparison_hash": "1af9234de6672f87e3e561a07d84872860c477bf2c0c0e949ba5d92b43ac4028",
+  "semantic_policy_version": "2"
 }

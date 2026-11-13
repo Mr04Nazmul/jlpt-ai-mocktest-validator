@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All items follow a similar template of selecting the correct verb/adjective based on context, but the specific contexts, answer choices, and explanations are distinct. No semantic duplication, paraphrasing, or near-identical passages are detected across the items."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item (N5-001-context-05) involves selecting a verb related to a meeting's start time ('はじまります'), while prior items address distinct contexts (rain, window, bus, tiredness). No semantic overlap, paraphrased questions, or reused narratives are present. Answer choices and explanations differ entirely."
     }
   ],
-  "semantic_comparison_hash": "de7f743ef9b435ac92c87a1c2c675e3f2847e813cf7385343a737605e8fb7a39"
+  "semantic_comparison_hash": "de7f743ef9b435ac92c87a1c2c675e3f2847e813cf7385343a737605e8fb7a39",
+  "semantic_policy_version": "2"
 }

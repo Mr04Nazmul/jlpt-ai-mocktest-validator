@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All items follow a consistent structure for orthography questions at N5 level, but each tests distinct kanji (やすみ/休み, やま/山, みず/水, みぎ/右, はち/八) with unique explanations. No semantic duplication or paraphrasing detected between the new item and prior items."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item shares a structural template with prior items (orthography question with blank and four choices), but the target word 'やすみ' and its specific choices ('休み' etc.) are distinct from prior items' targets (やま, みず, みぎ, はち) and their respective choices. No semantic duplication or paraphrased content is detected between the new item and prior items."
     }
   ],
-  "semantic_comparison_hash": "f6c087fbf59fb4db41331c2d6dce92fb2e425665d11f3fcd1c58f35de0903db3"
+  "semantic_comparison_hash": "f6c087fbf59fb4db41331c2d6dce92fb2e425665d11f3fcd1c58f35de0903db3",
+  "semantic_policy_version": "2"
 }

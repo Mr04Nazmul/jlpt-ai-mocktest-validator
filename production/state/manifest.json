@@ -32,7 +32,7 @@
         "Independent review failed: N5-001-sentence_composition-03",
         "Independent review failed: N5-001-sentence_composition-03"
       ],
-      "next_retry_at": 1794605896.243104
+      "next_retry_at": 1794609580.8417113
     },
     "N5-002": {
       "level": "N5",
@@ -782,5 +782,5 @@
   },
   "failed": 1,
   "pending_reviews": 0,
-  "updated_at": "2026-11-13T21:37:16.253872+00:00"
+  "updated_at": "2026-11-13T22:38:40.854021+00:00"
 }

@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item involves selecting a verb to describe the state of being tired after walking, while prior items focus on different contexts (rain, opening windows, boarding a bus). The question structures are similar but the semantic content and answer choices differ, indicating no direct duplication."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item (N5-001-context-04) is not a duplicate of prior items. All items have distinct contexts, answer choices, and explanations. The new item focuses on selecting a verb describing physical exhaustion ('つかれました'), while prior items involve different scenarios (umbrella selection, window opening, bus boarding) with unrelated answer choices and explanations."
     }
   ],
-  "semantic_comparison_hash": "d56e8912dec920cd3a396686851e63ab93e9ea0a014b07581291d27435ba1de0"
+  "semantic_comparison_hash": "d56e8912dec920cd3a396686851e63ab93e9ea0a014b07581291d27435ba1de0",
+  "semantic_policy_version": "2"
 }

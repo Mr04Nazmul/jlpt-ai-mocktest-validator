@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item and prior item share similar structural templates (multiple-choice context questions at N5 level) but differ in semantic content. The new question involves selecting an action to let in cool air (opening a window), while the prior question involves selecting an item to use in the rain (umbrella). The contexts, scenarios, and correct answers are distinct, with no direct semantic duplication or paraphrasing."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The questions are structurally similar (multiple-choice context-based items at N5 level) but differ in content, context, and answer choices. The new item involves selecting a verb to open a window ('あけて'), while the prior item selects an object to use in the rain ('かさ'). The scenarios, grammatical focus (verb vs. noun), and explanations are distinct, confirming they are not semantic duplicates."
     }
   ],
-  "semantic_comparison_hash": "9d0b771e20c3d3a0f6796e9163242b9ee8b245280219b51d9c2220e3a564c49f"
+  "semantic_comparison_hash": "9d0b771e20c3d3a0f6796e9163242b9ee8b245280219b51d9c2220e3a564c49f",
+  "semantic_policy_version": "2"
 }
