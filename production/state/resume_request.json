@@ -1,5 +1,5 @@
 {
-  "checkpoint_commit": "445b9873bf05f9378aaf7a5a799bb2ba4c9fe44d",
-  "requested_at": "2026-11-11T10:42:00Z",
-  "reason": "Retry transient local reviewer provider failure after committed checkpoint; preserve independent review and retry counters."
+  "checkpoint_commit": "1931a9a2b665e98dbab4846c673572652ad5be46",
+  "requested_at": "2026-11-13T21:49:57.022Z",
+  "reason": "Continue saved wall-time batch checkpoint; preserve all independent review records and canonical exam states."
 }
