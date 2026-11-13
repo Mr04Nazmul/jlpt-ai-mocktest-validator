@@ -43,7 +43,7 @@ def request_json(url,payload=None,headers=None,method=None,timeout=120,attempts=
    time.sleep(2**attempt)
 
 class Models:
- def __init__(self,config):self.config=config;self.calls=0
+ def __init__(self,config):self.config=config;self.calls=0;self.started_at=time.monotonic()
  def candidates(self,role):
   return [p for p in self.config['providers'] if role in p['roles'] and p.get('authorized_free') is True and (p.get('kind')=='ollama' or os.getenv(p.get('key_env','')))]
  def choose(self,role,exclude=None):
@@ -53,6 +53,8 @@ class Models:
  def ask(self,role,prompt,exclude=None,schema=None):
   failures=[]
   for p in self.choose(role,exclude):
+   # Leave up to 40 minutes for one local request plus checkpoint overhead.
+   if time.monotonic()-self.started_at>=2700:raise BatchPause('Saved wall-time batch checkpoint; continue in next run')
    if self.calls>=self.config['max_api_calls_per_run']:raise BatchPause('Saved batch checkpoint; continue in next run')
    self.calls+=1
    try:
