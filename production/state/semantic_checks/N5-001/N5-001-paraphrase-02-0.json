@@ -6,7 +6,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The questions are structurally similar (fill-in-the-blank with multiple-choice options) and share the same level/category, but the content differs significantly. The prior item focuses on 'むずかしくないです' (not difficult), while the new item focuses on 'いつも' (always). The answer choices, explanations, and semantic targets are distinct, indicating no direct duplication or paraphrasing."
+    "reason": "The items share a similar question format (paraphrase selection) and level (N5), but their content, blanks, and answer choices differ semantically. The new item focuses on frequency ('いつも'/'まいにち'), while the prior item addresses difficulty ('むずかしくないです'/'やさしいです'). No semantic duplication, paraphrased questions, or reused narratives are present. The structure is analogous but not identical in meaning."
   },
-  "recorded_at": "2026-11-11T04:59:49.800296+00:00"
+  "recorded_at": "2026-11-13T22:52:01.628405+00:00"
 }

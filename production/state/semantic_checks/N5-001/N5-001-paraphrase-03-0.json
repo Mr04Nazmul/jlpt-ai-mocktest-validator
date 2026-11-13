@@ -7,7 +7,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item asks about 'もう一ど' with choices related to repeating the same content, while prior items focus on different underlined phrases ('むずかしくないです' and 'いつも') with distinct answer choices. No semantic duplication or paraphrasing detected between the new item and prior items."
+    "reason": "The new item N5-001-paraphrase-03 asks for a sentence meaning 'say the same thing again,' with choices focusing on repetition vs. other speech actions. Prior items N5-001-paraphrase-01 (synonym for 'not difficult') and N5-001-paraphrase-02 (synonym for 'always') have distinct semantic content, answer choices, and explanations. While all share the same question format and category, their specific meanings, answer options, and explanations are unrelated. No semantic duplication or paraphrased content exists between them."
   },
-  "recorded_at": "2026-11-11T05:04:56.780839+00:00"
+  "recorded_at": "2026-11-13T22:59:50.278763+00:00"
 }
