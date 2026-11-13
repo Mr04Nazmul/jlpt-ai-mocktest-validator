@@ -219,14 +219,15 @@ class Factory:
    # Semantic review compares every existing item in bounded windows, beyond lexical similarity.
    comparison=[o for o in self.bank+approved if o['category']==q['category'] or (o['passage'] and q['passage'])]
    comparison_hash=sha(json.dumps(comparison,ensure_ascii=False,sort_keys=True).encode())
-   cached_semantic=record.get('semantic_comparison_hash')==comparison_hash
+   cached_semantic=record.get('semantic_policy_version')=='2' and record.get('semantic_comparison_hash')==comparison_hash
    for start in range(0 if not cached_semantic else len(comparison),len(comparison),16):
-    candidates=[{'id':o['id'],'question':o['question'],'passage':o['passage'],'passage_id':o['passage_id']} for o in comparison[start:start+16]]
-    verdict,_=self.models.ask('reviewer','Detect semantic duplicates, paraphrased questions, reused narrative templates or near-identical passages. Distinct questions on a legitimately shared passage_id are allowed. Return JSON {"duplicate_ids":[],"uncertain":false,"reason":"Explain any semantic duplication or uncertainty with specific matching content."}. New item '+json.dumps(q,ensure_ascii=False)+' Prior items '+json.dumps(candidates,ensure_ascii=False),identities[q['id']])
+    candidates=[{'id':o['id'],'question':o['question'],'passage':o['passage'],'passage_id':o['passage_id'],'category':o['category'],'choices':o['choices']} for o in comparison[start:start+16]]
+    verdict,_=self.models.ask('reviewer','Detect semantic duplicates, paraphrased questions, reused narrative templates or near-identical passages. Compare the complete content, including the provided choices. For sentence_composition reconstruct each sentence using its four fragments before comparing meanings. Shared Mondai instructions, blanks, star positions, or common grammatical endings alone are not duplicates. Still reject the same sentence with reordered choices, superficial noun substitutions, paraphrased questions, or reused passage narratives. Distinct questions on a legitimately shared passage_id are allowed. Return JSON {"duplicate_ids":[],"uncertain":false,"reason":"Explain any semantic duplication or uncertainty with specific matching content."}. New item '+json.dumps(q,ensure_ascii=False)+' Prior items '+json.dumps(candidates,ensure_ascii=False),identities[q['id']])
     semantic_record={'question_id':q['id'],'candidate_ids':[o['id'] for o in candidates],'verdict':verdict,'recorded_at':now()}
     write(self.state/'semantic_checks'/id/(q['id']+'-'+str(start)+'.json'),semantic_record)
     if verdict.get('duplicate_ids')!=[] or verdict.get('uncertain') is not False:raise ReviewNeeded('Semantic duplicate review failed: '+q['id'])
     record.setdefault('semantic_reviews',[]).append(verdict)
+   record['semantic_policy_version']='2'
    record['semantic_comparison_hash']=comparison_hash
    write(review_path,record);reports.append(record);approved.append(q)
   return {'exam_id':id,'status':'AI_REVIEWED_NOT_HUMAN_VERIFIED','blueprint_version':b['version'],'question_count':len(items),'question_hashes':[content_hash(q) for q in items],'reviews':reports,'deterministic_errors':[]}
