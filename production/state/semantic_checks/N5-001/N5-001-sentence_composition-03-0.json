@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-sentence_composition-03",
+  "candidate_ids": [
+    "N5-001-sentence_composition-01",
+    "N5-001-sentence_composition-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": true,
+    "reason": "The new item shares structural similarities with N5-001-sentence_composition-02 (both involve arranging four words into a sentence with a star in the third position), but differs in specific sentence structure ('この ___ ___ ★ ___ です' vs 'これは ___ ___ ★ ___ です') and content. The question format and possession-related context are similar to N5-001-sentence_composition-01, but the sentence structure differs significantly. The similarity in template design raises some uncertainty about whether this constitutes a near-identical passage template reuse."
+  },
+  "recorded_at": "2026-11-13T19:09:21.262053+00:00"
+}

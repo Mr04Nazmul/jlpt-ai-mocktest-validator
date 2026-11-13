@@ -1,13 +1,13 @@
 {
-  "question_hash": "7c209b10ec76e6afa4e35f83bd2fb2321c9ddfcbae11ecd7ece950e2d7767338",
+  "question_hash": "a232ef2a8a93b209f2c87256fad0078d22f77bfe9ab73d6c56db4b18902dfb42",
   "reviewer_identity": [
     "http://127.0.0.1:11434",
     "qwen3:14b"
   ],
   "review": {
-    "answer": 4,
+    "answer": 3,
     "defensible_choices": [
-      4
+      3
     ],
     "checks": {
       "japanese": true,
@@ -17,15 +17,15 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "正解は選択肢4「ことが」です。この文は「この店では料理を食べる ことができます。」と組み立てられ、★が2番目の位置にあります。選択肢1「料理を」は目的語を示し、選択肢2「食べる」は動詞、選択肢3「おいしい」は形容詞で文脈に合わず、選択肢4「ことが」は「ことができる」の構文を完成させます。他の選択肢は文法的に不自然です。",
+    "explanation": "正しい文は「このかばんは兄のです。」です。この文では、1番目の空欄に「かばん（2）」、2番目の空欄に「は（4）」、星印の位置に「兄（3）」、4番目の空欄に「の（1）」が入ります。他の選択肢では文法が不自然になるため、3が正解です。",
     "issues": [],
     "composition_order": [
-      1,
-      4,
       2,
-      3
+      4,
+      3,
+      1
     ]
   },
-  "reviewed_at": "2026-11-13T18:13:33.439701+00:00",
+  "reviewed_at": "2026-11-13T19:04:12.005230+00:00",
   "review_policy_version": "3"
 }
