@@ -33,3 +33,15 @@ class ProviderFailureTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class LocalReviewBudgetTests(unittest.TestCase):
+    def test_review_gets_one_long_attempt_without_changing_independence(self):
+        config = {"max_api_calls_per_run": 2, "providers": [
+            {"kind": "ollama", "base_url": "http://localhost:11434", "model": "qwen3:14b", "roles": ["reviewer"], "authorized_free": True}]}
+        models = engine.Models(config)
+        with patch.object(engine, "request_json", return_value={"message": {"content": '{"answer": 1}'}}) as call:
+            models.ask("reviewer", "blind question", exclude=("http://localhost:11434", "qwen3:4b"))
+            self.assertEqual(call.call_args.kwargs["timeout"], 2400)
+            self.assertEqual(call.call_args.kwargs["attempts"], 1)
+            self.assertTrue(call.call_args.args[1]["think"])
+            self.assertEqual(call.call_args.args[1]["model"], "qwen3:14b")

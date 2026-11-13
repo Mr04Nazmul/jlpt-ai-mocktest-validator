@@ -1,0 +1,32 @@
+{
+  "exam": "N5-001",
+  "reason": "Confirmed reviewer request timeout after 1200 seconds, repeated twice. Give one CPU review request 2400 seconds instead, with durable retry after failure. Independent model, thinking, schema, answer agreement and acceptance rules unchanged.",
+  "evidence_run": 43428595631,
+  "previous_state": {
+    "level": "N5",
+    "state": "RETRY_PENDING",
+    "attempts": 4,
+    "generated": true,
+    "error": "All configured reviewer alternatives failed: qwen3:14b: Configured provider network failure (timeout after 1200s; 2 attempts)",
+    "previous_errors": [
+      "Independent review failed: N5-001-kanji_reading-01",
+      "Independent review failed: N5-001-kanji_reading-07",
+      "Malformed independent review for N5-001-context-02: '2' is not of type 'integer'",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Semantic duplicate review failed: N5-001-context-02",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Independent review failed: N5-001-orthography-04",
+      "Independent review failed: N5-001-context-03",
+      "Independent review failed: N5-001-paraphrase-01",
+      "Independent review failed: N5-001-grammar_form-06",
+      "Independent review failed: N5-001-sentence_composition-02",
+      "Independent review failed: N5-001-sentence_composition-02",
+      "Independent review failed: N5-001-sentence_composition-03",
+      "Independent review failed: N5-001-sentence_composition-03",
+      "Independent review failed: N5-001-sentence_composition-03"
+    ],
+    "next_retry_at": 1794581525.3675609
+  },
+  "validation": "20 unit tests passed; inference result pending"
+}
