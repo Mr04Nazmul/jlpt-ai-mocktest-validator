@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All questions follow a standard template for kanji/kana reading practice, but each tests a distinct target word (毎朝, 学校, 白い, 電気) with unique content. No semantic duplication, paraphrasing, or shared narrative templates exist between items."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item N5-001-kanji_reading-04 is not a duplicate of prior items. While all items share the same question format (kanji reading identification with multiple-choice answers), the target word (毎朝), answer choices (まいばん, まいあさ, etc.), and explanations are distinct from prior items (which focused on 学校, 白い, 電気). The semantic content, grammatical structure, and answer keys differ sufficiently to rule out duplication."
     }
   ],
-  "semantic_comparison_hash": "f07abfa4b4eb909e80e61186b50787b5f684d4a7b9a6bff6e96b54e4d16fd403"
+  "semantic_comparison_hash": "f07abfa4b4eb909e80e61186b50787b5f684d4a7b9a6bff6e96b54e4d16fd403",
+  "semantic_policy_version": "2"
 }

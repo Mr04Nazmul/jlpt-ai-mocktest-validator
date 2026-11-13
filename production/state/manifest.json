@@ -13,7 +13,7 @@
       "state": "RETRY_PENDING",
       "attempts": 0,
       "generated": true,
-      "error": "Semantic duplicate review failed: N5-001-sentence_composition-03",
+      "error": "Saved wall-time batch checkpoint; continue in next run",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -32,7 +32,7 @@
         "Independent review failed: N5-001-sentence_composition-03",
         "Independent review failed: N5-001-sentence_composition-03"
       ],
-      "next_retry_at": 0
+      "next_retry_at": 1794605896.243104
     },
     "N5-002": {
       "level": "N5",
@@ -780,7 +780,7 @@
       "attempts": 0
     }
   },
-  "failed": 0,
-  "pending_reviews": 1,
-  "updated_at": "2026-11-13T19:47:18.293655+00:00"
+  "failed": 1,
+  "pending_reviews": 0,
+  "updated_at": "2026-11-13T21:37:16.253872+00:00"
 }

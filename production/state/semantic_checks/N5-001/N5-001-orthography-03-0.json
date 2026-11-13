@@ -7,7 +7,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "All items share the same question structure and orthography category, but the target vocabulary (みぎ/やま/みず) and explanations are distinct. The template reuse is legitimate for N5 orthography questions, and no semantic content overlaps between the specific questions."
+    "reason": "The new item and prior items share a similar structure (orthography question with kana-to-kanji matching) but differ in the specific kana (みぎ vs やま vs みず), corresponding kanji answers (右 vs 山 vs 水), and choice options. No semantic duplication, paraphrasing, or reused narrative is present. The questions are distinct in content despite shared formatting."
   },
-  "recorded_at": "2026-11-11T02:13:49.487539+00:00"
+  "recorded_at": "2026-11-13T21:31:10.344087+00:00"
 }

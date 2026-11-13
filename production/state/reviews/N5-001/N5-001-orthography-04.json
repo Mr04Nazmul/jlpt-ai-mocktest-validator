@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All items share the same question template and structure (fill-in-the-blank orthography quiz with kana-to-kanji matching), but the specific content (target kana words: はち, やま, みず, みぎ) and answer choices are distinct. The shared structure is legitimate for this question type and does not constitute semantic duplication."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "All items follow a consistent orthography question template (asking for kanji corresponding to kana in context), but each has distinct kana targets (はち, やま, みず, みぎ), unique choice sets, and different explanations. The structural similarity alone does not constitute duplication as required by the instructions."
     }
   ],
-  "semantic_comparison_hash": "f98ee40360a6a2ca871bc3e03769e2e853de269025214fae580b5e915c2f470f"
+  "semantic_comparison_hash": "f98ee40360a6a2ca871bc3e03769e2e853de269025214fae580b5e915c2f470f",
+  "semantic_policy_version": "2"
 }

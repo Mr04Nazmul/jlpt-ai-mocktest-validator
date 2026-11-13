@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All questions follow the same structural template but target distinct kanji/compound words (e.g., 牛肉, 学校, 白い, 電気, 毎朝, 道). No semantic duplication, paraphrasing, or near-identical passages exist between items. The consistent question format is expected for a series of kanji reading exercises."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item N5-001-kanji_reading-06 is not a duplicate of any prior items. While all items share the same question format (asking for the reading of a kanji compound in a sentence), the target word '牛肉' (gyūniku) and its specific reading rules (retaining the long vowel in 'ぎゅう') are unique to this item. Prior items focus on different kanji compounds ('学校', '白い', '電気', '毎朝', '道') with distinct answer choices and explanations. The semantic content, target words, and answer options are sufficiently distinct to rule out duplication."
     }
   ],
-  "semantic_comparison_hash": "b7de232558af5b9843f717ca7d31e4f40ae6595bcd769f6fdadfc06e44162069"
+  "semantic_comparison_hash": "b7de232558af5b9843f717ca7d31e4f40ae6595bcd769f6fdadfc06e44162069",
+  "semantic_policy_version": "2"
 }

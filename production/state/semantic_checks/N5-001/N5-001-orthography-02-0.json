@@ -6,7 +6,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "Both items use a similar question template (hiragana-to-kanji conversion with context), but the specific content differs: N5-001-orthography-01 asks about 'やま' (mountain) in the context of taking a photo, while N5-001-orthography-02 asks about 'みず' (water) in the context of requesting a drink. The answers (山 vs. 水) and explanations are distinct, so they are not semantic duplicates."
+    "reason": "The new item (N5-001-orthography-02) and prior item (N5-001-orthography-01) share the same question structure and category (orthography), but differ in core content: the kana being tested (【やま】 vs. 【みず】), contextual sentences (「しゃしんをとりました」 vs. 「みずをいっぱいください」), and answer choices (山/川/田/天 vs. 火/木/金/水). The explanations also differ in context (mountain vs. water). While the template is reused, the semantic content is distinct."
   },
-  "recorded_at": "2026-11-11T02:05:01.984388+00:00"
+  "recorded_at": "2026-11-13T21:25:28.102258+00:00"
 }

@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All items share a consistent question template (asking for kanji readings with multiple-choice answers), but each targets distinct kanji (道, 学校, 白い, 電気, 毎朝) and contexts. No semantic duplication or paraphrasing exists between specific questions, as they involve different vocabulary and explanations."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "All items test distinct kanji/words (道, 学校, 白い, 電気, 毎朝) with unique choices and explanations. While the question format is consistent across N5-kanji_reading items, the specific content, blanks, and answer choices are entirely different. No semantic duplication, paraphrasing, or narrative template reuse detected."
     }
   ],
-  "semantic_comparison_hash": "cdbfed0cb1f42007f15d5401160a18c5aa14d6c392e4b95ee92bca148291fa85"
+  "semantic_comparison_hash": "cdbfed0cb1f42007f15d5401160a18c5aa14d6c392e4b95ee92bca148291fa85",
+  "semantic_policy_version": "2"
 }

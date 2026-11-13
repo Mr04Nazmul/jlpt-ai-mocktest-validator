@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item and prior item share a similar question structure (fill-in-the-blank kanji reading) and category (kanji_reading), but they test different kanji (白い vs. 学校) with distinct answer choices and explanations. Since the content being tested is not semantically overlapping and the passage_ids are empty (no shared passage), they are not duplicates."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The items are not duplicates. While both are N5-level kanji_reading questions with similar structural formats (blank in sentence + multiple-choice options), they test different kanji/words: '学校' (school) vs. '白い' (white). The answer choices and explanations are distinct, and the semantic content differs entirely. Shared structural elements alone do not constitute duplication."
     }
   ],
-  "semantic_comparison_hash": "5895ff615a3c59533ed710c26f0e20a704d3f50afd17a62ad7fc6b331f0519d4"
+  "semantic_comparison_hash": "5895ff615a3c59533ed710c26f0e20a704d3f50afd17a62ad7fc6b331f0519d4",
+  "semantic_policy_version": "2"
 }

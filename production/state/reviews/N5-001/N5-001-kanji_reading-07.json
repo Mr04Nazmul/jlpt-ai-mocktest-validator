@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All items follow a consistent template structure for kanji reading questions (sentence with blank, multiple-choice options, explanation). However, each question uses distinct kanji (e.g., 近い in N5-001-kanji_reading-07 vs. 学校, 白い, 電気, etc. in prior items) and unique contextual sentences. No semantic duplication, paraphrasing, or near-identical passages are present across items."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item asks about the reading of '近い' (ちかい) in a sentence about proximity, while prior items focus on different kanji compounds (e.g., 学校, 白い, 電気) with distinct choices and explanations. Structural similarities (e.g., question format, blank placement) are common in this category but do not constitute semantic duplication. No shared passage_id or identical narrative content exists between items."
     }
   ],
-  "semantic_comparison_hash": "9fd352e2bc7dc05ee6e822cd867325320bea2a2bf95052657d0baaee4e6edc62"
+  "semantic_comparison_hash": "9fd352e2bc7dc05ee6e822cd867325320bea2a2bf95052657d0baaee4e6edc62",
+  "semantic_policy_version": "2"
 }
