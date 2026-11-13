@@ -10,8 +10,8 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "VALIDATING",
+      "attempts": 1,
       "generated": true,
       "error": "Independent review failed: N5-001-sentence_composition-03",
       "previous_errors": [
@@ -781,6 +781,6 @@
     }
   },
   "failed": 0,
-  "pending_reviews": 1,
-  "updated_at": "2026-11-13T15:10:12.228435+00:00"
+  "pending_reviews": 0,
+  "updated_at": "2026-11-13T15:52:14.271124+00:00"
 }

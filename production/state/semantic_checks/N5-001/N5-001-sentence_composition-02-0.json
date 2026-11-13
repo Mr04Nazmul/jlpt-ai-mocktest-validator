@@ -6,7 +6,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item and prior item share the same category (sentence_composition) and level (N5), but their question structures and content differ. The new item requires composing a sentence with four words and selecting the third blank's answer, while the prior item asks for a single blank's correct word in a different sentence structure. No semantic duplication or near-identical passages are detected."
+    "reason": "The questions are distinct in structure and task. The new item involves forming a sentence with four words and identifying the third blank's content, while the prior item asks for a single word to fill a star in a different sentence structure. No semantic duplication or near-identical passages are present."
   },
-  "recorded_at": "2026-11-11T14:11:18.307211+00:00"
+  "recorded_at": "2026-11-13T16:43:34.389536+00:00"
 }

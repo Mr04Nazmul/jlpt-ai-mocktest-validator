@@ -17,16 +17,22 @@
       "distractors": true,
       "passage": true
     },
-    "explanation": "正解は「買った」です。文は「これは日本で買った時計です。」と完成します。この文はすべての語を正しく使用しており、文法的にも自然です。選択肢1「時計」は文末に置かれるべき語であり、選択肢3「で」は「日本」の後に続く助詞として適切です。選択肢4「日本」は「で」の前に置かれるべき語です。したがって、選択肢2「買った」が正解です。",
-    "issues": []
+    "explanation": "この文は「これは日本で買った時計です。」と自然に組み立てられる。この場合、四つの語は順に「日本（4）」「で（3）」「買った（2）」「時計（1）」となる。左から三番目の星印の位置は「買った（2）」が入る。他の選択肢は文法的に不自然または意味が通じない。例えば「時計（1）」を星印に置くと「これは___ ___時計___です。」となり、前後の語が適切に結びつかない。また「買った（2）」は動詞で、文の流れに合っている。",
+    "issues": [],
+    "composition_order": [
+      4,
+      3,
+      2,
+      1
+    ]
   },
-  "reviewed_at": "2026-11-11T14:08:07.119355+00:00",
-  "review_policy_version": "2",
+  "reviewed_at": "2026-11-13T16:38:26.171444+00:00",
+  "review_policy_version": "3",
   "semantic_reviews": [
     {
       "duplicate_ids": [],
       "uncertain": false,
-      "reason": "The new item and prior item share the same category (sentence_composition) and level (N5), but their question structures and content differ. The new item requires composing a sentence with four words and selecting the third blank's answer, while the prior item asks for a single blank's correct word in a different sentence structure. No semantic duplication or near-identical passages are detected."
+      "reason": "The questions are distinct in structure and task. The new item involves forming a sentence with four words and identifying the third blank's content, while the prior item asks for a single word to fill a star in a different sentence structure. No semantic duplication or near-identical passages are present."
     }
   ],
   "semantic_comparison_hash": "f385d6a15dfa89fcfa8065b1c55cbb1d189aedadcadc48c2ae81d9ae7b728c58"
