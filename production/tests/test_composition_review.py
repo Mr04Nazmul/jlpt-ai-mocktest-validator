@@ -8,7 +8,7 @@ from engine import Factory, ReviewNeeded, read, ROOT
 
 class CompositionReviewTests(unittest.TestCase):
     def run_review(self, order):
-        q = read(ROOT/'state/drafts/N5-001/sentence_composition.json')['questions'][2]
+        q = {"id":"N5-001-sentence_composition-03","level":"N5","category":"sentence_composition","question":"四つの ことばを すべて 使って、正しい 文を 作ってください。下線と 星印は、それぞれ 一つの ことばを 入れる 場所です。左から 二番目の 星印に 入る ことばを 一つ えらんでください。\nこの 店では ___ ★ ___ ___ できます。","choices":["料理を","食べる","おいしい","ことが"],"answer":1,"explanation":"「おいしい／料理を／食べる／ことが」の順で「この店ではおいしい料理を食べることができます」となります。二番目の星印には「料理を」が入ります。","passage":"","passage_id":"","tags":["sentence_composition","N5"],"provenance":{"kind":"original_ai_generation","model":"ChatGPT-session","endpoint":"chatgpt-session","review_status":"UNREVIEWED"}}
         verdict = {'answer':1,'defensible_choices':[1],'checks':dict.fromkeys(['japanese','level','mondai','reading','distractors','passage'],True),'explanation':'四つの語を順番に並べ、星印の位置の選択肢を確認しました。','issues':[]}
         if order is not None: verdict['composition_order']=order
         with tempfile.TemporaryDirectory() as td:

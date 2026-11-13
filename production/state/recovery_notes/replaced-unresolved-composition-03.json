@@ -1,0 +1,87 @@
+{
+  "reason": "Retire repeatedly unresolved item instead of accepting an incorrect independent solution. Replace with a new original N5 possession composition item; retain UNREVIEWED provenance and require a new independent policy-3 review and semantic duplicate check. No approval or completion written.",
+  "previous_question": {
+    "id": "N5-001-sentence_composition-03",
+    "level": "N5",
+    "category": "sentence_composition",
+    "question": "四つの ことばを すべて 使って、正しい 文を 作ってください。下線と 星印は、それぞれ 一つの ことばを 入れる 場所です。左から 二番目の 星印に 入る ことばを 一つ えらんでください。\nこの 店では ___ ★ ___ ___ できます。",
+    "choices": [
+      "料理を",
+      "食べる",
+      "おいしい",
+      "ことが"
+    ],
+    "answer": 1,
+    "explanation": "「おいしい／料理を／食べる／ことが」の順で「この店ではおいしい料理を食べることができます」となります。二番目の星印には「料理を」が入ります。",
+    "passage": "",
+    "passage_id": "",
+    "tags": [
+      "sentence_composition",
+      "N5"
+    ],
+    "provenance": {
+      "kind": "original_ai_generation",
+      "model": "ChatGPT-session",
+      "endpoint": "chatgpt-session",
+      "review_status": "UNREVIEWED"
+    }
+  },
+  "previous_review": {
+    "question_hash": "7c209b10ec76e6afa4e35f83bd2fb2321c9ddfcbae11ecd7ece950e2d7767338",
+    "reviewer_identity": [
+      "http://127.0.0.1:11434",
+      "qwen3:14b"
+    ],
+    "review": {
+      "answer": 4,
+      "defensible_choices": [
+        4
+      ],
+      "checks": {
+        "japanese": true,
+        "level": true,
+        "mondai": true,
+        "reading": true,
+        "distractors": true,
+        "passage": true
+      },
+      "explanation": "正解は選択肢4「ことが」です。この文は「この店では料理を食べる ことができます。」と組み立てられ、★が2番目の位置にあります。選択肢1「料理を」は目的語を示し、選択肢2「食べる」は動詞、選択肢3「おいしい」は形容詞で文脈に合わず、選択肢4「ことが」は「ことができる」の構文を完成させます。他の選択肢は文法的に不自然です。",
+      "issues": [],
+      "composition_order": [
+        1,
+        4,
+        2,
+        3
+      ]
+    },
+    "reviewed_at": "2026-11-13T18:13:33.439701+00:00",
+    "review_policy_version": "3"
+  },
+  "previous_state": {
+    "level": "N5",
+    "state": "NEEDS_REVIEW",
+    "attempts": 2,
+    "generated": true,
+    "error": "Independent review failed: N5-001-sentence_composition-03",
+    "previous_errors": [
+      "Independent review failed: N5-001-kanji_reading-01",
+      "Independent review failed: N5-001-kanji_reading-07",
+      "Malformed independent review for N5-001-context-02: '2' is not of type 'integer'",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Semantic duplicate review failed: N5-001-context-02",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Independent review failed: N5-001-orthography-04",
+      "Independent review failed: N5-001-context-03",
+      "Independent review failed: N5-001-paraphrase-01",
+      "Independent review failed: N5-001-grammar_form-06",
+      "Independent review failed: N5-001-sentence_composition-02",
+      "Independent review failed: N5-001-sentence_composition-02",
+      "Independent review failed: N5-001-sentence_composition-03",
+      "Independent review failed: N5-001-sentence_composition-03",
+      "Independent review failed: N5-001-sentence_composition-03"
+    ],
+    "next_retry_at": 0
+  },
+  "checks": "25 software tests pass; all 43 draft questions pass deterministic blueprint checks."
+}

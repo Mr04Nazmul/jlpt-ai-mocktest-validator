@@ -10,8 +10,8 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 2,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
       "error": "Independent review failed: N5-001-sentence_composition-03",
       "previous_errors": [
