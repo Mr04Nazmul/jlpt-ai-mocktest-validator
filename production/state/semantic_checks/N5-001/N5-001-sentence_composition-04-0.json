@@ -1,0 +1,14 @@
+{
+  "question_id": "N5-001-sentence_composition-04",
+  "candidate_ids": [
+    "N5-001-sentence_composition-01",
+    "N5-001-sentence_composition-02",
+    "N5-001-sentence_composition-03"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "No semantic duplication detected. The new item has a distinct sentence structure and content compared to prior items. While some items share similar blank placement (e.g., three blanks in a sentence), the specific vocabulary, grammatical context, and narrative focus (e.g., '本' vs 'かばん' vs '時計') are sufficiently different to avoid duplication. The answer explanations and required word order also differ uniquely."
+  },
+  "recorded_at": "2026-11-14T01:27:04.304543+00:00"
+}

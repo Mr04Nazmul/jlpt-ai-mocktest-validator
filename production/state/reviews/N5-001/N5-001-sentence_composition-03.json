@@ -27,5 +27,14 @@
     ]
   },
   "reviewed_at": "2026-11-13T19:04:12.005230+00:00",
-  "review_policy_version": "3"
+  "review_policy_version": "3",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "No semantic duplication detected. Each item has unique sentence structures, grammatical focuses, and distinct word choices. The third item involves possession ('兄のです'), while the first involves location ('駅から近い所に') and the second involves origin/purchase ('日本で買った時計'). The sentence templates and required grammatical constructions differ sufficiently to avoid duplication."
+    }
+  ],
+  "semantic_policy_version": "2",
+  "semantic_comparison_hash": "8d5da1bf030bf92337fa1f77e4e70d9dd421d24ded50f10ef6641fead6b5708f"
 }

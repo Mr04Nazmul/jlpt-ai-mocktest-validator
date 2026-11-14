@@ -1,0 +1,40 @@
+{
+  "question_hash": "fe982f4570d68c36e587ef17e1334040233d708faa84fb5b080c1c819ad2be58",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 1,
+    "defensible_choices": [
+      1
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "この文は「この本はわたしが一番好きな本です。」と完成します。★は3番目の位置にあり、その中に「好きな」（選択肢1）が入ります。他の選択肢では、文法的に不自然な文が作られたり、すべての選択肢を正しく使用できなかったりします。選択肢2（本）は文の終わりに使われ、選択肢3（一番）は「好きな」の前に使われ、選択肢4（わたしが）は主語として使われます。この配置は自然な日本語であり、N5レベルに適しています。",
+    "issues": [],
+    "composition_order": [
+      4,
+      3,
+      1,
+      2
+    ]
+  },
+  "reviewed_at": "2026-11-14T01:19:05.785867+00:00",
+  "review_policy_version": "3",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "No semantic duplication detected. The new item has a distinct sentence structure and content compared to prior items. While some items share similar blank placement (e.g., three blanks in a sentence), the specific vocabulary, grammatical context, and narrative focus (e.g., '本' vs 'かばん' vs '時計') are sufficiently different to avoid duplication. The answer explanations and required word order also differ uniquely."
+    }
+  ],
+  "semantic_policy_version": "2",
+  "semantic_comparison_hash": "2a83d38cc2b639a73ce6f6b1511417e3b4201bd4d6dfe7b1bd979c96f133bcf3"
+}

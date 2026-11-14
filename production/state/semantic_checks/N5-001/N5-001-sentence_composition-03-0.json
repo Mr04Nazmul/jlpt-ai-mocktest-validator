@@ -6,8 +6,8 @@
   ],
   "verdict": {
     "duplicate_ids": [],
-    "uncertain": true,
-    "reason": "The new item shares structural similarities with N5-001-sentence_composition-02 (both involve arranging four words into a sentence with a star in the third position), but differs in specific sentence structure ('この ___ ___ ★ ___ です' vs 'これは ___ ___ ★ ___ です') and content. The question format and possession-related context are similar to N5-001-sentence_composition-01, but the sentence structure differs significantly. The similarity in template design raises some uncertainty about whether this constitutes a near-identical passage template reuse."
+    "uncertain": false,
+    "reason": "No semantic duplication detected. Each item has unique sentence structures, grammatical focuses, and distinct word choices. The third item involves possession ('兄のです'), while the first involves location ('駅から近い所に') and the second involves origin/purchase ('日本で買った時計'). The sentence templates and required grammatical constructions differ sufficiently to avoid duplication."
   },
-  "recorded_at": "2026-11-13T19:09:21.262053+00:00"
+  "recorded_at": "2026-11-14T00:58:10.330724+00:00"
 }

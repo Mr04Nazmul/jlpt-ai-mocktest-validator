@@ -1,0 +1,27 @@
+{
+  "question_hash": "364be6e2e41533c0b7b304de74e3ec0175db7bcf1d77bb0ad566f8ff574111a3",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文章の【1】に続く「毎日 一人で ごはんを 食べていました」は、前の文「はじめは ともだちが いませんでした」の結果を示しています。この関係を表すには「だから」が最も適切です。他の選択肢では、「でも」は対比を表すため不適切、「それから」は時間の順序を表すが因果関係を示していない、「では」は条件や結論を表すが文脈に合いません。4つの選択肢を並べると、【1】の位置に「だから」が入ります。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-14T01:33:23.909589+00:00",
+  "review_policy_version": "2",
+  "semantic_policy_version": "2",
+  "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

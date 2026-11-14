@@ -6,7 +6,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The questions are distinct in structure and task. The new item involves forming a sentence with four words and identifying the third blank's content, while the prior item asks for a single word to fill a star in a different sentence structure. No semantic duplication or near-identical passages are present."
+    "reason": "The new item (N5-001-sentence_composition-02) and prior item (N5-001-sentence_composition-01) share the same category (sentence_composition) and level (N5), but differ in: 1) Sentence structure templates (\"これは ___ ___ ★ ___ です。\" vs. \"わたしは ___ ★ ___ ___ すんでいます。\"); 2) Choice vocabulary (時計/買った/で/日本 vs. 近い/駅/から/所に); 3) Task focus (composing full sentences with all four fragments vs. selecting one word for a single blank). While both involve sentence composition, their structural and lexical differences prevent semantic duplication."
   },
-  "recorded_at": "2026-11-13T16:43:34.389536+00:00"
+  "recorded_at": "2026-11-14T00:51:21.297239+00:00"
 }
