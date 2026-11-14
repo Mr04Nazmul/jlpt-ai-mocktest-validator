@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "No semantic duplication detected. The new item focuses on the te-iru progressive form with 'きく' (listening), while prior items cover different grammatical structures (time expressions, 'with' particle, price, taking photos, incomplete sentence). All items have distinct grammatical points and question contexts."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item N5-001-grammar_form-06 focuses on the te-form progressive construction (～ています) for ongoing actions, specifically using 'きいています' as the correct answer. Prior items involve different grammar points: particle usage (N5-001-grammar_form-01, N5-001-grammar_form-02, N5-001-grammar_form-03), te-form in a different context (permission request in N5-001-grammar_form-04), and past negative adjectives (N5-001-grammar_form-05). None share the same grammatical structure, explanation, or question template."
     }
   ],
-  "semantic_comparison_hash": "241c90af5a5453de84c85df6ecbba1d3b2ca6838e8482b963555155613fbd830"
+  "semantic_comparison_hash": "241c90af5a5453de84c85df6ecbba1d3b2ca6838e8482b963555155613fbd830",
+  "semantic_policy_version": "2"
 }

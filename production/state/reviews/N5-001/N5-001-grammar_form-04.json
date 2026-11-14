@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item introduces a distinct grammar point (te-form for permission) not present in prior items, which focus on different particles (に, と, で). No semantic duplication or paraphrasing detected."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item (N5-001-grammar_form-04) focuses on the te-form verb conjugation for permission requests (\"〜てもいいですか\"). Prior items (N5-001-grammar_form-01 to 03) involve particle selection for different grammatical contexts (time, accompaniment, price). While all items share the same question format and level, they target distinct grammar points with no overlapping semantic content or structural duplication."
     }
   ],
-  "semantic_comparison_hash": "5181f8f54507fe5b3a263bbab50e4c458807b4f08969df042f9097c530d17bcf"
+  "semantic_comparison_hash": "5181f8f54507fe5b3a263bbab50e4c458807b4f08969df042f9097c530d17bcf",
+  "semantic_policy_version": "2"
 }

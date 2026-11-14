@@ -11,7 +11,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item tests the grammar point 'どこへも〜ません' (not going anywhere), which is distinct from the prior items that focus on different grammatical structures (e.g., time expressions, companions, price, permission, and activities). No semantic duplication, paraphrasing, or shared narrative templates are detected."
+    "reason": "The new item 'N5-001-grammar_form-07' introduces a unique grammar point ('どこへも〜ません' for 'not going anywhere') that differs from all prior items, which focus on distinct particles and grammatical constructions (e.g., time markers, companions, price, verb forms, temperature, and listening). No semantic duplication, paraphrased questions, or reused narratives are found. The structure, choices, and explanations are distinct across all items."
   },
-  "recorded_at": "2026-11-11T06:58:22.879428+00:00"
+  "recorded_at": "2026-11-14T00:27:20.013371+00:00"
 }

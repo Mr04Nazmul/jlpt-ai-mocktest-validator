@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "All items are distinct grammar questions targeting different grammatical points (quantity-price relation, time, and accompaniment). While they share the same question format and N5 level, their semantic content and grammatical focus differ sufficiently to avoid duplication."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item (N5-001-grammar_form-03) involves a grammatical structure related to quantity-price ('三つで三百円') with the particle 'で', while prior items focus on time ('六時におきます' with 'に') and accompaniment ('ともだちとテニス' with 'と'). The sentence structures, contexts, and grammatical functions differ significantly. No semantic duplication, paraphrased questions, or reused narrative templates are detected."
     }
   ],
-  "semantic_comparison_hash": "2693a82fcaf58a95f9e0e0254c79d69e601681a1bcaf5bccf046dedcbe5db8af"
+  "semantic_comparison_hash": "2693a82fcaf58a95f9e0e0254c79d69e601681a1bcaf5bccf046dedcbe5db8af",
+  "semantic_policy_version": "2"
 }

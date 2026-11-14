@@ -28,5 +28,6 @@
   },
   "reviewed_at": "2026-11-13T16:28:20.426469+00:00",
   "review_policy_version": "3",
-  "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  "semantic_comparison_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "semantic_policy_version": "2"
 }

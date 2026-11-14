@@ -13,7 +13,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item 'N5-001-grammar_form-09' involves a future tense context ('あした') and the choice of '行きません' to express a planned absence from school. None of the prior items share this exact grammatical structure, time frame, or contextual scenario. While item 'N5-001-grammar_form-07' also involves a negative choice ('行きませんでした'), it refers to a past event ('日曜日') and uses a different verb form (past negative). The semantic focus on future planning in the new item is unique among the provided questions."
+    "reason": "The new item N5-001-grammar_form-09 is not a duplicate of any prior items. It focuses on future tense negation (\"行きません\") for a planned absence from school, while prior items cover distinct grammatical points like particles (に, と, で), te-form verbs (とって, きいて), past negative adjectives (さむくなかったです), and comparative structures (より). No semantic overlap, paraphrasing, or reused narrative templates are detected."
   },
-  "recorded_at": "2026-11-11T07:09:42.827324+00:00"
+  "recorded_at": "2026-11-14T00:42:20.997209+00:00"
 }

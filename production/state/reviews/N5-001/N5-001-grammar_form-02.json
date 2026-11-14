@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item and prior item are both N5 grammar_form questions but differ in content, grammatical focus (companionship vs. time), answer choices, and explanations. They share structural similarity (multiple-choice format) but not semantic content or passage_id reuse."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item and prior item share a similar question structure (grammar form selection with a blank and multiple choices) but differ in content, grammatical focus, and answer explanations. The new item tests the particle 'と' for accompaniment ('with a friend playing tennis'), while the prior item tests 'に' for time ('waking up at six'). The distinct semantic contexts and grammatical rules prevent classification as duplicates."
     }
   ],
-  "semantic_comparison_hash": "15dacca3d3de6d3d4800ac142ca91a72fb4a3eaf424cde3fc77209dbcfa487c7"
+  "semantic_comparison_hash": "15dacca3d3de6d3d4800ac142ca91a72fb4a3eaf424cde3fc77209dbcfa487c7",
+  "semantic_policy_version": "2"
 }

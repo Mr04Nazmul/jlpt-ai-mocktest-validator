@@ -12,7 +12,7 @@
   "verdict": {
     "duplicate_ids": [],
     "uncertain": false,
-    "reason": "The new item introduces a unique comparison structure using 'より' between two nouns (このへや vs あのへや), which differs from prior items that use particles in distinct contexts (e.g., time, location, accompaniment). No semantic duplication or paraphrasing is detected."
+    "reason": "The new item involves comparing two rooms using the particle 'より' for comparison, which is distinct from prior items that focus on different grammatical points (time, companionship, price, verb forms, adjectives, listening, and location). No semantic duplication, paraphrased questions, or reused narratives are found. The structure and content are unique to this item."
   },
-  "recorded_at": "2026-11-11T07:03:24.721758+00:00"
+  "recorded_at": "2026-11-14T00:35:53.667292+00:00"
 }

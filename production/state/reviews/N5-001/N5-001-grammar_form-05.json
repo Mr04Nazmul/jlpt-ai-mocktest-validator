@@ -27,7 +27,13 @@
       "duplicate_ids": [],
       "uncertain": false,
       "reason": "The new item (N5-001-grammar_form-05) focuses on past-negative い-adjective conjugation with 'あまり' (e.g., 'さむくなかったです'), while prior items address distinct grammar points: time expressions (N5-001-grammar_form-01), particle usage (N5-001-grammar_form-02), counter usage (N5-001-grammar_form-03), and verb phrase completion (N5-001-grammar_form-04). No semantic duplication, paraphrasing, or shared narrative templates are present."
+    },
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item tests the use of past negative i-adjective forms with 'あまり' (N5-001-grammar_form-05), while prior items focus on different grammatical points: particle usage (01-02), price expressions (03), and verb form selection (04). No semantic duplication, paraphrasing, or reused narratives are present. Each item addresses distinct grammar rules with unique sentence structures and answer explanations."
     }
   ],
-  "semantic_comparison_hash": "2532f526c6c138eda726985583e990ef56e5779e6d1f5f00d049377e723fed54"
+  "semantic_comparison_hash": "2532f526c6c138eda726985583e990ef56e5779e6d1f5f00d049377e723fed54",
+  "semantic_policy_version": "2"
 }
