@@ -109,7 +109,15 @@ def near_duplicate(q,bank):
  a=norm(q['question']+q['passage'])
  for other in bank:
   b=norm(other['question']+other['passage'])
-  if a==b or SequenceMatcher(None,a,b,autojunk=False).ratio()>=0.88:return other['id']
+  # A passage group deliberately has several questions in the same exam.
+  # Compare their question/choices, rather than the repeated passage body.
+  same_exam=re.match(r'^N[1-5]-[0-9]+-',q['id']).group() if re.match(r'^N[1-5]-[0-9]+-',q['id']) else None
+  shared=(same_exam and other['id'].startswith(same_exam) and q.get('passage_id') and q['passage_id']==other.get('passage_id') and norm(q['passage'])==norm(other['passage']))
+  left=a
+  if shared:
+   left=norm(q['question'])+'|'+ '|'.join(sorted(norm(c) for c in q['choices']))
+   b=norm(other['question'])+'|'+ '|'.join(sorted(norm(c) for c in other['choices']))
+  if left==b or SequenceMatcher(None,left,b,autojunk=False).ratio()>=0.88:return other['id']
   if q['passage'] and other['passage'] and q['passage_id']!=other['passage_id']:
    if SequenceMatcher(None,norm(q['passage']),norm(other['passage']),autojunk=False).ratio()>=0.85:return other['id']
  return None

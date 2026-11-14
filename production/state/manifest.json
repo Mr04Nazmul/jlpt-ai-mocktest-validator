@@ -10,10 +10,10 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "NEEDS_REVIEW",
-      "attempts": 2,
+      "state": "RETRY_PENDING",
+      "attempts": 0,
       "generated": true,
-      "error": "Potential duplicate N5-001-text_grammar-02 / N5-001-text_grammar-01",
+      "error": "Retry after fixing shared-passage false-positive duplicate detection; independent reviews still required",
       "previous_errors": [
         "Independent review failed: N5-001-kanji_reading-01",
         "Independent review failed: N5-001-kanji_reading-07",
@@ -32,7 +32,7 @@
         "Independent review failed: N5-001-sentence_composition-03",
         "Independent review failed: N5-001-sentence_composition-03"
       ],
-      "next_retry_at": 1794617001.0202205
+      "next_retry_at": 0
     },
     "N5-002": {
       "level": "N5",
@@ -780,7 +780,7 @@
       "attempts": 0
     }
   },
-  "failed": 0,
-  "pending_reviews": 1,
-  "updated_at": "2026-11-14T01:33:23.935364+00:00"
+  "failed": 1,
+  "pending_reviews": 0,
+  "updated_at": "2026-11-14T01:47:49.691Z"
 }

@@ -1,0 +1,31 @@
+{
+  "checkpoint": "bfbf41728214f6915fea90dd29ff62aef9a6bb71",
+  "previous_entry": {
+    "level": "N5",
+    "state": "NEEDS_REVIEW",
+    "attempts": 2,
+    "generated": true,
+    "error": "Potential duplicate N5-001-text_grammar-02 / N5-001-text_grammar-01",
+    "previous_errors": [
+      "Independent review failed: N5-001-kanji_reading-01",
+      "Independent review failed: N5-001-kanji_reading-07",
+      "Malformed independent review for N5-001-context-02: '2' is not of type 'integer'",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Semantic duplicate review failed: N5-001-context-02",
+      "Independent review failed: N5-001-grammar_form-03",
+      "Independent review failed: N5-001-orthography-04",
+      "Independent review failed: N5-001-context-03",
+      "Independent review failed: N5-001-paraphrase-01",
+      "Independent review failed: N5-001-grammar_form-06",
+      "Independent review failed: N5-001-sentence_composition-02",
+      "Independent review failed: N5-001-sentence_composition-02",
+      "Independent review failed: N5-001-sentence_composition-03",
+      "Independent review failed: N5-001-sentence_composition-03",
+      "Independent review failed: N5-001-sentence_composition-03"
+    ],
+    "next_retry_at": 1794617001.0202205
+  },
+  "finding": "Different numbered gaps and distinct answer choices in the same original passage group were incorrectly compared with the repeated passage included. Compare question and choices within an identical passage group of the same exam. Cross-exam passage reuse and repeated questions remain rejected; independent semantic and answer reviews remain mandatory.",
+  "tests": "32 passing tests, including five shared-passage regression cases."
+}
