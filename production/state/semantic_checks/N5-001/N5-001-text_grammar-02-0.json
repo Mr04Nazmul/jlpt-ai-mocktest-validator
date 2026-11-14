@@ -1,0 +1,12 @@
+{
+  "question_id": "N5-001-text_grammar-02",
+  "candidate_ids": [
+    "N5-001-text_grammar-01"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item (N5-001-text_grammar-02) and prior item (N5-001-text_grammar-01) share the same passage_id but target different blanks ([2] vs. [1]) with distinct grammatical focuses. The questions are about different sentence fragments (country origin vs. temporal sequence), choices differ entirely (particles vs. conjunctions), and explanations address separate linguistic points. Shared passage_id alone does not constitute duplication as per instructions."
+  },
+  "recorded_at": "2026-11-14T02:02:56.373557+00:00"
+}

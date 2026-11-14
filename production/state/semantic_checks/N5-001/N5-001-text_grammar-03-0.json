@@ -1,0 +1,13 @@
+{
+  "question_id": "N5-001-text_grammar-03",
+  "candidate_ids": [
+    "N5-001-text_grammar-01",
+    "N5-001-text_grammar-02"
+  ],
+  "verdict": {
+    "duplicate_ids": [],
+    "uncertain": false,
+    "reason": "The new item (N5-001-text_grammar-03) targets blank 【3】 in the passage, while prior items N5-001-text_grammar-01 and N5-001-text_grammar-02 target blanks 【1】 and 【2】 respectively. The questions, choices, answers, and explanations are distinct, with no semantic overlap or paraphrasing. Shared passage_id and similar question structure (fill-in-the-blank grammar) do not constitute duplication since the blanks and grammatical focus differ."
+  },
+  "recorded_at": "2026-11-14T02:21:39.483203+00:00"
+}

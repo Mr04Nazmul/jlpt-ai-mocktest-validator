@@ -1,0 +1,34 @@
+{
+  "question_hash": "f0b68c9eb98a2946d958ce9c75edafc50dcbaeb2b43a95f4fa49f69529ffb606",
+  "reviewer_identity": [
+    "http://127.0.0.1:11434",
+    "qwen3:14b"
+  ],
+  "review": {
+    "answer": 2,
+    "defensible_choices": [
+      2
+    ],
+    "checks": {
+      "japanese": true,
+      "level": true,
+      "mondai": true,
+      "reading": true,
+      "distractors": true,
+      "passage": true
+    },
+    "explanation": "文の構造は「あまり＋形容詞の否定形」です。カレーは辛くなかったので、「あまりからくなかったです」が適切です。選択肢1は肯定形で不適切、選択肢3は肯定形で否定を表していません、選択肢4は否定形ですが「あまり」に不適切です。",
+    "issues": []
+  },
+  "reviewed_at": "2026-11-14T02:15:03.370625+00:00",
+  "review_policy_version": "2",
+  "semantic_reviews": [
+    {
+      "duplicate_ids": [],
+      "uncertain": false,
+      "reason": "The new item (N5-001-text_grammar-03) targets blank 【3】 in the passage, while prior items N5-001-text_grammar-01 and N5-001-text_grammar-02 target blanks 【1】 and 【2】 respectively. The questions, choices, answers, and explanations are distinct, with no semantic overlap or paraphrasing. Shared passage_id and similar question structure (fill-in-the-blank grammar) do not constitute duplication since the blanks and grammatical focus differ."
+    }
+  ],
+  "semantic_policy_version": "2",
+  "semantic_comparison_hash": "13f4b79e4b150eb4a6c165ab3eaec995144664f41d1ad332f2fb0141d4c76418"
+}

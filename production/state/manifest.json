@@ -10,8 +10,8 @@
   "exams": {
     "N5-001": {
       "level": "N5",
-      "state": "RETRY_PENDING",
-      "attempts": 0,
+      "state": "VALIDATING",
+      "attempts": 1,
       "generated": true,
       "error": "Retry after fixing shared-passage false-positive duplicate detection; independent reviews still required",
       "previous_errors": [
@@ -780,7 +780,7 @@
       "attempts": 0
     }
   },
-  "failed": 1,
+  "failed": 0,
   "pending_reviews": 0,
-  "updated_at": "2026-11-14T01:47:49.691Z"
+  "updated_at": "2026-11-14T01:49:50.367479+00:00"
 }
